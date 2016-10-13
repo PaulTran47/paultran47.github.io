@@ -49,6 +49,8 @@
 
         ga('create', 'UA-85626326-1', 'auto');
         ga('send', 'pageview');
+        // Tracks users after 30 seconds
+        setTimeout("ga('send', 'event', { eventCategory: '30 seconds on page', eventAction: 'Read' })", 30000);
 
     </script>
 </head>
