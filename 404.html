@@ -49,6 +49,8 @@
 
         ga('create', 'UA-85626326-1', 'auto');
         ga('send', 'pageview');
+        // Tracks users after 30 seconds
+        setTimeout("ga('send', 'event', { eventCategory: '30 seconds on page', eventAction: 'Read' })", 30000);
 
     </script>
 </head>
@@ -61,15 +63,15 @@
         <div class="mobile-nav-inner">
             <nav id="mobile-nav" class="nav">
                 <ul class="clearfix">
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#programming_skills">Skills</a></li>
-                    <li><a href="index.html#education">Edu</a></li>
-                    <li><a href="index.html#research">Research</a></li>
-                    <li><a href="index.html#portfolio">Portfolio</a></li>
-                    <li><a href="index.html#experience">Exp</a></li>
-                    <li><a href="index.html#awards">Awards</a></li>
-                    <li><a href="index.html#powerlifting">Powerlifting</a></li>
-                    <li><a href="index.html#interests">Interests &amp; Hobbies</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#programming_skills">Skills</a></li>
+                    <li><a href="#education">Edu</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#experience">Exp</a></li>
+                    <li><a href="#awards">Awards</a></li>
+                    <li><a href="#powerlifting">Powerlifting</a></li>
+                    <li><a href="#interests">Interests &amp; Hobbies</a></li>
                     <!-- <li><a href="#hobbies">Hobbies</a></li> -->
                     <!-- <li><a href="#references">References</a></li> -->
                     <!--
@@ -89,8 +91,8 @@
                         </ul>
                     </li>
                     -->
-                    <li><a href="index.html#calendar">Cal <span></span></a></li>
-                    <li><a href="index.html#contact">Contact <span></span></a></li>
+                    <li><a href="#calendar">Cal <span></span></a></li>
+                    <li><a href="#contact">Contact <span></span></a></li>
                 </ul>
             </nav>
         </div>
@@ -289,8 +291,8 @@
                 <div class="head-bar-inner">
                     <div class="row">
                         <div class="col-sm-3 col-xs-6">
-                            <a class="logo" href="index.html"><span>Hi</span>, I'm Paul!</a>
-                            <!-- <a class="head-logo" href=""><img src="img/logo.png" alt="Hi, I'm Paul!"/></a> -->
+                            <!-- <a class="logo" href="index.html"><span>Hi</span>, I'm Paul!</a> -->
+                            <a class="head-logo" href=""><img src="img/logo-header.png" alt="Hi, I'm Paul!"/></a>
                         </div>
         
                         <div class="col-sm-9 col-xs-6">
