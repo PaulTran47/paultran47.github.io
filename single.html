@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" class=" theme-color-83d5fb theme-skin-light">
+<html lang="en" class="theme-color-3f51b5 theme-skin-light">
+<!-- Make sure to minify CSS, JS, and Images whenever new things appear -->
+<!-- Images can be minified by Optimizilla -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +11,7 @@
     <meta name="author" content="Paul Le Tran">
 
     <title>Paul Le Tran - Aspiring Economist ● Research Assistant ● Data Analyst ● Powerlifter</title>
-    
+
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
 
@@ -29,7 +31,7 @@
     <link rel="stylesheet" type="text/css" href="js/plugins/jquery.owlcarousel/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="js/plugins/jquery.owlcarousel/owl.theme.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="colors/pale-cyan.css">
+    <link rel="stylesheet" type="text/css" href="colors/royal-blue.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -63,15 +65,15 @@
         <div class="mobile-nav-inner">
             <nav id="mobile-nav" class="nav">
                 <ul class="clearfix">
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#programming_skills">Skills</a></li>
-                    <li><a href="index.html#education">Edu</a></li>
-                    <li><a href="index.html#research">Research</a></li>
-                    <li><a href="index.html#portfolio">Portfolio</a></li>
-                    <li><a href="index.html#experience">Exp</a></li>
-                    <li><a href="index.html#awards">Awards</a></li>
-                    <li><a href="index.html#powerlifting">Powerlifting</a></li>
-                    <li><a href="index.html#interests">Interests &amp; Hobbies</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#programming_skills">Skills</a></li>
+                    <li><a href="#education">Edu</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#experience">Exp</a></li>
+                    <li><a href="#awards">Awards</a></li>
+                    <li><a href="#powerlifting">Powerlifting</a></li>
+                    <li><a href="#interests">Interests &amp; Hobbies</a></li>
                     <!-- <li><a href="#hobbies">Hobbies</a></li> -->
                     <!-- <li><a href="#references">References</a></li> -->
                     <!--
@@ -91,21 +93,23 @@
                         </ul>
                     </li>
                     -->
-                    <li><a href="index.html#calendar">Cal <span></span></a></li>
-                    <li><a href="index.html#contact">Contact <span></span></a></li>
+                    <li><a href="#calendar">Cal <span></span></a></li>
+                    <li><a href="#contact">Contact <span></span></a></li>
                 </ul>
             </nav>
         </div>
     </div>
-    <!-- .mobile-nav -->    
-    <!--
+    <!-- .mobile-nav -->
+    
+    <!-- The widget section is currently used as an area for contact links, since the widgets don't work for static pages (made for WordPress or other CMS) -->
+    
     <div class="sidebar sidebar-fixed">
         <button class="btn-sidebar btn-sidebar-close"><i class="rsicon rsicon-close"></i></button>
     
         <div class="widget-area">
             <aside class="widget widget-profile">
                 <div class="profile-photo">
-                    <img src="img/uploads/profile.jpeg" alt="Robert Smith"/>
+                    <img src="img/uploads/profile.jpeg" alt="Paul Le Tran - Hi, I'm Paul!"/>
                 </div>
                 <div class="profile-info">
                     <h2 class="profile-title">Paul Le Tran</h2>
@@ -113,7 +117,7 @@
                     <h3 class="profile-position">Aspiring Economist ● Research Assistant ● Data Analyst ● Powerlifter</h3>
                 </div>
             </aside>
-    -->
+
             <!-- .widget-profile -->
             
     <!--
@@ -131,10 +135,21 @@
     -->
             <!-- .widget_search -->
     
-    <!--
-            <aside class="widget widget_contact">
-                <h2 class="widget-title">Contact Me</h2>
     
+            <aside class="widget widget_contact">
+                <h2 align="center" class="widget-title">Find Me On The Web At</h2>
+
+                <div class="profile-social">
+                    <ul class="social">
+                        <li><a class="ripple-centered" href="https://www.linkedin.com/in/tranlephupaulletran" target="_blank"><i class="rsicon rsicon-linkedin"></i></a></li>
+                        <li><a class="ripple-centered" href="https://github.com/PaulTran47" target="_blank"><i class="rsicon rsicon-github"></i></a></li>
+                        <li><a class="ripple-centered" href="https://www.instagram.com/tranlephu/" target="_blank"><i class="rsicon rsicon-instagram"></i></a></li>
+                        <li><a class="ripple-centered" href="https://www.facebook.com/TranLeAnhPhu.PaulLeTran" target="_blank"><i class="rsicon rsicon-facebook"></i></a></li>
+                        <li><a class="ripple-centered" href="https://foursquare.com/tranlephu" target="_blank"><i class="rsicon rsicon-foursquare"></i></a></li>
+                        <li><a class="ripple-centered" href="mailto:paul.tran@pomona.edu" target="_blank"><i class="rsicon rsicon-envelope"></i></a></li>
+                    </ul>
+                </div>
+            <!--
                 <form class="rsForm" action="php/mailsender.php" method="post">
                     <div class="input-field">
                         <label>Name</label>
@@ -164,11 +179,12 @@
                         <input class="rsFormSubmit btn btn-lg btn-primary" type="submit" value="Send">
                     </span>
                 </form>
+            -->
             </aside>
-    -->
-            <!-- .widget_contact -->
     
+            <!-- .widget_contact -->
     <!--
+    
             <aside class="widget widget-popuplar-posts">
                 <h2 class="widget-title">Popular posts</h2>
                 <ul>
@@ -194,8 +210,8 @@
             </aside>
     -->
             <!-- .widget-popuplar-posts -->
-    
     <!--
+    
             <aside class="widget widget_tag_cloud">
                 <h2 class="widget-title">Tag Cloud</h2>
     
@@ -262,9 +278,9 @@
             </aside>
     -->
             <!-- .widget_categories -->
-        <!-- </div> -->
+        </div>
         <!-- .widget-area -->
-    <!-- </div> -->
+    </div>
     <!-- .sidebar -->
 
     <div class="wrapper">
@@ -290,8 +306,8 @@
                 <div class="head-bar-inner">
                     <div class="row">
                         <div class="col-sm-3 col-xs-6">
-                            <a class="logo" href="index.html"><span>Hi</span>, I'm Paul!</a>
-                            <!-- <a class="head-logo" href=""><img src="img/logo.png" alt="Hi, I'm Paul!"/></a> -->
+                            <!-- <a class="logo" href="index.html"><span>Hi</span>, I'm Paul!</a> -->
+                            <a class="head-logo" href=""><img src="img/logo-header.png" alt="Hi, I'm Paul!"/></a>
                         </div>
         
                         <div class="col-sm-9 col-xs-6">
@@ -332,7 +348,7 @@
                                 </nav>
         
                                 <button class="btn-mobile btn-mobile-nav">Menu</button>
-                                <!-- <button class="btn-sidebar btn-sidebar-open"><i class="rsicon rsicon-menu"></i></button> -->
+                                <button class="btn-sidebar btn-sidebar-open"><i class="rsicon rsicon-menu"></i></button>
                             </div>
                             <!-- .nav-wrap -->
                         </div>
