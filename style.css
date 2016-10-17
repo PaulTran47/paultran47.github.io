@@ -55,6 +55,7 @@
  *
  * 15.0 - Theme dark
  * 16.0 - Old Browsers
+ * 17.0 - Custom Code
  */
 /**
  * 1.0 - Reset
@@ -1919,7 +1920,7 @@ img.aligncenter {
 
 .social li a .rsicon {
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 45px;
     display: block;
 }
@@ -6656,5 +6657,30 @@ body {
 .no-boxshadow.theme-skin-dark .timeline-box-inner {
     border: 1px solid #525458 !important;
 }
+
+/**
+ * 17.0 - Custom Code
+ */
+
+.contact-button {
+
+}
+
+.contact-button .link {
+    color: white;
+    background: #e24040;
+    display: block;
+    width: 100%;
+    line-height: 11.35;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.link:hover {
+   background:#e24040;
+    opacity: 0.95; 
+}
+    
 
 /*# sourceMappingURL=style.css.map */
