@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="theme-color-3f51b5 theme-skin-light">
+<html lang="en" class="theme-color-1a77d4 theme-skin-light">
 <!-- Make sure to minify CSS, JS, and Images whenever new things appear -->
 <!-- Images can be minified by Optimizilla -->
 <head>
@@ -31,7 +31,7 @@
     <link rel="stylesheet" type="text/css" href="js/plugins/jquery.owlcarousel/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="js/plugins/jquery.owlcarousel/owl.theme.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="colors/royal-blue.css">
+    <link rel="stylesheet" type="text/css" href="colors/blue.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -113,7 +113,7 @@
                 </div>
                 <div class="profile-info">
                     <!-- <h2 class="profile-title">Paul Le Tran</h2> -->
-                    <a class="head-logo" href=""><img src="img/logo-widget.png" alt="Hi, I'm Paul!"/></a>
+                    <img class="head-logo" src="img/logo-widget.png" alt="Hi, I'm Paul!"/>
     
                     <h3 class="profile-position">Aspiring Economist ● Research Assistant ● Data Analyst ● Powerlifter</h3>
                 </div>
@@ -138,8 +138,45 @@
     
     
             <aside class="widget widget_contact">
-                <h2 align="center" class="widget-title">Find Me On The Web At</h2>
+                <h2 align="center" class="widget-title">Shoot Me An Email &amp; Let's Talk!</h2>
+                <!--
+                <div class="animate-up animated">
+                    <div class="section-box contact-info contact-button">
+                        <span><a class="link" href="mailto:paul.tran@pomona.edu">paul.tran@pomona.edu</a></span>
+                    </div>
+                </div>
+                -->
+                <form class="rsForm" action="https://formspree.io/plt02013@mymail.pomona.edu" method="POST">
+                    <div class="input-field">
+                        <label>Name</label>
+                        <input type="text" name="name" value="">
+                        <span class="line"></span>
+                    </div>
+    
+                    <div class="input-field">
+                        <label>Email</label>
+                        <input type="email" name="_replyto" value="">
+                        <span class="line"></span>
+                    </div>
+    
+                    <div class="input-field">
+                        <label>Subject</label>
+                        <input type="text" name="subject" value="">
+                        <span class="line"></span>
+                    </div>
+    
+                    <div class="input-field">
+                        <label>Message</label>
+                        <textarea rows="4" name="message"></textarea>
+                        <span class="line"></span>
+                    </div>
 
+                    <input type="text" name="_gotcha" style="display:none" />
+    
+                    <span class="btn-outer btn-primary-outer ripple">
+                        <input class="rsFormSubmit btn btn-lg btn-primary" type="submit" value="Send">
+                    </span>
+                </form>
                 <div class="profile-social">
                     <ul class="social">
                         <li><a class="ripple-centered" href="https://www.linkedin.com/in/tranlephupaulletran" target="_blank"><i class="rsicon rsicon-linkedin"></i></a></li>
@@ -150,37 +187,7 @@
                         <li><a class="ripple-centered" href="mailto:paul.tran@pomona.edu" target="_blank"><i class="rsicon rsicon-envelope"></i></a></li>
                     </ul>
                 </div>
-            <!--
-                <form class="rsForm" action="php/mailsender.php" method="post">
-                    <div class="input-field">
-                        <label>Name</label>
-                        <input type="text" name="rsName" value="">
-                        <span class="line"></span>
-                    </div>
-    
-                    <div class="input-field">
-                        <label>Email</label>
-                        <input type="email" name="rsEmail" value="">
-                        <span class="line"></span>
-                    </div>
-    
-                    <div class="input-field">
-                        <label>Subject</label>
-                        <input type="text" name="rsSubject" value="">
-                        <span class="line"></span>
-                    </div>
-    
-                    <div class="input-field">
-                        <label>Message</label>
-                        <textarea rows="4" name="rsMessage"></textarea>
-                        <span class="line"></span>
-                    </div>
-    
-                    <span class="btn-outer btn-primary-outer ripple">
-                        <input class="rsFormSubmit btn btn-lg btn-primary" type="submit" value="Send">
-                    </span>
-                </form>
-            -->
+            
             </aside>
     
             <!-- .widget_contact -->
@@ -309,7 +316,7 @@
                     <div class="row">
                         <div class="col-sm-3 col-xs-6">
                             <!-- <a class="logo" href="index.html"><span>Hi</span>, I'm Paul!</a> -->
-                            <a class="head-logo" href=""><img src="img/logo-header.png" alt="Hi, I'm Paul!"/></a>
+                            <a class="head-logo" href="index.html"><img src="img/logo-header.png" alt="Hi, I'm Paul!"/></a>
                         </div>
         
                         <div class="col-sm-9 col-xs-6">
