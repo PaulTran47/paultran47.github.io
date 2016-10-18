@@ -146,36 +146,35 @@
                     </div>
                 </div>
                 -->
-                <form class="rsForm" action="https://formspree.io/plt02013@mymail.pomona.edu" method="POST">
+                <form class="contactForm" action="https://formspree.io/plt02013@mymail.pomona.edu" method="POST">
                     <div class="input-field">
+                        <input class="contact-name" type="text" name="name">
+                        <span class="line"></span>
                         <label>Name</label>
-                        <input type="text" name="name" value="">
-                        <span class="line"></span>
-                    </div>
-    
-                    <div class="input-field">
-                        <label>Email</label>
-                        <input type="email" name="_replyto" value="">
-                        <span class="line"></span>
-                    </div>
-    
-                    <div class="input-field">
-                        <label>Subject</label>
-                        <input type="text" name="subject" value="">
-                        <span class="line"></span>
-                    </div>
-    
-                    <div class="input-field">
-                        <label>Message</label>
-                        <textarea rows="4" name="message"></textarea>
-                        <span class="line"></span>
                     </div>
 
-                    <input type="text" name="_gotcha" style="display:none" />
-    
+                    <div class="input-field">
+                        <input class="contact-email" type="email" name="_replyto">
+                        <span class="line"></span>
+                        <label>Email</label>
+                    </div>
+
+                    <div class="input-field">
+                        <input class="contact-subject" type="text" name="subject">
+                        <span class="line"></span>
+                        <label>Subject</label>
+                    </div>
+
+                    <div class="input-field">
+                        <textarea class="contact-message" rows="4" name="message"></textarea>
+                        <span class="line"></span>
+                        <label>Message</label>
+                    </div>
+
                     <span class="btn-outer btn-primary-outer ripple">
-                        <input class="rsFormSubmit btn btn-lg btn-primary" type="submit" value="Send">
-                    </span>
+                        <input class="contact-submit btn btn-lg btn-primary" type="submit" value="Send">
+                    </span>            
+                    <div class="contact-response"></div>
                 </form>
                 <div class="profile-social">
                     <ul class="social">
