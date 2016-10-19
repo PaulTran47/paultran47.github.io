@@ -6081,12 +6081,13 @@ body {
  */
 .footer-social {
     padding: 30px 0;
-    background-color: #1a77d4;
+    background-color: #83d5fb;
     line-height: 14.70;
 }
 
 .footer-social .social li a .rsicon {
-    color: #d7d7d7;
+    /* color: #d7d7d7; */
+    color: #ffffff;
     -webkit-transition: -webkit-transition, color 0.25s linear 0s;
     -moz-transition: -moz-transition, color 0.25s linear 0s;
     transition: transition, color 0.25s linear 0s;
