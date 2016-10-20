@@ -401,20 +401,22 @@
                             </div><!-- .post-inner -->
                         </article><!-- .post-content -->
 
-                        <nav class="post-pagination section-box">
+                        <nav style="float: left;" class="post-pagination btn btn-lg btn-border ripple">
                             <div class="post-next">
                                 {% if page.next.url %}
                                     <h6><i>Back To The Future!</i></h6>
                                     <a href="{{page.next.url}}"><h3 class="post-title">{{page.next.title}}</h3></a>{{ page.next.date | date: '%d %B, %Y' }}
                                 {% endif %}
                             </div>
+                        </nav><!-- .post-pagination --> <!-- Forward -->
+                        <nav style="float: right;" class="post-pagination btn btn-lg btn-border ripple">
                             <div class="post-prev">
                                 {% if page.previous.url %}
                                     <h6><i>Back To The Past!</i></h6>
                                     <a href="{{page.previous.url}}"><h3 class="post-title">{{page.previous.title}}</h3></a>{{ page.previous.date | date: '%d %B, %Y' }}
                                 {% endif %}
                             </div>
-                        </nav><!-- .post-pagination -->
+                        </nav><!-- .post-pagination --> <!-- Backwards -->
                     </main>
                     <!-- .post-single -->
                 </div>
