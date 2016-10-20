@@ -3,7 +3,7 @@ layout: blog
 title: Blog Index
 ---
 
-<ul align="center" style="list-style-position: inside;">
+<ul align="center" style="list-style: none;">
     {% for post in site.posts%}
         <li>
             <a href="{{post.url}}" title="">{{ post.title }}</a> - {{ post.date | date: '%d %B, %Y' }}
