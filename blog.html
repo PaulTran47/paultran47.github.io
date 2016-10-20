@@ -1,0 +1,13 @@
+---
+layout: blog
+title: Article Index
+---
+
+<ul align="center" style="list-style-position: inside;">
+    {% for post in site.posts%}
+        <li>
+            <a href="{{post.url}}" title="">{{ post.title }}</a> - {{ post.date | date: '%d %B, %Y' }}
+        </li> 
+        <br />  
+    {% endfor %}
+</ul>
