@@ -404,11 +404,13 @@
                         <nav class="post-pagination section-box">
                             <div class="post-next">
                                 {% if page.next.url %}
+                                    <h6><i>Back To The Future!</i></h6>
                                     <a href="{{page.next.url}}"><h3 class="post-title">{{page.next.title}}</h3></a>{{ page.next.date | date: '%d %B, %Y' }}
                                 {% endif %}
                             </div>
                             <div class="post-prev">
                                 {% if page.previous.url %}
+                                    <h6><i>Back To The Past!</i></h6>
                                     <a href="{{page.previous.url}}"><h3 class="post-title">{{page.previous.title}}</h3></a>{{ page.previous.date | date: '%d %B, %Y' }}
                                 {% endif %}
                             </div>
