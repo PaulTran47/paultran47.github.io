@@ -57,7 +57,8 @@
     </script>
 </head>
 
-<body class="page-single header-has-img loading">
+<!-- Commented out page-single in body class -->
+<body class="header-has-img loading">
 
     <div class="mobile-nav">
         <button class="btn-mobile mobile-nav-close"><i class="rsicon rsicon-close"></i></button>
@@ -141,7 +142,7 @@
                 <!--
                 <div class="animate-up animated">
                     <div class="section-box contact-info contact-button">
-                        <span><a class="link" href="mailto:paul.tran@pomona.edu">paul.tran@pomona.edu</a></span>
+                        <span><a class="link" href="mailto:plt02013@mymail.pomona.edu">plt02013@mymail.pomona.edu</a></span>
                     </div>
                 </div>
                 -->
@@ -182,7 +183,7 @@
                         <li><a class="ripple-centered" href="https://www.instagram.com/tranlephu/" target="_blank"><i class="rsicon rsicon-instagram"></i></a></li>
                         <li><a class="ripple-centered" href="https://www.facebook.com/TranLeAnhPhu.PaulLeTran" target="_blank"><i class="rsicon rsicon-facebook"></i></a></li>
                         <li><a class="ripple-centered" href="https://foursquare.com/tranlephu" target="_blank"><i class="rsicon rsicon-foursquare"></i></a></li>
-                        <li><a class="ripple-centered" href="mailto:paul.tran@pomona.edu" target="_blank"><i class="rsicon rsicon-envelope"></i></a></li>
+                        <li><a class="ripple-centered" href="mailto:plt02013@mymail.pomona.edu" target="_blank"><i class="rsicon rsicon-envelope"></i></a></li>
                     </ul>
                 </div>
             
@@ -310,7 +311,11 @@
             <!-- .post-media -->
 
             <!-- Background imager for header with background-image style -->
-            <div class="head-bg" style="background-image: url('../img/uploads/austin-skyline.jpg')"></div>
+            <div class="head-bg">
+                <div class="blog-description">
+                Blogging Is Fun
+                </div>
+            </div>
         
             <div class="head-bar">
                 <div class="head-bar-inner">
@@ -369,33 +374,23 @@
 
         <div class="content">
             <div class="container">
+                <img class="centre head-logo" src="../../../img/Whitespace.png" alt="Hi, I'm Paul!"/>
 
             <!-- START: PAGE CONTENT -->            
             <div class="row animate-up">
                 <div class="col-sm-12">
                     <main class="post-single">
-                        <article class="post-content section-box">                          
-                            <div class="post-inner">
-                                <header class="post-header">
-                                    <div class="post-data">
-                                        <div class="post-title-wrap">
-                                            <h1 class="post-title">Blog Index</h1>
-                                        </div>
-                                    </div>
-                                </header>
 
-                                <div class="post-editor clearfix">
-                                    {{ content }}
-                                </div>
+                        <div class="post-editor clearfix">
+                            {{ content }}
+                        </div>
 
-                                <footer class="post-footer">
-                                    <div class="post-share">
-                                        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-503b5cbf65c3f4d8" async="async"></script>
-                                        <div class="addthis_sharing_toolbox"></div>
-                                    </div>
-                                </footer>
-                            </div><!-- .post-inner -->
-                        </article><!-- .post-content -->
+                        <footer class="post-footer">
+                            <div class="post-share">
+                                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-503b5cbf65c3f4d8" async="async"></script>
+                                <div class="addthis_sharing_toolbox"></div>
+                            </div>
+                        </footer>
                     </main>
                     <!-- .post-single -->
                 </div>
@@ -413,11 +408,24 @@
                 <li><a class="ripple-centered" href="https://www.instagram.com/tranlephu/" target="_blank"><i class="rsicon rsicon-instagram"></i></a></li>
                 <li><a class="ripple-centered" href="https://www.facebook.com/TranLeAnhPhu.PaulLeTran" target="_blank"><i class="rsicon rsicon-facebook"></i></a></li>
                 <li><a class="ripple-centered" href="https://foursquare.com/tranlephu" target="_blank"><i class="rsicon rsicon-foursquare"></i></a></li>
-                <li><a class="ripple-centered" href="mailto:paul.tran@pomona.edu" target="_blank"><i class="rsicon rsicon-envelope"></i></a></li>
+                <li><a class="ripple-centered" href="mailto:plt02013@mymail.pomona.edu" target="_blank"><i class="rsicon rsicon-envelope"></i></a></li>
             </ul>
 
             <div class="section-txt-btn">
-                <small><b>&copy;</b> Trần Lê Anh Phú (Paul Le Tran) | <b>Design:</b> <a href="http://px-lab.com/">pxlab</a> | <b>Images &amp; Icons:</b> <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>, <a href="https://www.pexels.com">Pexels</a>, <a href="https://pixabay.com/">Pixabay</a>, <a href="https://unsplash.com/">Unsplash</a>, <a href="https://photodune.net/">PhotoDune</a>, <a href="https://commons.wikimedia.org/">Wikipedia Commons</a><br /></small>
+                <small>
+                    <b>&copy;</b> Trần Lê Anh Phú (Paul Le Tran) All Rights Reserved<br />
+                    Proudly published with
+                    <a href="https://jekyllrb.com/">
+                        <img src="/img/uploads/logos/logo-jekyll.png" width="100" height="30" alt="Jekyll • Simple, blog-aware, static sites" title="" style="">
+                    </a>
+                     &amp; hosted by
+                    <a href="https://github.com">
+                        <img src="/img/uploads/logos/logo-github.png" width="100" height="30" alt="GitHub • Social coding" title="" style="">
+                    </a>
+                <!--
+                 | <b>Design:</b> <a href="http://px-lab.com/">pxlab</a> | <b>Images &amp; Icons:</b> <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>, <a href="https://www.pexels.com">Pexels</a>, <a href="https://pixabay.com/">Pixabay</a>, <a href="https://unsplash.com/">Unsplash</a>, <a href="https://photodune.net/">PhotoDune</a>, <a href="https://commons.wikimedia.org/">Wikipedia Commons</a><br />
+                -->
+                </small>
             </div>
         </div> 
     </footer>

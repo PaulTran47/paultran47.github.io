@@ -57,7 +57,8 @@
     </script>
 </head>
 
-<body class="page-single header-has-img loading">
+<!-- Commented out page-single in body class -->
+<body class="header-has-img loading">
 
     <div class="mobile-nav">
         <button class="btn-mobile mobile-nav-close"><i class="rsicon rsicon-close"></i></button>
@@ -348,11 +349,11 @@
                                             </ul>
                                             -->
                                         </li>
-                                        <li><a href="index.html#interests">Interests &amp; Hobbies</a></li>
+                                        <li><a href="../../../index.html#interests">Interests &amp; Hobbies</a></li>
                                         <!-- <li><a href="#hobbies">Hobbies</a></li> -->
                                         <!-- <li><a href="#references">References</a></li> -->
-                                        <li><a href="index.html#calendar">Calendar<span></span></a></li>
-                                        <li><a href="index.html#contact">Contact<span></span></a></li>
+                                        <li><a href="../../../index.html#calendar">Calendar<span></span></a></li>
+                                        <li><a href="../../../index.html#contact">Contact<span></span></a></li>
                                     </ul>
                                 </nav>
         
@@ -383,8 +384,21 @@
                                         </div>
 
                                         <div class="post-title-wrap">
+                                            <time class="post-datetime" datetime="{{ page.time | date: '%d %B, %Y' }}">
+                                                <span class="day">{{ page.date | date: '%d' }}</span>
+                                                <span class="month">{{ page.date | date: '%B' }}</span>
+                                                <span class="year">{{ page.date | date: '%Y' }}</span>
+                                            </time>
                                             <h1 class="post-title">{{ page.title }}</h1>
                                         </div>
+
+                                        <div class="post-info">
+                                            <i class="rsicon rsicon-user"></i>by <strong>Trần Lê Anh Phú (Paul Le Tran)</strong>
+                                            <br />
+                                            <br />
+                                            <a href="mailto:plt02013@mymail.pomona.edu"><i class="rsicon rsicon-envelope"></i><strong>paul.tran@pomona.edu</strong></a>
+                                        </div>
+                                        
                                     </div>
                                 </header>
 
@@ -406,7 +420,7 @@
                             <nav style="float: left;" class="post-pagination btn btn-lg btn-border ripple">
                                 <div class="post-next">
                                     <h6><i>Back To The Future!</i></h6>
-                                    <a href="{{page.next.url}}"><h3 class="post-title">{{page.next.title}}</h3></a>{{ page.next.date | date: '%d %B, %Y' }}
+                                    <a href="{{page.next.url}}"><h3 class="post-title-pagigation">{{page.next.title}}</h3></a>{{ page.next.date | date: '%d %B, %Y' }}
                                 </div>
                             </nav><!-- .post-pagination --> <!-- Forward -->
                         
@@ -417,7 +431,7 @@
                             <nav style="float: right;" class="post-pagination btn btn-lg btn-border ripple">
                                 <div class="post-prev">                           
                                     <h6><i>Back To The Past!</i></h6>
-                                    <a href="{{page.previous.url}}"><h3 class="post-title">{{page.previous.title}}</h3></a>{{ page.previous.date | date: '%d %B, %Y' }}
+                                    <a href="{{page.previous.url}}"><h3 class="post-title-pagigation">{{page.previous.title}}</h3></a>{{ page.previous.date | date: '%d %B, %Y' }}
                                 </div>
                             </nav><!-- .post-pagination --> <!-- Backwards -->
 
@@ -448,7 +462,20 @@
             </ul>
 
             <div class="section-txt-btn">
-                <small><b>&copy;</b> Trần Lê Anh Phú (Paul Le Tran) | <b>Design:</b> <a href="http://px-lab.com/">pxlab</a> | <b>Images &amp; Icons:</b> <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>, <a href="https://www.pexels.com">Pexels</a>, <a href="https://pixabay.com/">Pixabay</a>, <a href="https://unsplash.com/">Unsplash</a>, <a href="https://photodune.net/">PhotoDune</a>, <a href="https://commons.wikimedia.org/">Wikipedia Commons</a><br /></small>
+                <small>
+                    <b>&copy;</b> Trần Lê Anh Phú (Paul Le Tran) All Rights Reserved<br />
+                    Proudly published with
+                    <a href="https://jekyllrb.com/">
+                        <img src="/img/uploads/logos/logo-jekyll.png" width="100" height="30" alt="Jekyll • Simple, blog-aware, static sites" title="" style="">
+                    </a>
+                     &amp; hosted by
+                    <a href="https://github.com">
+                        <img src="/img/uploads/logos/logo-github.png" width="100" height="30" alt="GitHub • Social coding" title="" style="">
+                    </a>
+                <!--
+                 | <b>Design:</b> <a href="http://px-lab.com/">pxlab</a> | <b>Images &amp; Icons:</b> <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>, <a href="https://www.pexels.com">Pexels</a>, <a href="https://pixabay.com/">Pixabay</a>, <a href="https://unsplash.com/">Unsplash</a>, <a href="https://photodune.net/">PhotoDune</a>, <a href="https://commons.wikimedia.org/">Wikipedia Commons</a><br />
+                -->
+                </small>
             </div>
         </div> 
     </footer>

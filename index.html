@@ -35,7 +35,7 @@ layout: default
                                         </li>
                                         <li class="clearfix">
                                             <strong class="title">E-mail</strong>
-                                            <span class="cont"><a href="mailto:paul.tran@pomona.edu">paul.tran@pomona.edu</a></span>
+                                            <span class="cont"><a href="mailto:plt02013@mymail.pomona.edu">plt02013@mymail.pomona.edu</a></span>
                                         </li>
                                         <li class="clearfix">
                                             <strong class="title">Skype</strong>
@@ -67,7 +67,7 @@ layout: default
                                         class="rsicon rsicon-foursquare"></i></a></li>
                                 <li><a class="ripple-centered" href="https://www.facebook.com/TranLeAnhPhu.PaulLeTran" target="_blank"><i
                                         class="rsicon rsicon-facebook"></i></a></li>
-                                <li><a class="ripple-centered" href="mailto:paul.tran@pomona.edu" target="_blank"><i
+                                <li><a class="ripple-centered" href="mailto:plt02013@mymail.pomona.edu" target="_blank"><i
                                         class="rsicon rsicon-envelope"></i></a></li>
                             </ul>
                         </div>
@@ -1008,11 +1008,13 @@ layout: default
                         <div class="ref-box">
                             <div class="person-speech">
                                 <ul >
-                                    {% for post in site.posts limit:2 %}
+                                    {% for post in site.posts limit:3 %}
                                         <li>
-                                            <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+                                            <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+                                            <br />
+                                            <span>{{ post.date | date_to_string }}</span>
                                         </li>
-                                    {{ post.content | truncatewords:75}}<br>
+                                    {{ post.content | strip_html | truncatewords:75}}<br>
                                         <a href="{{ post.url }}">Read more...</a><br><br>
                                     {% endfor %}
                                 </ul>       
@@ -1156,6 +1158,26 @@ layout: default
                         </div>
 
                         <div class="client-logo">
+                            <a href="https://github.com" target="_blank"><img src="img/uploads/logos/logo-github-octocat.png"
+                                                                                 title="GitHub" alt="GitHub • Social coding"/></a>
+                        </div>
+
+                        <div class="client-logo">
+                            <a href="https://www.google.com" target="_blank"><img src="img/uploads/logos/logo-google.png"
+                                                                                    title="google" alt="google"/></a>
+                        </div>
+
+                        <div class="client-logo">
+                            <a href="http://www.netsuite.com/portal/home.shtml" target="_blank"><img src="img/uploads/logos/logo-netsuite.png"
+                                                                                   title="netsuite" alt="netsuite"/></a>
+                        </div>
+
+                        <div class="client-logo">
+                            <a href="https://www.oracle.com/index.html" target="_blank"><img src="img/uploads/logos/logo-oracle.gif"
+                                                                                   title="oracle" alt="oracle"/></a>
+                        </div>
+
+                        <div class="client-logo">
                             <a href="https://www-ssl.intel.com/content/www/us/en/homepage.html" target="_blank"><img src="img/uploads/logos/logo-intel.png"
                                                                                     title="intel" alt="intel"/></a>
                         </div>
@@ -1164,26 +1186,13 @@ layout: default
                             <a href="http://www.nvidia.com/content/global/global.php" target="_blank"><img
                                     src="img/uploads/logos/logo-nvidia.png" title="nvidia" alt="nvidia"/></a>
                         </div>
-            
-                        <div class="client-logo">
-                            <a href="https://www.amd.com/en-us" target="_blank"><img src="img/uploads/logos/logo-amd.png"
-                                                                                 title="amd" alt="amd"/></a>
-                        </div>
+
+                        
             
                         <div class="client-logo">
                             <a href="http://www.pfu.fujitsu.com/hhkeyboard/" target="_blank"><img src="img/uploads/logos/logo-hhkb.png"
                                                                                 title="hhkb" alt="hhkb"/></a>
-                        </div>
-            
-                        <div class="client-logo">
-                            <a href="http://www.netsuite.com/portal/home.shtml" target="_blank"><img src="img/uploads/logos/logo-netsuite.png"
-                                                                                   title="netsuite" alt="netsuite"/></a>
-                        </div>
-            
-                        <div class="client-logo">
-                            <a href="https://www.google.com" target="_blank"><img src="img/uploads/logos/logo-google.png"
-                                                                                    title="google" alt="google"/></a>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
             </section>
