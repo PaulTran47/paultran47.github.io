@@ -6,7 +6,11 @@
 .theme-color-1a77d4 .input-field.used label,
 .theme-color-1a77d4 .logo span,
 .theme-color-1a77d4 #map .map-icon,
-.theme-color-1a77d4 .nav-wrap .btn-mobile-nav,
+/* Delete color: #fff; if you want to make mobile nav menu title to be theme colour */
+/* Make sure to add comma at end of line if you do delete color: #fff; */
+.theme-color-1a77d4 .nav-wrap .btn-mobile-nav {
+	color: #fff;
+}
 .theme-color-1a77d4 .page-404 h2 span,
 .theme-color-1a77d4 .post-box .post-title a:hover,
 .theme-color-1a77d4 .post-single .post-title a:hover,
