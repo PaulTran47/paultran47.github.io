@@ -167,6 +167,8 @@
 
                     <div class="input-field">
                         <textarea class="contact-message" rows="4" name="message"></textarea>
+                        <!-- This is formspree.io's method to fight against spambots; users won't see it, but spambots will fill it in -->
+                        <input type="text" name="_gotcha" style="display:none" />
                         <span class="line"></span>
                         <label>Message</label>
                     </div>
@@ -494,7 +496,7 @@
     </div><!-- .wrapper -->
     
     <a class="btn-scroll-top" href="#"><i class="rsicon rsicon-arrow-up"></i></a>
-    
+
     <!-- Default preloader -->
     <!--
     <div id="overlay"></div>

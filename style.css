@@ -4838,10 +4838,13 @@ body {
 .timeline-box-left .dot,
 .timeline-box-right .dot {
     top: 80px;
-    width: 8px;
-    height: 8px;
+    /* Default width and height are 8px; */
+    width: 16px;
+    height: 16px;
     display: block;
     position: absolute;
+    /* Custom code to add Material Design depth/box shadow to timeline dots */
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
@@ -4891,7 +4894,8 @@ body {
 
 .timeline-box-left .dot {
     right: 0px;
-    margin-right: -4px;
+    /* Default margin-right: -4px; */
+    margin-right: -8px;
 }
 
 .timeline-box-right {
@@ -4917,7 +4921,8 @@ body {
 
 .timeline-box-right .dot {
     left: 0px;
-    margin-left: -4px;
+    /* Default margin-left: -4px; */
+    margin-left: -8px;
 }
 
 @media (max-width: 600px) {
