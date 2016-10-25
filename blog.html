@@ -18,6 +18,11 @@ title: Blog Index
                         </div>
             			<a href="{{post.url}}" class="section-title" title="">{{ post.title }}</a>
             			<p align="left">{{ post.content | strip_html | truncatewords:75}}</p>
+                        <!-- Addes Estimated Reading TIme (ERT) for each post in blog index page -->
+                        {% if site.readtime %}
+                            {% assign readtime = post.content | strip_html | number_of_words | append: '.0' | divided_by:site.wpm %}  
+                        {% endif %}
+                        <p class="ert">{{ readtime }} minute</p>
         			</li> 
                 </div><!-- .post-inner -->
         </article><!-- .post-content -->  

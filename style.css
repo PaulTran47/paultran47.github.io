@@ -3095,6 +3095,11 @@ body {
 .header-has-img .nav-wrap .btn-mobile-nav,
 .header-has-img .nav-wrap .btn-sidebar-open {
     border-color: #4f5159;
+    /* Custom code to make rounded edges; add Material Design shadows and height effect */
+    /* Height effect also found in section 17.0 */
+    border-radius: 0.125rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .header-has-img .nav-wrap .btn-mobile-nav .rsicon,
@@ -3114,6 +3119,11 @@ body {
 .header-has-img .head-sticky .nav-wrap .btn-mobile-nav,
 .header-has-img .head-sticky .nav-wrap .btn-sidebar-open {
     border-color: #d1d1d1;
+    /* Custom code to make rounded edges; add Material Design shadows and height effect */
+    /* Height effect also found in section 17.0 */
+    border-radius: 0.125rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .header-has-img .head-sticky .nav-wrap .btn-sidebar-open .rsicon {
@@ -5866,6 +5876,9 @@ body {
     right: 20px;
     padding-top: 11px;
     display: block;
+    /* Makes the date rectangle rounded and has Material Design shadows */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 0.125rem;
 }
 
 .post-datetime .day {
@@ -7128,7 +7141,9 @@ body {
 
 .firstcharacter {
     float: left;
-    color: #903;
+    /* This is inverse colour of theme colour of website */
+    color: #E5882B;
+    /* color: #903; */
     font-size: 75px;
     line-height: 60px;
     padding-top: 4px;
@@ -7137,9 +7152,20 @@ body {
     font-family: Georgia;
 }
 
+ .blog-title {
+    font-size: 2rem;
+    padding-top: 12rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    width: 100%;
+    text-transform: uppercase;
+    /* This is theme colour of website */
+    background: #1a77d4;
+ }
+
  .blog-description {
     font-size: 3.7rem;
-    padding-top: 12rem;
     font-weight: 700;
     text-align: center;
     color: white;
@@ -7178,7 +7204,7 @@ body {
 }
 
 .link:hover {
-    background:#1a77d4;
+    background: #1a77d4;
     /* For forward transition when mouse moves towards */
     opacity: 0.95;
     -o-transition:.5s;
@@ -7187,6 +7213,74 @@ body {
     -webkit-transition:.5s;
     /* ...and now for the proper property */
     transition:.5s;
+}
+
+.blog-button {
+
+}
+
+.blog-button .link {
+    color: white;
+    background: #000000;
+    display: block;
+    width: 100%;
+    line-height: 11.35;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    /* For reverse transition when mouse moves away */
+    opacity: 0.95;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
+
+}
+
+.link:hover {
+    background: #E5882B;
+    /* For forward transition when mouse moves towards */
+    opacity: 0.95;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    /* ...and now for the proper property */
+    transition:.5s;
+}
+
+.ert {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    background: #1a77d4;
+    line-height: 1.1;
+    color: white;
+    border-radius: 0.125rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.ert:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/* Adds Material Design hover/height effect to desktop and mobile navs */
+.header-has-img .nav-wrap .btn-mobile-nav:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.header-has-img .nav-wrap .btn-sidebar-open:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.header-has-img .head-sticky .nav-wrap .btn-mobile-nav:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.header-has-img .head-sticky .nav-wrap .btn-sidebar-open:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 /*# sourceMappingURL=style.css.map */

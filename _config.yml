@@ -1,0 +1,6 @@
+# Read Time is a calculator to provide post Estimated Reading Time (ERT) based on word count. Usage is recommended.
+readtime: true
+wpm: 200
+
+#Change the number of the localport.
+port: 2447
