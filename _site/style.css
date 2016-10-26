@@ -1977,11 +1977,18 @@ img.aligncenter {
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
+    /* Adds Material Design height and depth to the social icons */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .social li a:hover {
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.1);
+    /* Default background-color) */
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    background-color: #E5882B;
+    /* Adds Material Design hover effect when mouse is over target */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .social li a, .social li a .rsicon {
