@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?ryhwnh');
-  src:  url('fonts/icomoon.eot?ryhwnh#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?ryhwnh') format('truetype'),
-    url('fonts/icomoon.woff?ryhwnh') format('woff'),
-    url('fonts/icomoon.svg?ryhwnh#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?1h36vh');
+  src:  url('fonts/icomoon.eot?1h36vh#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1h36vh') format('truetype'),
+    url('fonts/icomoon.woff?1h36vh') format('woff'),
+    url('fonts/icomoon.svg?1h36vh#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,138 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.rsicon-school:before {
+  content: "\e926";
+}
+.rsicon-add:before {
+  content: "\e803";
+}
+.rsicon-eye:before {
+  content: "\e802";
+}
+.rsicon-zoom_out:before {
+  content: "\e800";
+}
+.rsicon-zoom_in:before {
+  content: "\e801";
+}
+.rsicon-arrow-right:before {
+  content: "\e601";
+}
+.rsicon-arrow-left:before {
+  content: "\e60f";
+}
+.rsicon-arrow-down:before {
+  content: "\e610";
+}
+.rsicon-arrow-up:before {
+  content: "\e611";
+}
+.rsicon-check:before {
+  content: "\e612";
+}
+.rsicon-close:before {
+  content: "\e613";
+}
+.rsicon-search:before {
+  content: "\e602";
+}
+.rsicon-settings:before {
+  content: "\e603";
+}
+.rsicon-menu:before {
+  content: "\e604";
+}
+.rsicon-briefcase:before {
+  content: "\e927";
+}
+.rsicon-portfolio:before {
+  content: "\e927";
+}
+.rsicon-suitcase:before {
+  content: "\e927";
+}
+.rsicon-work:before {
+  content: "\e927";
+}
+.rsicon-job:before {
+  content: "\e927";
+}
+.rsicon-employee:before {
+  content: "\e927";
+}
+.rsicon-embed:before {
+  content: "\e928";
+}
+.rsicon-code:before {
+  content: "\e928";
+}
+.rsicon-html:before {
+  content: "\e928";
+}
+.rsicon-xml:before {
+  content: "\e928";
+}
+.rsicon-embed2:before {
+  content: "\e929";
+}
+.rsicon-code2:before {
+  content: "\e929";
+}
+.rsicon-html2:before {
+  content: "\e929";
+}
+.rsicon-xml2:before {
+  content: "\e929";
+}
+.rsicon-laptop:before {
+  content: "\e92a";
+}
+.rsicon-computer:before {
+  content: "\e92a";
+}
+.rsicon-pc:before {
+  content: "\e92a";
+}
+.rsicon-display2:before {
+  content: "\e92b";
+}
+.rsicon-screen:before {
+  content: "\e92b";
+}
+.rsicon-monitor:before {
+  content: "\e92b";
+}
+.rsicon-computer2:before {
+  content: "\e92b";
+}
+.rsicon-desktop:before {
+  content: "\e92b";
+}
+.rsicon-pc2:before {
+  content: "\e92b";
+}
+.rsicon-database:before {
+  content: "\e92c";
+}
+.rsicon-db:before {
+  content: "\e92c";
+}
+.rsicon-server:before {
+  content: "\e92c";
+}
+.rsicon-host:before {
+  content: "\e92c";
+}
+.rsicon-storage:before {
+  content: "\e92c";
+}
+.rsicon-save:before {
+  content: "\e92c";
+}
+.rsicon-datecenter:before {
+  content: "\e92c";
+}
 .rsicon-clock:before {
   content: "\e925";
 }
@@ -179,45 +311,6 @@
 }
 .rsicon-piano:before {
   content: "\e920";
-}
-.rsicon-add:before {
-  content: "\e803";
-}
-.rsicon-eye:before {
-  content: "\e802";
-}
-.rsicon-zoom_out:before {
-  content: "\e800";
-}
-.rsicon-zoom_in:before {
-  content: "\e801";
-}
-.rsicon-arrow-right:before {
-  content: "\e601";
-}
-.rsicon-arrow-left:before {
-  content: "\e60f";
-}
-.rsicon-arrow-down:before {
-  content: "\e610";
-}
-.rsicon-arrow-up:before {
-  content: "\e611";
-}
-.rsicon-check:before {
-  content: "\e612";
-}
-.rsicon-close:before {
-  content: "\e613";
-}
-.rsicon-search:before {
-  content: "\e602";
-}
-.rsicon-settings:before {
-  content: "\e603";
-}
-.rsicon-menu:before {
-  content: "\e604";
 }
 .rsicon-email:before {
   content: "\e902";
