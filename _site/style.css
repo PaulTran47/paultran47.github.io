@@ -7343,7 +7343,8 @@ body {
     }
 }
 
-.page-home pre {
+/* This is what allows for the site layout to be in background of the page and footer. Inspiration from DevTip's DevTips Starter Kit 2 GHPages Website */
+.site-layout pre {
     text-align: left;
     /* font-family: "Fira Mono", monospace; */
     font-size: 43px;
