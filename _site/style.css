@@ -7346,11 +7346,11 @@ body {
 .page-home pre {
     text-align: left;
     /* font-family: "Fira Mono", monospace; */
-    font-size: 53px;
+    font-size: 43px;
     color: #d0d0d0;
     position: absolute;
-    top: 4.4%;
-    left: -650px;
+    top: 4.1%;
+    left: -540px;
     z-index: -1;
     pointer-events: none;
     filter: opacity(24.472447%);
