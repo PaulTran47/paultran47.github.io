@@ -326,7 +326,8 @@ pre {
     border: 1px solid rgba(51, 51, 51, 0.1);
     line-height: 1.2;
     margin-bottom: 1.6em;
-    max-width: 100%;
+    /* Default max-width: 100%; */
+    max-width: 147%;
     overflow: auto;
     padding: 0.8em;
     white-space: pre-wrap;
@@ -7340,6 +7341,19 @@ body {
     .statistic {
         margin-bottom: 30px;
     }
+}
+
+.page-home pre {
+    text-align: left;
+    /* font-family: "Fira Mono", monospace; */
+    font-size: 53px;
+    color: #d0d0d0;
+    position: absolute;
+    top: 4.4%;
+    left: -650px;
+    z-index: -1;
+    pointer-events: none;
+    filter: opacity(24.472447%);
 }
 
 /*# sourceMappingURL=style.css.map */
