@@ -557,6 +557,41 @@
         }
     }
    	
+    /**
+     * Statistics Counter
+     */
+    function numberAnimatedCounter() {
+        var $section = $('.section-statistics');
+    
+        if (!isMobile) {
+            $section.appear();
+            $section.on('appear', function (event, $affected) {
+                $('.statistic-value').each(function () {
+                    if (!$(this).hasClass('animated')) {
+                        $(this).prop('Counter', 0).animate({
+                            Counter: $(this).text()
+                        }, {
+                            duration: 3000,
+                            easing: 'swing',
+                            step: function (now) {
+                                $(this).text(Math.ceil(now));
+                            }
+                        });
+                    }
+                    $(this).addClass('animated');
+                });
+    
+            });
+            $.force_appear();
+        }
+    }
+
+    /**
+     * Document Ready
+     */
+    $(function () {
+       numberAnimatedCounter();
+    });
 	
 	/**
      * Window Resize
