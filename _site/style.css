@@ -2677,7 +2677,7 @@ body {
     background-size: cover;
     /* Default head-bg colour */
     /* background-color: #242832; */
-    background-color: #000000;
+    /* background-color: #000000; */
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -7316,6 +7316,7 @@ body {
  */
 .statistic {
     border-bottom: 5px solid #cbcdcf;
+    padding-top: 25px;
     padding-bottom: 25px;
 }
 
