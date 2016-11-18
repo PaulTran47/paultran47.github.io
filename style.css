@@ -2437,7 +2437,9 @@ body {
 
 .container {
     width: 100%;
-    max-width: 960px;
+    /* Default max-width: 960px; */
+    /* max-width: 960px; */
+    max-width: 1080px;
     padding-left: 10px;
     padding-right: 10px;
     margin: 0 auto;
@@ -7185,7 +7187,7 @@ body {
     font-size: 3.7rem;
     font-weight: 700;
     text-align: center;
-    color: white;
+    color: black;
     width: 100%;
     text-transform: uppercase;
  }
@@ -7375,11 +7377,11 @@ body {
 .site-layout-index pre {
     text-align: left;
     /* font-family: "Fira Mono", monospace; */
-    font-size: 40.8px;
+    font-size: 24px;
     color: #E0E0E0;
     position: absolute;
-    top: 4.55%;
-    left: -475px;
+    top: 5.6%;
+    left: -300px;
     z-index: -1;
     pointer-events: none;
     filter: opacity(24.472447%);
@@ -7387,6 +7389,224 @@ body {
     background-color: none;
     border: none;
     border: none;
+}
+
+/* Credit to Geoff Graham for Bar Chart CSS */
+
+.chart {
+    clear: both;
+    width: 90%;
+    float: left;
+    left: -50px;
+    float: none;
+}
+
+@media only screen and (min-width: 43.75rem) {
+    .chart {
+        background: url("http://cl.ly/QSpc/bg-chart.png") right top repeat-x;
+        height: 450px;
+        margin: 0 auto 0;
+    }
+}
+
+.chart li {
+    display: block;
+    height: 125px;
+    padding: 2.8125rem 0;
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px;
+    border-radius: 4px 4px 0 0;
+    -moz-box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.6);
+    -webkit-box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.6);
+    box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.6);
+    color: white;
+}
+
+@media only screen and (min-width: 43.75rem) {
+    .chart li {
+        display: inline-block;
+        height: 450px;
+        width: 14.5%;
+        color: white;
+    }
+}
+
+.chart .axis {
+    display: none;
+    top: -2.1875rem;
+    width: 12%
+}
+
+@media only screen and (min-width: 43.75rem) {
+    .chart .axis {
+        display: inline-block;
+        width: 8%;
+        border: 0;
+        height: 450px;
+        top: -0.5px;
+        border-right: #DDD solid 1px;
+        -webkit-box-shadow: inset 0 0 0 0 #ffffff;
+        -moz-box-shadow: inset 0 0 0 0 #ffffff;
+        box-shadow: inset 0 0 0 0 #ffffff;
+    }
+}
+
+.chart .bar {
+    cursor: pointer
+}
+
+.chart .label {
+    font-size: 18px;
+    font-size: 1.125rem
+}
+
+@media only screen and (min-width: 43.75rem) {
+    .chart .label {
+        margin: -0.3125rem 0 3.1rem 0;
+        color: #666666;
+        top: -10px;
+    }
+}
+
+@media only screen and (min-width: 62.5rem) {
+    .chart .label {
+        margin: -0.3125rem 0 3.1rem 0;
+    }
+}
+
+.chart .percent {
+    letter-spacing: -3px;
+    opacity: .4;
+    width: 100%;
+    font-size: 30px;
+    font-size: 1.875rem;
+}
+
+@media only screen and (min-width: 43.75rem) {
+    .chart .percent {
+        position: absolute;
+        font-size: 40px;
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 62.5rem) {
+    .chart .percent {
+        font-size: 62px;
+        top: -12px;
+    }
+}
+
+.chart .percent span {
+    font-size: 30px;
+    font-size: 1.875rem;
+}
+
+.chart .skill {
+    font-weight: 800;
+    opacity: .5;
+    overflow: hidden;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 14px;
+    font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 43.75rem) {
+    .chart .skill {
+        bottom: 20px;
+        position: absolute;
+    }
+}
+
+.chart .blue {
+    background: #51BBFE;
+    border: 1px solid #51BBFE;
+    background-image: -moz-linear-gradient(#70C7FE, #51BBFE 70%);
+    background-image: -webkit-linear-gradient(#70C7FE, #51BBFE 70%);
+    background-image: linear-gradient(#70C7FE, #51BBFE 70%);
+}
+
+.chart .navy {
+    background: #465775;
+    border: 1px solid #465775;
+    background-image: -moz-linear-gradient(#566681, #465775 70%);
+    background-image: -webkit-linear-gradient(#566681, #465775 70%);
+    background-image: linear-gradient(#566681, #465775 70%);
+}
+
+.chart .red {
+    background: #EF6F6C;
+    border: 1px solid #EF6F6C;
+    background-image: -moz-linear-gradient(#F39694, #EF6F6C 70%);
+    background-image: -webkit-linear-gradient(#F39694, #EF6F6C 70%);
+    background-image: linear-gradient(#F39694, #EF6F6C 70%);
+}
+
+.chart .darkgreen {
+    background: #13C4A3;
+    border: 1px solid #13C4A3;
+    background-image: -moz-linear-gradient(#53D4BC, #13C4A3 70%);
+    background-image: -webkit-linear-gradient(#53D4BC, #13C4A3 70%);
+    background-image: linear-gradient(#53D4BC, #13C4A3 70%);
+}
+
+.chart .peach {
+    background: #FAC9B8;
+    border: 1px solid #FAC9B8;
+    background-image: -moz-linear-gradient(#FACDBE, #FAC9B8 70%);
+    background-image: -webkit-linear-gradient(#FACDBE, #FAC9B8 70%);
+    background-image: linear-gradient(#FACDBE, #FAC9B8 70%);
+}
+
+.chart .purple {
+    background: #2F2235;
+    border: 1px solid #2F2235;
+    background-image: -moz-linear-gradient(#413647, #2F2235 70%);
+    background-image: -webkit-linear-gradient(#413647, #2F2235 70%);
+    background-image: linear-gradient(#413647, #2F2235 70%);
+}
+
+/* Head Images Slider From Off-Screen */
+
+.header-has-img .head-image-left,
+.header-has-img .head-image-right {
+     width: 100%;
+     height: 130%;
+     top: 0;
+     z-index: -1;
+     position: absolute;
+}
+
+.header-has-img .head-image-left {
+    right: 50%;
+    background-image: url('img/uploads/mouth-left.jpeg');
+    background-size: cover;
+    background-position: right center;
+    -webkit-transition: right .8s ease-in-out 2s;
+    -moz-transition: right .8s ease-in-out 2s;
+    transition: right .8s ease-in-out 2s;
+}
+
+.header-has-img .head-image-right {
+    left: 50%;
+    background-image: url('img/uploads/mouth-right.jpeg');
+    background-size: cover;
+    background-position: left center;
+    -webkit-transition: left .8s ease-in-out 2s;
+    -moz-transition: left .8s ease-in-out 2s;
+    transition: left .8s ease-in-out 2s;
+}
+
+.header-has-img.loading .head-image-left {
+    right: 100%;
+}
+
+.header-has-img.loading .head-image-right {
+    left: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
