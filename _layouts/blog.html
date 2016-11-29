@@ -10,7 +10,7 @@
     <meta name="keywords" content="Portfolio,CV,Resume,Personal Website,Economics,Research,HTML,CSS,R,LaTeX,Data Analysis,Data,Data Visualisation,Data Analyst,Powerlifting,Student">
     <meta name="author" content="Paul Le Tran">
 
-    <title>Blog | PAUL LE TRAN .COM @ PLT</title>
+    <title>Blog | Paul Le Tran .com</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/ico" href="../img/favicon.ico"/>
@@ -25,17 +25,17 @@
 
     <!-- Icon Fonts -->
     <link rel="stylesheet" type="text/css" href="../fonts/map-icons/css/map-icons.min.css">
-    <link rel="stylesheet" type="text/css" href="../fonts/icomoon/style.css">
+    <link rel="stylesheet" type="text/css" href="../fonts/icomoon/style.min.css">
 
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="../js/plugins/jquery.bxslider/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="../js/plugins/jquery.bxslider/jquery.bxslider.min.css">
     <link rel="stylesheet" type="text/css" href="../js/plugins/jquery.customscroll/jquery.mCustomScrollbar.min.css">
     <link rel="stylesheet" type="text/css" href="../js/plugins/jquery.mediaelement/mediaelementplayer.min.css">
-    <link rel="stylesheet" type="text/css" href="../js/plugins/jquery.fancybox/jquery.fancybox.css">
-    <link rel="stylesheet" type="text/css" href="../js/plugins/jquery.owlcarousel/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="../js/plugins/jquery.owlcarousel/owl.theme.css">
-    <link rel="stylesheet" type="text/css" href="../style.css">
-    <link rel="stylesheet" type="text/css" href="../colors/blue.css">
+    <link rel="stylesheet" type="text/css" href="../js/plugins/jquery.fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="../js/plugins/jquery.owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="../js/plugins/jquery.owlcarousel/owl.theme.min.css">
+    <link rel="stylesheet" type="text/css" href="../style.min.css">
+    <link rel="stylesheet" type="text/css" href="../colors/blue.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -108,22 +108,23 @@
     
     <!-- The widget section is currently used as an area for contact links, since the widgets don't work for static pages (made for WordPress or other CMS) -->
     
+    <!--    
     <div class="sidebar sidebar-fixed">
         <button class="btn-sidebar btn-sidebar-close"><i class="rsicon rsicon-close"></i></button>
-    
+
         <div class="widget-area">
             <aside class="widget widget-profile">
                 <div class="profile-photo">
-                    <img src="../img/uploads/profile.jpeg" alt="Paul Le Tran - Hi, I'm Paul!"/>
+                    <img src="../../../img/uploads/profile.jpeg" alt="Paul Le Tran - Hi, I'm Paul!"/>
                 </div>
                 <div class="profile-info">
-                    <!-- <h2 class="profile-title">Paul Le Tran</h2> -->
-                    <img class="head-logo" src="../img/logo-widget.png" alt="Hi, I'm Paul!"/>
+                    <!-- <h2 class="profile-title">Paul Le Tran</h2>
+                    <img class="head-logo" src="../../../img/logo-widget.png" alt="Hi, I'm Paul!"/>
     
                     <h3 class="profile-position">Awesome Mate, Awesome Life</h3>
                 </div>
             </aside>
-
+    -->
             <!-- .widget-profile -->
             
     <!--
@@ -140,17 +141,17 @@
             </aside>
     -->
             <!-- .widget_search -->
-    
-    
+    <!--
+
             <aside class="widget widget_contact">
                 <h2 align="center" class="widget-title">Shoot Me An Email &amp; Let's Talk!</h2>
-                <!--
+                
                 <div class="animate-up animated">
                     <div class="section-box contact-info contact-button">
-                        <span><a class="link" href="mailto:plt02013@mymail.pomona.edu">plt02013@mymail.pomona.edu</a></span>
+                        <span><a class="link" href="mailto:paul.tran@pomona.edu">paul.tran@pomona.edu</a></span>
                     </div>
                 </div>
-                -->
+                
                 <form class="contactForm" action="https://formspree.io/plt02013@mymail.pomona.edu" method="POST">
                     <div class="input-field">
                         <input class="contact-name" type="text" name="name">
@@ -172,7 +173,7 @@
 
                     <div class="input-field">
                         <textarea class="contact-message" rows="4" name="message"></textarea>
-                        <!-- This is formspree.io's method to fight against spambots; users won't see it, but spambots will fill it in -->
+                        
                         <input type="text" name="_gotcha" style="display:none" />
                         <span class="line"></span>
                         <label>Message</label>
@@ -195,7 +196,7 @@
                 </div>
             
             </aside>
-    
+    -->
             <!-- .widget_contact -->
     <!--
     
@@ -292,9 +293,13 @@
             </aside>
     -->
             <!-- .widget_categories -->
+    <!--
         </div>
+    -->
         <!-- .widget-area -->
+    <!--
     </div>
+    -->
     <!-- .sidebar -->
 
     <div class="wrapper">
@@ -323,7 +328,15 @@
                 Paul Le Tran
                 </div>
                 <div class="blog-description">
-                Blogging Is Fun
+                    Blogging Is 
+                    <div id="typed-strings1">
+                        <p>Fun</p>
+                        <p>Entertaining</p>
+                        <p>Cool</p>
+                        <p>Creative</p>
+                        <p>Relaxing</p>
+                    </div>
+                    <span id="typed1" class="typed1"></span>
                 </div>
             </div>
         
@@ -374,7 +387,9 @@
                                 </nav>
         
                                 <button class="btn-mobile btn-mobile-nav">Menu</button>
+                                <!--
                                 <button class="btn-sidebar btn-sidebar-open"><i class="rsicon rsicon-menu"></i></button>
+                                -->
                             </div>
                             <!-- .nav-wrap -->
                         </div>
@@ -714,12 +729,20 @@
         <footer class="footer">
         <div class="footer-social">
             <ul class="social">
-                <li><a class="ripple-centered" href="https://www.linkedin.com/in/tranlephupaulletran" target="_blank"><i class="rsicon rsicon-linkedin"></i></a></li>
-                <li><a class="ripple-centered" href="https://github.com/PaulTran47" target="_blank"><i class="rsicon rsicon-github"></i></a></li>
-                <li><a class="ripple-centered" href="https://www.instagram.com/tranlephu/" target="_blank"><i class="rsicon rsicon-instagram"></i></a></li>
-                <li><a class="ripple-centered" href="https://www.facebook.com/TranLeAnhPhu.PaulLeTran" target="_blank"><i class="rsicon rsicon-facebook"></i></a></li>
-                <li><a class="ripple-centered" href="https://foursquare.com/tranlephu" target="_blank"><i class="rsicon rsicon-foursquare"></i></a></li>
-                <li><a class="ripple-centered" href="mailto:plt02013@mymail.pomona.edu" target="_blank"><i class="rsicon rsicon-envelope"></i></a></li>
+                <li><a class="ripple-centered" href="https://www.linkedin.com/in/tranlephupaulletran" target="_blank"><i
+                        class="rsicon rsicon-linkedin"></i></a></li>
+                <li><a class="ripple-centered" href="https://github.com/PaulTran47" target="_blank"><i
+                        class="rsicon rsicon-github"></i></a></li>
+                <li><a class="ripple-centered" href="https://www.instagram.com/tranlephu/" target="_blank"><i
+                        class="rsicon rsicon-instagram"></i></a></li>
+                <li><a class="ripple-centered" href="https://foursquare.com/tranlephu" target="_blank"><i
+                        class="rsicon rsicon-foursquare"></i></a></li>
+                <li><a class="ripple-centered" href="https://www.facebook.com/TranLeAnhPhu.PaulLeTran" target="_blank"><i
+                        class="rsicon rsicon-facebook"></i></a></li>
+                <li><a class="ripple-centered" href="skype:paul.tran.47?userinfo" target="_blank"><i
+                        class="rsicon rsicon-skype"></i></a></li>
+                <li><a class="ripple-centered" href="mailto:plt02013@mymail.pomona.edu" target="_blank"><i
+                        class="rsicon rsicon-envelope"></i></a></li>
             </ul>
 
             <div class="section-txt-btn">
@@ -787,7 +810,22 @@
     <script type="text/javascript" src="../js/plugins/jquery.fancybox/jquery.fancybox.pack.js"></script>
     <script type="text/javascript" src="../js/plugins/jquery.fancybox/helpers/jquery.fancybox-media.js"></script>
     <script type="text/javascript" src="../js/plugins/jquery.owlcarousel/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="../js/options.js"></script>
+    <script type="text/javascript" src="../js/options.min.js"></script>
     <script type="text/javascript" src="../js/site.min.js"></script>
+    <script type="text/javascript" src="../js/plugins/typed.min.js"></script>
+    <script>
+        $(function(){
+            $("#typed1").typed({
+                // strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+                stringsElement: $('#typed-strings1'),
+                typeSpeed: 30,
+                backDelay: 500,
+                loop: true,
+                contentType: 'html', // or text
+                // defaults to false for infinite loop
+                loopCount: false,
+            });
+        });
+    </script>
 </body>
 </html>

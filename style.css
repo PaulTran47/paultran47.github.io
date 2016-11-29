@@ -3778,7 +3778,7 @@ body {
 
 .profile-preword span {
     color: #fff;
-    font-size: 14px;
+    font-size: 3em;
     font-weight: 700;
     line-height: 1.1;
     display: inline-block;
@@ -7192,9 +7192,9 @@ body {
     text-transform: uppercase;
  }
 
- @media (min-width: 800px) {
+ @media (max-width: 480px) {
   .blog-description {
-    font-size: 4.7rem;
+    font-size: 28px;
   }
 }
 
@@ -7581,9 +7581,10 @@ body {
      position: absolute;
 }
 
+/*
 .header-has-img .head-image-left {
     right: 50%;
-    background-image: url('img/uploads/mouth-left.jpeg');
+    background-image: url('img/uploads/profile-left.jpeg');
     background-size: cover;
     background-position: right center;
     -webkit-transition: right .8s ease-in-out 2s;
@@ -7593,7 +7594,7 @@ body {
 
 .header-has-img .head-image-right {
     left: 50%;
-    background-image: url('img/uploads/mouth-right.jpeg');
+    background-image: url('img/uploads/profile-right.jpeg');
     background-size: cover;
     background-position: left center;
     -webkit-transition: left .8s ease-in-out 2s;
@@ -7607,6 +7608,52 @@ body {
 
 .header-has-img.loading .head-image-right {
     left: 100%;
+}
+*/
+
+.typed-cursor {
+    color: #1a77d4;
+    font-weight: 100;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.typed_main {
+    font-size: 3em;
+}
+
+@media (max-width: 480px) {
+    .typed_main {
+        font-size: 28px;
+    }
+}
+
+.typed1 {
+    white-space:pre;
+    color: #1a77d4;
+}
+
+@media (max-width: 480px) {
+    .typed1 {
+        font-size: 28px;
+    }
 }
 
 /*# sourceMappingURL=style.css.map */
