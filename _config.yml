@@ -4,3 +4,7 @@ wpm: 200
 
 #Change the number of the localport.
 port: 2447
+
+#Generate sitemap for website.
+gems:
+  - jekyll-sitemap
