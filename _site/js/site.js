@@ -418,9 +418,23 @@
             map_icon_label: '<span class="map-icon map-icon-postal-code"></span>'
         });
 
+        // Multiple Map Markers
         var marker2 = new Marker({
             map: map,
             position: new google.maps.LatLng(34.0987395, -117.71199209999997), // Google map latitude and longitude
+            icon: {
+                path: SQUARE_PIN,
+                fillColor: '',
+                fillOpacity: 0,
+                strokeColor: '',
+                strokeWeight: 0
+            },
+            map_icon_label: '<span class="map-icon map-icon-postal-code"></span>'
+        });
+
+        var marker3 = new Marker({
+            map: map,
+            position: new google.maps.LatLng(30.267153, -97.74306079999997), // Google map latitude and longitude
             icon: {
                 path: SQUARE_PIN,
                 fillColor: '',
