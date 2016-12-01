@@ -1,3 +1,15 @@
+# Name of your blog (this will show up at the top of your page and in the RSS feed)
+name: Blog | Paul Le Tran .com
+
+# Short description (goes below the title; it will also be used in the RSS feed)
+description: A blog dedicated to my thoughts and experiences in academic activity; economic and data analysis tidbits; my powerlifting journey; and things I like relating to products and technology.
+
+# Your name, as you want it to appear underneath each post and in the footer
+author: Paul Le Tran
+
+# Your email if you want it to be linked on the contact page
+author_email: plt02013@mymail.pomona.edu
+
 # Read Time is a calculator to provide post Estimated Reading Time (ERT) based on word count. Usage is recommended.
 readtime: true
 wpm: 200
