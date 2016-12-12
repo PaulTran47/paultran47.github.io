@@ -16,11 +16,11 @@ the web-server's file-system exactly as stored. Static File Servers are extremel
 
 - **Version Control**: Contents and files remain on your computer. Perform backups or keep track of changes via GIT or SVN — *it’s quite easy without a database.*
 
-- **Flexibility**: Ruby and Liquid — *Jekyll’s foundation* — empower you to easily extend its functionality. Or just use one of [many plugins](http://jekyllrb.com/docs/plugins/) created by a striving community.
+- **Flexibility**: Ruby and Liquid — *Jekyll’s foundation* — empower you to easily extend its functionality. Or just use one of [many plugins](https://jekyllrb.com/docs/plugins/) created by a striving community.
 
 - **Security**: Anything you’ll ever put on your server are static files — chances are good that *you’ll never need to worry* about security concerns anymore.
 
-If that still doesn’t convince you to at least give it a try, I’d like to encourage you to head over to the [Jekyll website](http://jekyllrb.com/) and see it for yourself.
+If that still doesn’t convince you to at least give it a try, I’d like to encourage you to head over to the [Jekyll website](https://jekyllrb.com/) and see it for yourself.
 
 Jekyll Blogs are cool because:
 
