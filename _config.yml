@@ -21,5 +21,5 @@ port: 2447
 gems:
   - jekyll-sitemap
 
-url: https://www.paulletran.com   # with the https protocol
-enforce_ssl: www.paulletran.com   # without any protocol
+url: https://paulletran.com   # with the https protocol
+enforce_ssl: paulletran.com   # without any protocol
