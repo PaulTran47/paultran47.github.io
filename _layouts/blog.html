@@ -12,6 +12,14 @@
 
     <title>Blog | Paul Le Tran .com</title>
 
+    <script type="text/javascript">
+        var host = "yoursite.com";
+        if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+    </script>
+
+    <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
+
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/ico" href="../img/favicon.ico"/>
 

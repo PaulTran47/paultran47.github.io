@@ -20,3 +20,6 @@ port: 2447
 #Generate sitemap for website.
 gems:
   - jekyll-sitemap
+
+url: https://www.paulletran.com   # with the https protocol
+enforce_ssl: www.paulletran.com   # without any protocol
