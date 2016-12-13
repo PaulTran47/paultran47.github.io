@@ -28,5 +28,10 @@ enforce_ssl: paulletran.com   # without any protocol
 #Configuration for compress_html
 compress_html:
   clippings: all
-  comments:  ["<!-- ", " -->"]
-  endings:   all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: true
+  startings: [html, head, body]
