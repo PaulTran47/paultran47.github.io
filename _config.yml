@@ -21,5 +21,12 @@ port: 2447
 gems:
   - jekyll-sitemap
 
+#This is to enforce and ensure all users are directed to https
 url: https://paulletran.com   # with the https protocol
 enforce_ssl: paulletran.com   # without any protocol
+
+#Configuration for compress_html
+compress_html:
+  clippings: all
+  comments:  ["<!-- ", " -->"]
+  endings:   all
