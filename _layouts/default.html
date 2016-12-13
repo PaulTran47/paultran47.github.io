@@ -72,6 +72,20 @@ layout: compress
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- Google Analytics Script -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-85626326-1', 'auto');
+        ga('send', 'pageview');
+        /* Tracks users after 30 seconds */
+        setTimeout("ga('send', 'event', { eventCategory: '30 seconds on page', eventAction: 'Read' })", 30000);
+
+    </script>
+
     <!-- Modernizer for detect what features the user’s browser has to offer -->
     <script type="text/javascript" src="/js/libs/modernizr.js"></script>
 </head>
@@ -737,21 +751,6 @@ layout: compress
     </div>
     
     <!-- Scripts -->
-
-    <!-- Google Analytics Script -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-85626326-1', 'auto');
-        ga('send', 'pageview');
-        /* Tracks users after 30 seconds */
-        setTimeout("ga('send', 'event', { eventCategory: '30 seconds on page', eventAction: 'Read' })", 30000);
-
-    </script>
-    
     <!-- Not unified in shrinker.js due to issues -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGdCgI76VKznC09EE-qIQbhDLiKHVCcQk"></script>
