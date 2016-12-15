@@ -39,8 +39,17 @@ layout: compress
     <meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+    <!-- Google Fonts: Using Web Font Loader -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Noto Sans']
+        }
+      });
+    </script>
+    
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans"> -->
     <!-- Make sure to uncomment this stylesheet if you want to use Fredoka One for the word logo from RsCard -->
     <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredoka+One"> -->
     <!--
