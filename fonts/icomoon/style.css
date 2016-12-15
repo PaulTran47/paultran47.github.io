@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?1h36vh');
-  src:  url('fonts/icomoon.eot?1h36vh#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?1h36vh') format('truetype'),
-    url('fonts/icomoon.woff?1h36vh') format('woff'),
-    url('fonts/icomoon.svg?1h36vh#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?7egr79');
+  src:  url('fonts/icomoon.eot?7egr79#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7egr79') format('truetype'),
+    url('fonts/icomoon.woff?7egr79') format('woff'),
+    url('fonts/icomoon.svg?7egr79#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -65,6 +65,24 @@
 }
 .rsicon-menu:before {
   content: "\e604";
+}
+.rsicon-phone:before {
+  content: "\e92d";
+}
+.rsicon-telephone:before {
+  content: "\e92d";
+}
+.rsicon-contact:before {
+  content: "\e92d";
+}
+.rsicon-support:before {
+  content: "\e92d";
+}
+.rsicon-call:before {
+  content: "\e92d";
+}
+.rsicon-lab:before {
+  content: "\e92e";
 }
 .rsicon-briefcase:before {
   content: "\e927";

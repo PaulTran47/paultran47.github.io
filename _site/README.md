@@ -4,9 +4,10 @@
 
 Done List for PageSpeed Insights:
 <ul>
-	<li>Loaded Google Fonts asynchronously.</li>
-	<li>Optimised and compressed images.</li>
+	<li>Loaded Google Fonts asynchronously via Web Font Loader.</li>
+	<li>Optimised and compressed images with Optimizilla and Compressor.io.</li>
 	<li>Minified CSS, JS, and HTML (last one is due to Jekyll's compress_html; however, PageSpeed Insights doesn't recognise this).</li>
+	<li>Leveraged browser caching via CloudFlare (set cache limit to 8 days, which is the minimum to satisfy PageSpeed Insights).</li>
 </ul>
 
 <br />
