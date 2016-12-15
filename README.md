@@ -3,10 +3,15 @@
 [![HitCount](https://hitt.herokuapp.com/{paultran47||org}/{paultran47.github.io}z.svg)](https://github.com/paultran47/paultran47.github.io)
 
 Done List for PageSpeed Insights:
-Loaded Google Fonts asynchronously.
-Optimised and compressed images.
-Minified CSS, JS, and HTML (last one is due to Jekyll's compress_html; however, PageSpeed Insights doesn't recognise this).
+<ul>
+	<li>Loaded Google Fonts asynchronously.</li>
+	<li>Optimised and compressed images.</li>
+	<li>Minified CSS, JS, and HTML (last one is due to Jekyll's compress_html; however, PageSpeed Insights doesn't recognise this).</li>
+</ul>
+
+<br />
 
 To-Do List for PageSpeed Insights:
-Optimising CSS delivery.
-
+<ul>
+	<li>Optimise CSS delivery.</li>
+</ul>
