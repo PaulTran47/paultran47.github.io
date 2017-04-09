@@ -631,7 +631,7 @@
                 }, 800)
             }), $(".chart .darkgreen").mouseleave(function() {
                 $(this).animate({
-                    height: "65%"
+                    height: "80%"
                 }, 800)
             }), $(".chart .peach").mouseenter(function() {
                 $(this).animate({
@@ -639,7 +639,7 @@
                 }, 800)
             }), $(".chart .peach").mouseleave(function() {
                 $(this).animate({
-                    height: "25%"
+                    height: "50%"
                 }, 800)
             }), $(".chart .red").mouseenter(function() {
                 $(this).animate({
@@ -647,7 +647,15 @@
                 }, 800)
             }), $(".chart .red").mouseleave(function() {
                 $(this).animate({
-                    height: "25%"
+                    height: "35%"
+                }, 800)
+            }), $(".chart .teal").mouseenter(function() {
+                $(this).animate({
+                    height: "100%"
+                }, 800)
+            }), $(".chart .teal").mouseleave(function() {
+                $(this).animate({
+                    height: "50%"
                 }, 800)
             }), $(".chart .purple").mouseenter(function() {
                 $(this).animate({
@@ -657,7 +665,7 @@
                 $(this).animate({
                     height: "60%"
                 }, 800)
-            })
+            }),
         }), moveProgressBar(), $(window).resize(function() {
             moveProgressBar()
         }), $(document).ready(function() {

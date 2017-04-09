@@ -7426,7 +7426,7 @@ body {
     .chart li {
         display: inline-block;
         height: 450px;
-        width: 14.5%;
+        width: 13%;
         color: white;
     }
 }
@@ -7565,6 +7565,14 @@ body {
     background-image: -moz-linear-gradient(#413647, #2F2235 70%);
     background-image: -webkit-linear-gradient(#413647, #2F2235 70%);
     background-image: linear-gradient(#413647, #2F2235 70%);
+}
+
+.chart .teal {
+    background: #4ecdc4;
+    border: 1px solid #4ecdc4;
+    background-image: -moz-linear-gradient(#76d8d1,#4ecdc4 70%);
+    background-image: -webkit-linear-gradient(#76d8d1,#4ecdc4 70%);
+    background-image: linear-gradient(#76d8d1,#4ecdc4 70%);
 }
 
 /* Head Images Slider From Off-Screen */
