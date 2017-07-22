@@ -1,6 +1,6 @@
 # [paulletran.com - Personal and Professional Website] (https://www.paulletran.com/)
 ![Shields.io Owner Badge](https://img.shields.io/badge/Coded%20By-PaulTran47-brightgreen.svg)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](http://opensource.org/licenses/MIT)
+[![Licence](https://img.shields.io/github/license/mashape/apistatus.svg)](http://opensource.org/licenses/MIT)
 
 Done List for PageSpeed Insights:
 <ul>
