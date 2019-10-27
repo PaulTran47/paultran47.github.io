@@ -2,7 +2,7 @@
 
 Inspired by Travis Neilson's website
 
-A website that I gives the world an image of me.
+A website showing the internet who I am.
 
 It's both a personal and professional website.
 
