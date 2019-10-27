@@ -5,12 +5,7 @@ block vars
 .pagination
   .row
     .col-3.push-2.pull-7.pagination-label #{paglabel}
-  .row
-    .col-6.push-5.pull-1.next-wrap
-      a(href="#{nexturl1}" onclick="ga('send', 'event', 'Pagination Menu', 'Click', 'CV');").CV
-        span #{nextlabel1}
-        include ../images/icon-arrow-right.svg
-  
+
   .row
     .col-6.push-1.pull-5.prev-wrap
       a(href="#{prevurl}" onclick="ga('send', 'event', 'Pagination Menu', 'Click', 'Prev');").prev
@@ -19,8 +14,26 @@ block vars
 
   .row
     .col-6.push-5.pull-1.next-wrap
+      a(href="#{nexturl1}" onclick="ga('send', 'event', 'Pagination Menu', 'Click', 'CV');").CV
+        span #{nextlabel1}
+        include ../images/icon-arrow-right.svg
+  
+  .row
+    .col-6.push-5.pull-1.next-wrap
       a(href="#{nexturl2}" onclick="ga('send', 'event', 'Pagination Menu', 'Click', 'Transcript');").Transcript
         span #{nextlabel2}
         include ../images/icon-arrow-right.svg
   
+  .row
+    .col-6.push-5.pull-1.next-wrap
+      a(href="#{nexturl3}" onclick="ga('send', 'event', 'Pagination Menu', 'Click', 'Research');").research
+        span #{nextlabel3}
+        include ../images/icon-arrow-right.svg
+
+  .row
+    .col-6.push-5.pull-1.next-wrap
+      a(href="#{nexturl4}" onclick="ga('send', 'event', 'Pagination Menu', 'Click', 'More');").more
+        span #{nextlabel4}
+        include ../images/icon-arrow-right.svg
+
 .section-spacer

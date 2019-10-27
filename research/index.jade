@@ -2,12 +2,14 @@ extends ../includes/_page-head
 
 block vars
   - var page = 'research'
-  - var prevurl = '/'
-  - var prevlabel = 'Home'
+  - var nexturl3 = '/more'
+  - var nextlabel3 = 'more'
   - var nexturl1 = 'https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view'
   - var nextlabel1 = 'CV'
   - var nexturl2 = 'https://drive.google.com/file/d/0B1o_SCwTPL6TTXBFa0Z6M2J4VTA/view'
   - var nextlabel2 = 'Transcript'
+  - var prevurl = '/'
+  - var prevlabel = 'Home'
   - var paglabel = 'Pick a path...'
 
 block content
@@ -108,3 +110,9 @@ block content
             include ../images/icon-mail.svg
     
     include ../includes/_pagination.jade
+
+    .section-spacer(style="height: 30px")
+
+    .row
+      .col-8.col-d-2.push-d-3
+        p  &#x24B8; 2019 by Paul Le Tran
