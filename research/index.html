@@ -9,9 +9,8 @@
       
       ga('create', 'UA-4841651-7', 'auto');
       ga('send', 'pageview');
-      
-      
     </script>
+
     <meta charset="utf-8">
     <title>Paul Le Tran dot com</title>
     <meta name="description" content="Paul's life consists of powerlifting, food, and economics.">
@@ -19,207 +18,224 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="C:\Users\gwong\OneDrive\Documents\GitHub\travisneilson.github.io\css\style.css">
   </head>
-    <body>
-      <div class="page-border-decoration"></div>
-      <div class="menu-desktop hide d-show">
+  <body>
+    <div class="page-border-decoration"></div>
+    <div class="menu-desktop hide d-show">
+      <ul>
+        <li class="menu-name-home"><a href="/" onclick="ga('send', 'event', 'Desktop Menu', 'Click', 'Home');" class="special-link">Hom<span>e</span></a></li>
+        <li class="menu-name-research"><a href="/research" onclick="ga('send', 'event', 'Desktop Menu', 'Click', 'Research');" class="special-link">Researc<span>h</span></a></li>
+        <li class="menu-name-cv"><a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="ga('send', 'event', 'Desktop Menu', 'Click', 'CV');" class="special-link">C<span>V</span></a></li>
+        <li class="menu-name-transcript"><a href="https://drive.google.com/file/d/0B1o_SCwTPL6TTXBFa0Z6M2J4VTA/view" onclick="ga('send', 'event', 'Desktop Menu', 'Click', 'Transcript');" class="special-link">Transcrip<span>t</span></a></li>
+      </ul>
+    </div>
+    <div class="menu-mobile d-hide">
+      <div class="icon-menu">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: rgba(0,0,0,0.87);
+              }
+
+              .cls-2 {
+                fill: none;
+              }
+            </style>
+          </defs>
+          <g>
+            <rect class="cls-1 menu-bar-1" width="18" height="2" transform="translate(3 6)"/>
+            <rect class="cls-1 menu-bar-2" width="18" height="2" transform="translate(3 11)"/>
+            <rect class="cls-1 menu-bar-3" width="12" height="2" transform="translate(3 16)"/>
+            <rect class="cls-2" width="24" height="24" />
+          </g>
+        </svg>
+      </div>
+      <div class="site-menu-overlay hidden"></div>
+      <div class="icon-menu-close hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000000">
+          <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+          <path d="M0 0h24v24H0z" fill="none"/>
+        </svg>
+      </div>
+      <div class="site-menu hidden">
         <ul>
-          <li class="menu-name-home"><a href="/" onclick="ga('send', 'event', 'Desktop Menu', 'Click', 'Home');" class="special-link">Hom<span>e</span></a></li>
-          <li class="menu-name-research"><a href="/research" onclick="ga('send', 'event', 'Desktop Menu', 'Click', 'Research');" class="special-link">Researc<span>h</span></a></li>
-          <li class="menu-name-cv"><a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="ga('send', 'event', 'Desktop Menu', 'Click', 'CV');" class="special-link">C<span>V</span></a></li>
-          <li class="menu-name-transcript"><a href="https://drive.google.com/file/d/0B1o_SCwTPL6TTXBFa0Z6M2J4VTA/view" onclick="ga('send', 'event', 'Desktop Menu', 'Click', 'Transcript');" class="special-link">Transcrip<span>t</span></a></li>
+          <li class="menu-name-home"><a href="/" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Home');" class="special-link">Hom<span>e</span></a></li>
+          <li class="menu-name-research"><a href="/research" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Research');" class="special-link">Researc<span>h</span></a></li>
+          <li class="menu-name-cv"><a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'CV');" class="special-link">C<span>V</span></a></li>
+          <li class="menu-name-transcript"><a href="https://drive.google.com/file/d/0B1o_SCwTPL6TTXBFa0Z6M2J4VTA/view" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Transcript');" class="special-link">Transcrip<span>t</span></a></li>
         </ul>
       </div>
-      <div class="menu-mobile d-hide">
-        <div class="icon-menu">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <defs>
-              <style>
-                .cls-1 {
-                  fill: rgba(0,0,0,0.87);
-                }
-
-                .cls-2 {
-                  fill: none;
-                }
-              </style>
-            </defs>
+    </div>
+    <div class="breadcrumb"><a href="/">paulletran.com</a> / research</div>
+    <div class="container">
+    <!--
+      <div style="margin-bottom: -10px" class="row">
+        <div class="col-6 pull-6 title-container">
+          <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1000" height="300">
+            <title>title-research</title>
             <g>
-              <rect class="cls-1 menu-bar-1" width="18" height="2" transform="translate(3 6)"/>
-              <rect class="cls-1 menu-bar-2" width="18" height="2" transform="translate(3 11)"/>
-              <rect class="cls-1 menu-bar-3" width="12" height="2" transform="translate(3 16)"/>
-              <rect class="cls-2" width="24" height="24" />
+              <path d="m38.5,100.849998c0,1 0,3 0,7c0,4 0,6 0,10c0,2 0,4 0,12.000008c0,8 2.061436,12.991501 3,20c1.070129,7.990921 1,12 1,13c0,3 0.475452,6.861938 2,13c1.466263,5.903397 1.496227,9.907791 2,14c0.977467,7.940063 1.175194,12.034073 2,22c0.501709,6.062042 -0.647507,12.252609 2,26c1.018375,5.287994 2,14 2,17c0,5 0,9 1,9c1,0 -0.679634,-5.025818 -1,-7c-0.506542,-3.121445 -2,-6 -2,-9c0,-3 -1.540493,-5.053497 -2,-7c-1.027485,-4.352509 -2.971256,-13.758698 -5,-24c-1.952877,-9.858307 -0.029091,-24.067657 -1,-31c-1.009762,-7.209747 -2.493458,-11.878555 -3,-15c-0.800911,-4.93544 -1,-9 -1,-14c0,-3 -0.972515,-8.647491 -2,-13c-1.378517,-5.839493 0,-9 1,-14c1,-5.000008 3.569504,-12.133011 5,-16.000008c1.55159,-4.194351 3.43288,-5.802429 6,-12c1.210152,-2.921562 4,-6 6,-8c2,-2 3,-2 4,-2c4,0 10.186005,1.692551 12,3c4.589081,3.307617 7.473289,7.293663 11,13c2.628654,4.253258 5,10 7,18c2,8.000008 2.992455,12.815575 4,21.000008c0.610916,4.96254 0,7 0,9c0,2 -0.558189,4.519287 -4,7c-1.813995,1.307449 -5.746742,4.371338 -10,7c-1.902115,1.175568 -3,2 -4,4c0,0 1.420059,4.783798 4,8c2.79834,3.488449 7.310211,5.718994 10,9c2.285881,2.78833 5.296997,8.613831 8,11c1.676331,1.479843 6.434624,7.150986 9,9c4.056213,2.923553 7.692383,6.410919 11,11c2.614906,3.627991 5.280266,9.672867 10,14c5.315292,4.873154 7.736572,6.577179 16,10c2.92157,1.210144 4,2 8,2c6,0 12.617172,-1.126862 20,-7c4.426941,-3.521683 9.526245,-8.274338 12,-12c5.099762,-7.680649 7.61731,-9.076126 8,-10c1.623581,-3.919693 6.499039,-7.953323 7,-16c0.186417,-2.994202 0,-5 0,-6c0,-1 -0.763931,-3.763931 -3,-6c-2.236069,-2.236069 -3,-2 -6,-2c-2,0 -4.025818,-0.320358 -6,0c-3.121445,0.506546 -7.21167,2.714127 -10,5c-2.187347,1.793198 -6.519287,4.558197 -9,8c-1.307449,1.813995 -3.118942,6.215393 -5,12c-1.38298,4.25293 -2,4 -2,5c0,4 2,9 4,12c2,3 6.613831,6.296997 9,9c1.479843,1.676331 4.471252,4.458771 11,6c1.946503,0.459503 5,1 9,1c4,0 8.007492,0.122177 9,0c4.092209,-0.503769 7.310013,-1.337494 10,-3c2.406006,-1.487 9.161194,-5.746399 14,-9c4.149246,-2.789948 4.21167,-3.714127 7,-6c3.281006,-2.689789 6.648865,-7.19577 9,-11c2.628662,-4.25325 4.837723,-9.837723 8,-13c1.581146,-1.581146 2.345184,-4.176971 4,-9c1.45137,-4.230072 3.493454,-7.878555 4,-11c0.320358,-1.974182 0,-3 0,-4c0,-2 0,-2 2,-2c1,0 0.585785,1.585785 2,3c2.121307,2.121323 3.61731,1.076126 4,2c1.082397,2.613129 4.909668,2.30806 7,6c2.031464,3.587921 5.513,7.593994 7,10c1.662506,2.689987 1.080994,6.10701 2,10c1.027496,4.352509 2.486267,7.823746 3,10c0.459503,1.946503 1.414215,4.585785 0,6c-0.707092,0.707108 -2,1 -3,2c-2,2 -3.907776,3.496231 -8,4c-2.977509,0.366547 -7.878571,2.493454 -11,3c-0.987091,0.160187 -4,1 -5,1c-2,0 -4,2 -7,2c-3,0 -5,0 -5,0c-2,0 -3,0 -3,0c-1,0 -0.292892,-1.292892 -1,-2c-1.414215,-1.414215 -3,-1 -3,-2c0,0 0.418854,0.418854 2,2c1.581146,1.581146 2.296997,3.613831 5,6c1.676331,1.479843 4,4 6,5c2,1 5.782745,4.56868 13,7c3.907349,1.316284 5,1 11,1c6,0 13.010071,0.283554 17,0c7.053284,-0.501266 16.091156,-5.795685 23,-9c6.085541,-2.822464 13.40683,-3.188171 20,-7c4.328644,-2.502594 10.558014,-6.077637 16,-10c4.589081,-3.307617 6.909668,-5.30806 9,-9c2.031464,-3.587921 4.059174,-6.971497 5,-9c3.204315,-6.908859 4,-10 4,-12c0,-1 0,-4 0,-5c0,-1 -1.61731,-3.076126 -2,-4c-1.082397,-2.613129 -5.458801,-3.693436 -6,-5c-0.38269,-0.923874 -2,-1 -3,-2c-1,-1 -0.868286,-1.288589 -5,-3c-2.92157,-1.210144 -4,-1 -6,-1c-2,0 -6.613831,2.296997 -9,5c-1.479828,1.676331 -4.499023,5.953323 -5,14c-0.372833,5.988403 -1.91925,8.984528 -1,14c1.096619,5.983093 1,11 1,14c0,4 3.103394,7.906326 4,9c2.285889,2.78833 5.538696,5.60643 8,7c3.587921,2.031448 7.647491,2.972519 12,4c3.893005,0.919006 8.108856,0.800797 11,0c5.619385,-1.556473 13.40683,-6.188171 20,-10c4.328644,-2.502594 9,-8 13,-12c4,-4 8.642883,-6.618011 12,-13c2.50705,-4.765991 2.161316,-8.244034 4,-13c2.102631,-5.43866 5.955475,-8.365692 8,-18c0.830353,-3.912857 3,-5 4,-6c2,-2 3.823761,-3.486252 6,-4c0.973236,-0.229752 2.029968,-0.511261 6,-1c4.092224,-0.503769 6,-1 8,-1c4,0 7.042908,1.71022 8,2c3.450836,1.04483 3.385101,4.372009 6,8c1.653809,2.29454 2.62149,6.160507 4,12c1.027496,4.352509 3.608276,9.187256 2,16c-1.027496,4.352509 -2.584412,5.35498 -4,8c-1.701294,3.178925 -3.918304,5.112137 -8,8c-2.943359,2.082474 -7,4 -11,6c-4,2 -6.471252,4.458771 -13,6c-3.893005,0.919006 -6,0 -7,0c-1,0 -2.298706,1.178925 -4,-2c-0.943726,-1.763351 -0.167786,-4.057999 -1,-10c-1.009766,-7.209747 -2.359283,-14.060806 -1,-21c0.792603,-4.046204 1.541351,-7.702667 3,-11c1.66803,-3.770645 1.474274,-6.149353 2,-7c1.175568,-1.902115 2.769348,-2.303223 4,-3c3.587921,-2.031448 6.071808,-0.691238 11,-2c3.056335,-0.811661 3.292908,-1.292892 4,-2c2.121307,-2.121323 4.549164,0.95517 8,2c0.957092,0.28978 4.194092,0.88855 7,6c2.152039,3.920303 4.398407,8.217712 6,14c1.556488,5.61937 4,8 4,12c0,4 1.234619,6.152237 2,8c1.082397,2.613129 2,5 5,8c1,1 0.549164,2.95517 4,4c0.957092,0.28978 3,0 5,0c4,0 8,0 8,0c4,0 8.309998,-0.337494 11,-2c1.203003,-0.7435 3.852722,-2.173096 5,-3c3.627991,-2.614899 4.309998,-3.337494 7,-5c1.203003,-0.7435 3,-2 4,-4c1,-2 3.852722,-4.173096 5,-5c1.813965,-1.307449 2.877686,-3.06601 4,-5c1.809692,-3.118484 2.486267,-3.823746 3,-6c0.68927,-2.919754 0.44519,-9.038666 1,-13c1.009766,-7.209747 1.61731,-9.076126 2,-10c0.541199,-1.306564 1,-2 1,-3c0,-1 0.38269,-2.076126 0,-3c-0.541199,-1.306564 -2.486267,-4.823746 -3,-7c-0.229736,-0.973251 0,-2 0,-3c0,-2 -0.851929,-3.228363 -2,-6c-0.541199,-1.306564 0,-1 0,-1c1,1 1,2 2,4c0,0 2.346191,1.70546 4,4c2.614929,3.627991 3,5 4,8c0,0 4,4 6,6c2,2 6.053528,5.540497 8,6c2.17627,0.513748 4.085815,1.420425 6,2c3.450867,1.04483 6.943665,1.811661 10,1c4.928223,-1.308762 9.372009,-1.385101 13,-4c1.147278,-0.826904 5.415894,-4.761078 7,-8c1.389343,-2.840729 2,-5 2,-9c0,-2 0,-3 0,-2c0,1 -0.371338,3.74675 -3,8c-1.175598,1.902115 -1.346191,3.70546 -3,6c-1.307434,1.813995 -2,3 -2,4c0,2 -2.675964,6.225479 -4,10c-2.119507,6.042175 -2.840881,10.171631 -4,14c-1.044861,3.450851 -2.486267,5.823746 -3,8c-0.919006,3.89299 -0.430481,8.132996 1,12c0.775818,2.097168 2.21167,3.714127 5,6c1.093689,0.896591 5.407715,2.607056 11,5c4.596863,1.966995 8,3 10,3c2,0 6,0 8,0c3,0 6,0 10,0c2,0 6.053528,0.459503 8,0c2.17627,-0.513748 6,-3 10,-5c4,-2 8.29364,-4.726501 12,-9c3.276001,-3.777267 3.42041,-7.085815 4,-9c1.044861,-3.450851 4.167969,-6.920334 6,-11c2.206055,-4.912567 3.968567,-11.412079 6,-15c1.393555,-2.461304 3.550354,-4.641174 6,-9c2.638306,-4.694595 6,-8 8,-11c2,-3 5.026733,-2.770248 6,-3c4.352478,-1.027481 8,-4 12,-4c0,0 4,-1 7,-1c3,0 5,0 5,0c2,0 3.723999,1.222733 7,5c0.926575,1.068375 4.292908,3.292892 5,4c0.707092,0.707108 0,2 0,2c-2,-1 -3.026733,-1.770248 -4,-2c-2.17627,-0.513748 -3.026733,-2.770248 -4,-3c-2.17627,-0.513748 -3,-2 -4,-3c0,0 -2,0 -3,0c-1,0 -3.026733,1.770248 -4,2c-4.352478,1.027481 -3.625305,4.41362 -8,8c-2.78833,2.285873 -5.210083,4.850754 -8,9c-3.253601,4.838806 -4.080994,11.10701 -5,15c-1.027466,4.352509 -2,8 -2,12c0,4 0.256531,7.796997 1,9c1.662537,2.689987 -0.178894,5.298691 3,7c1.763367,0.94371 4,1 6,4c0,0 4.029968,-0.488739 8,0c4.092224,0.503769 8,1 11,1c4,0 8,1 13,1c6,0 11.037476,0.610916 16,0c4.092224,-0.503769 12.119568,-5.771957 18,-9c5.11145,-2.805908 9.228882,-5.729614 14,-10c4.215088,-3.772675 6,-6 8,-9c2,-3 4.917603,-4.386871 6,-7c0.38269,-0.923874 1.221313,-6.318558 4,-12c1.584106,-3.238922 4.972534,-5.647491 6,-10c1.148743,-4.866241 2.755615,-9.014984 3,-11c0.503784,-4.092209 1.959167,-6.435471 4,-11c2.081238,-4.654922 2.761353,-12.044678 4,-18c0.8396,-4.036713 0.243591,-7.072182 1,-11.000008c1.018372,-5.287994 2,-9 2,-11c0,-2 0,-3 0,-5c0,-1 1,-4 1,-5c0,-1 0,-2 0,-4c0,-3 0,-4 0,-7c0,-4 0,-6 0,-7c0,-2 -0.800903,-5.06456 0,-10c0.506531,-3.121445 2,-11 1,-11c-2,0 2,4 2,7c0,3 0,7 0,12c0,3 0,7 0,12c0,13 0.407837,27.009247 0,36.000008c-0.500488,11.034012 -1.038879,19.077469 -2,25c-1.013062,6.242889 -4.741089,11.726959 -7,19c-1.512451,4.869553 -3.877808,8.007492 -4,9c-0.503784,4.092209 -3,10 -4,12c-1,2 -1.851135,6.485306 -4,11c-1.771973,3.7229 -1.448425,6.805649 -3,11c-1.430481,3.867004 -3.345154,9.176971 -5,14c-2.177063,6.345108 -1.17157,11.17157 -4,14c-0.707092,0.707108 -2,2 -1,2c1,0 0,-2 0,-3c0,-2 0.371338,-3.74675 3,-8c1.175598,-1.902115 3.062744,-6.969254 5,-11c6.202332,-12.904694 8.606934,-23.818237 12,-28c2.27179,-2.799835 7.282532,-3.984985 11,-10c1.662537,-2.689987 3.012939,-4.839813 4,-5c3.12146,-0.506546 5,-1 7,-1c1,0 2,0 2,0c2,2 2.391724,9.187256 4,16c1.027466,4.352509 3,8 3,18c0,10 -0.152771,18.041321 1,22c1.76825,6.072327 4,12 6,16c2,4 5.647522,6.972504 10,8c3.893005,0.919006 10,1 16,1c4,0 11.197693,0.436707 16,-2c8.412964,-4.268768 15.405334,-10.082718 22,-13c3.77063,-1.668015 10.232727,-4.733246 16,-10c5.221436,-4.768295 8.161255,-7.796265 12,-11c1.716736,-1.432755 4.906311,-3.103409 6,-4c2.78833,-2.285873 4,-2 4,-2c2,0 2,1 3,1l0,0" id="svg_23" stroke-width="26" stroke="#ff1400" fill="none"/>
             </g>
           </svg>
         </div>
-        <div class="site-menu-overlay hidden"></div>
-        <div class="icon-menu-close hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#000000">
-            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
-            <path d="M0 0h24v24H0z" fill="none"/>
-          </svg>
-        </div>
-        <div class="site-menu hidden">
-          <ul>
-            <li class="menu-name-home"><a href="/" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Home');" class="special-link">Hom<span>e</span></a></li>
-            <li class="menu-name-research"><a href="/research" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Research');" class="special-link">Researc<span>h</span></a></li>
-            <li class="menu-name-cv"><a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'CV');" class="special-link">C<span>V</span></a></li>
-            <li class="menu-name-transcript"><a href="https://drive.google.com/file/d/0B1o_SCwTPL6TTXBFa0Z6M2J4VTA/view" onclick="ga('send', 'event', 'Mobile Menu', 'Click', 'Transcript');" class="special-link">Transcrip<span>t</span></a></li>
-          </ul>
-        </div>
       </div>
-      <div class="breadcrumb"><a href="/">paulletran.com</a> / research</div>
-      <div class="container">
-      <!--
-        <div style="margin-bottom: -10px" class="row">
-          <div class="col-6 pull-6 title-container">
-            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1000" height="300">
-              <title>title-research</title>
-              <g>
-                <path d="m38.5,100.849998c0,1 0,3 0,7c0,4 0,6 0,10c0,2 0,4 0,12.000008c0,8 2.061436,12.991501 3,20c1.070129,7.990921 1,12 1,13c0,3 0.475452,6.861938 2,13c1.466263,5.903397 1.496227,9.907791 2,14c0.977467,7.940063 1.175194,12.034073 2,22c0.501709,6.062042 -0.647507,12.252609 2,26c1.018375,5.287994 2,14 2,17c0,5 0,9 1,9c1,0 -0.679634,-5.025818 -1,-7c-0.506542,-3.121445 -2,-6 -2,-9c0,-3 -1.540493,-5.053497 -2,-7c-1.027485,-4.352509 -2.971256,-13.758698 -5,-24c-1.952877,-9.858307 -0.029091,-24.067657 -1,-31c-1.009762,-7.209747 -2.493458,-11.878555 -3,-15c-0.800911,-4.93544 -1,-9 -1,-14c0,-3 -0.972515,-8.647491 -2,-13c-1.378517,-5.839493 0,-9 1,-14c1,-5.000008 3.569504,-12.133011 5,-16.000008c1.55159,-4.194351 3.43288,-5.802429 6,-12c1.210152,-2.921562 4,-6 6,-8c2,-2 3,-2 4,-2c4,0 10.186005,1.692551 12,3c4.589081,3.307617 7.473289,7.293663 11,13c2.628654,4.253258 5,10 7,18c2,8.000008 2.992455,12.815575 4,21.000008c0.610916,4.96254 0,7 0,9c0,2 -0.558189,4.519287 -4,7c-1.813995,1.307449 -5.746742,4.371338 -10,7c-1.902115,1.175568 -3,2 -4,4c0,0 1.420059,4.783798 4,8c2.79834,3.488449 7.310211,5.718994 10,9c2.285881,2.78833 5.296997,8.613831 8,11c1.676331,1.479843 6.434624,7.150986 9,9c4.056213,2.923553 7.692383,6.410919 11,11c2.614906,3.627991 5.280266,9.672867 10,14c5.315292,4.873154 7.736572,6.577179 16,10c2.92157,1.210144 4,2 8,2c6,0 12.617172,-1.126862 20,-7c4.426941,-3.521683 9.526245,-8.274338 12,-12c5.099762,-7.680649 7.61731,-9.076126 8,-10c1.623581,-3.919693 6.499039,-7.953323 7,-16c0.186417,-2.994202 0,-5 0,-6c0,-1 -0.763931,-3.763931 -3,-6c-2.236069,-2.236069 -3,-2 -6,-2c-2,0 -4.025818,-0.320358 -6,0c-3.121445,0.506546 -7.21167,2.714127 -10,5c-2.187347,1.793198 -6.519287,4.558197 -9,8c-1.307449,1.813995 -3.118942,6.215393 -5,12c-1.38298,4.25293 -2,4 -2,5c0,4 2,9 4,12c2,3 6.613831,6.296997 9,9c1.479843,1.676331 4.471252,4.458771 11,6c1.946503,0.459503 5,1 9,1c4,0 8.007492,0.122177 9,0c4.092209,-0.503769 7.310013,-1.337494 10,-3c2.406006,-1.487 9.161194,-5.746399 14,-9c4.149246,-2.789948 4.21167,-3.714127 7,-6c3.281006,-2.689789 6.648865,-7.19577 9,-11c2.628662,-4.25325 4.837723,-9.837723 8,-13c1.581146,-1.581146 2.345184,-4.176971 4,-9c1.45137,-4.230072 3.493454,-7.878555 4,-11c0.320358,-1.974182 0,-3 0,-4c0,-2 0,-2 2,-2c1,0 0.585785,1.585785 2,3c2.121307,2.121323 3.61731,1.076126 4,2c1.082397,2.613129 4.909668,2.30806 7,6c2.031464,3.587921 5.513,7.593994 7,10c1.662506,2.689987 1.080994,6.10701 2,10c1.027496,4.352509 2.486267,7.823746 3,10c0.459503,1.946503 1.414215,4.585785 0,6c-0.707092,0.707108 -2,1 -3,2c-2,2 -3.907776,3.496231 -8,4c-2.977509,0.366547 -7.878571,2.493454 -11,3c-0.987091,0.160187 -4,1 -5,1c-2,0 -4,2 -7,2c-3,0 -5,0 -5,0c-2,0 -3,0 -3,0c-1,0 -0.292892,-1.292892 -1,-2c-1.414215,-1.414215 -3,-1 -3,-2c0,0 0.418854,0.418854 2,2c1.581146,1.581146 2.296997,3.613831 5,6c1.676331,1.479843 4,4 6,5c2,1 5.782745,4.56868 13,7c3.907349,1.316284 5,1 11,1c6,0 13.010071,0.283554 17,0c7.053284,-0.501266 16.091156,-5.795685 23,-9c6.085541,-2.822464 13.40683,-3.188171 20,-7c4.328644,-2.502594 10.558014,-6.077637 16,-10c4.589081,-3.307617 6.909668,-5.30806 9,-9c2.031464,-3.587921 4.059174,-6.971497 5,-9c3.204315,-6.908859 4,-10 4,-12c0,-1 0,-4 0,-5c0,-1 -1.61731,-3.076126 -2,-4c-1.082397,-2.613129 -5.458801,-3.693436 -6,-5c-0.38269,-0.923874 -2,-1 -3,-2c-1,-1 -0.868286,-1.288589 -5,-3c-2.92157,-1.210144 -4,-1 -6,-1c-2,0 -6.613831,2.296997 -9,5c-1.479828,1.676331 -4.499023,5.953323 -5,14c-0.372833,5.988403 -1.91925,8.984528 -1,14c1.096619,5.983093 1,11 1,14c0,4 3.103394,7.906326 4,9c2.285889,2.78833 5.538696,5.60643 8,7c3.587921,2.031448 7.647491,2.972519 12,4c3.893005,0.919006 8.108856,0.800797 11,0c5.619385,-1.556473 13.40683,-6.188171 20,-10c4.328644,-2.502594 9,-8 13,-12c4,-4 8.642883,-6.618011 12,-13c2.50705,-4.765991 2.161316,-8.244034 4,-13c2.102631,-5.43866 5.955475,-8.365692 8,-18c0.830353,-3.912857 3,-5 4,-6c2,-2 3.823761,-3.486252 6,-4c0.973236,-0.229752 2.029968,-0.511261 6,-1c4.092224,-0.503769 6,-1 8,-1c4,0 7.042908,1.71022 8,2c3.450836,1.04483 3.385101,4.372009 6,8c1.653809,2.29454 2.62149,6.160507 4,12c1.027496,4.352509 3.608276,9.187256 2,16c-1.027496,4.352509 -2.584412,5.35498 -4,8c-1.701294,3.178925 -3.918304,5.112137 -8,8c-2.943359,2.082474 -7,4 -11,6c-4,2 -6.471252,4.458771 -13,6c-3.893005,0.919006 -6,0 -7,0c-1,0 -2.298706,1.178925 -4,-2c-0.943726,-1.763351 -0.167786,-4.057999 -1,-10c-1.009766,-7.209747 -2.359283,-14.060806 -1,-21c0.792603,-4.046204 1.541351,-7.702667 3,-11c1.66803,-3.770645 1.474274,-6.149353 2,-7c1.175568,-1.902115 2.769348,-2.303223 4,-3c3.587921,-2.031448 6.071808,-0.691238 11,-2c3.056335,-0.811661 3.292908,-1.292892 4,-2c2.121307,-2.121323 4.549164,0.95517 8,2c0.957092,0.28978 4.194092,0.88855 7,6c2.152039,3.920303 4.398407,8.217712 6,14c1.556488,5.61937 4,8 4,12c0,4 1.234619,6.152237 2,8c1.082397,2.613129 2,5 5,8c1,1 0.549164,2.95517 4,4c0.957092,0.28978 3,0 5,0c4,0 8,0 8,0c4,0 8.309998,-0.337494 11,-2c1.203003,-0.7435 3.852722,-2.173096 5,-3c3.627991,-2.614899 4.309998,-3.337494 7,-5c1.203003,-0.7435 3,-2 4,-4c1,-2 3.852722,-4.173096 5,-5c1.813965,-1.307449 2.877686,-3.06601 4,-5c1.809692,-3.118484 2.486267,-3.823746 3,-6c0.68927,-2.919754 0.44519,-9.038666 1,-13c1.009766,-7.209747 1.61731,-9.076126 2,-10c0.541199,-1.306564 1,-2 1,-3c0,-1 0.38269,-2.076126 0,-3c-0.541199,-1.306564 -2.486267,-4.823746 -3,-7c-0.229736,-0.973251 0,-2 0,-3c0,-2 -0.851929,-3.228363 -2,-6c-0.541199,-1.306564 0,-1 0,-1c1,1 1,2 2,4c0,0 2.346191,1.70546 4,4c2.614929,3.627991 3,5 4,8c0,0 4,4 6,6c2,2 6.053528,5.540497 8,6c2.17627,0.513748 4.085815,1.420425 6,2c3.450867,1.04483 6.943665,1.811661 10,1c4.928223,-1.308762 9.372009,-1.385101 13,-4c1.147278,-0.826904 5.415894,-4.761078 7,-8c1.389343,-2.840729 2,-5 2,-9c0,-2 0,-3 0,-2c0,1 -0.371338,3.74675 -3,8c-1.175598,1.902115 -1.346191,3.70546 -3,6c-1.307434,1.813995 -2,3 -2,4c0,2 -2.675964,6.225479 -4,10c-2.119507,6.042175 -2.840881,10.171631 -4,14c-1.044861,3.450851 -2.486267,5.823746 -3,8c-0.919006,3.89299 -0.430481,8.132996 1,12c0.775818,2.097168 2.21167,3.714127 5,6c1.093689,0.896591 5.407715,2.607056 11,5c4.596863,1.966995 8,3 10,3c2,0 6,0 8,0c3,0 6,0 10,0c2,0 6.053528,0.459503 8,0c2.17627,-0.513748 6,-3 10,-5c4,-2 8.29364,-4.726501 12,-9c3.276001,-3.777267 3.42041,-7.085815 4,-9c1.044861,-3.450851 4.167969,-6.920334 6,-11c2.206055,-4.912567 3.968567,-11.412079 6,-15c1.393555,-2.461304 3.550354,-4.641174 6,-9c2.638306,-4.694595 6,-8 8,-11c2,-3 5.026733,-2.770248 6,-3c4.352478,-1.027481 8,-4 12,-4c0,0 4,-1 7,-1c3,0 5,0 5,0c2,0 3.723999,1.222733 7,5c0.926575,1.068375 4.292908,3.292892 5,4c0.707092,0.707108 0,2 0,2c-2,-1 -3.026733,-1.770248 -4,-2c-2.17627,-0.513748 -3.026733,-2.770248 -4,-3c-2.17627,-0.513748 -3,-2 -4,-3c0,0 -2,0 -3,0c-1,0 -3.026733,1.770248 -4,2c-4.352478,1.027481 -3.625305,4.41362 -8,8c-2.78833,2.285873 -5.210083,4.850754 -8,9c-3.253601,4.838806 -4.080994,11.10701 -5,15c-1.027466,4.352509 -2,8 -2,12c0,4 0.256531,7.796997 1,9c1.662537,2.689987 -0.178894,5.298691 3,7c1.763367,0.94371 4,1 6,4c0,0 4.029968,-0.488739 8,0c4.092224,0.503769 8,1 11,1c4,0 8,1 13,1c6,0 11.037476,0.610916 16,0c4.092224,-0.503769 12.119568,-5.771957 18,-9c5.11145,-2.805908 9.228882,-5.729614 14,-10c4.215088,-3.772675 6,-6 8,-9c2,-3 4.917603,-4.386871 6,-7c0.38269,-0.923874 1.221313,-6.318558 4,-12c1.584106,-3.238922 4.972534,-5.647491 6,-10c1.148743,-4.866241 2.755615,-9.014984 3,-11c0.503784,-4.092209 1.959167,-6.435471 4,-11c2.081238,-4.654922 2.761353,-12.044678 4,-18c0.8396,-4.036713 0.243591,-7.072182 1,-11.000008c1.018372,-5.287994 2,-9 2,-11c0,-2 0,-3 0,-5c0,-1 1,-4 1,-5c0,-1 0,-2 0,-4c0,-3 0,-4 0,-7c0,-4 0,-6 0,-7c0,-2 -0.800903,-5.06456 0,-10c0.506531,-3.121445 2,-11 1,-11c-2,0 2,4 2,7c0,3 0,7 0,12c0,3 0,7 0,12c0,13 0.407837,27.009247 0,36.000008c-0.500488,11.034012 -1.038879,19.077469 -2,25c-1.013062,6.242889 -4.741089,11.726959 -7,19c-1.512451,4.869553 -3.877808,8.007492 -4,9c-0.503784,4.092209 -3,10 -4,12c-1,2 -1.851135,6.485306 -4,11c-1.771973,3.7229 -1.448425,6.805649 -3,11c-1.430481,3.867004 -3.345154,9.176971 -5,14c-2.177063,6.345108 -1.17157,11.17157 -4,14c-0.707092,0.707108 -2,2 -1,2c1,0 0,-2 0,-3c0,-2 0.371338,-3.74675 3,-8c1.175598,-1.902115 3.062744,-6.969254 5,-11c6.202332,-12.904694 8.606934,-23.818237 12,-28c2.27179,-2.799835 7.282532,-3.984985 11,-10c1.662537,-2.689987 3.012939,-4.839813 4,-5c3.12146,-0.506546 5,-1 7,-1c1,0 2,0 2,0c2,2 2.391724,9.187256 4,16c1.027466,4.352509 3,8 3,18c0,10 -0.152771,18.041321 1,22c1.76825,6.072327 4,12 6,16c2,4 5.647522,6.972504 10,8c3.893005,0.919006 10,1 16,1c4,0 11.197693,0.436707 16,-2c8.412964,-4.268768 15.405334,-10.082718 22,-13c3.77063,-1.668015 10.232727,-4.733246 16,-10c5.221436,-4.768295 8.161255,-7.796265 12,-11c1.716736,-1.432755 4.906311,-3.103409 6,-4c2.78833,-2.285873 4,-2 4,-2c2,0 2,1 3,1l0,0" id="svg_23" stroke-width="26" stroke="#ff1400" fill="none"/>
-              </g>
-            </svg>
-          </div>
-        </div>
-      -->
-        <div class="section-spacer"></div>
-
-        <div class="row">
-          <div class="col-7 push-1 pull-3">
-            <div class="push-1 number-breakout box-decoration">
-              <strong>Working</strong>
-            </div>
-            <br />
-            <br />
-            <br />
-            <div class="push-2 number-breakout">
-              <strong>Papers</strong>
-            </div>
-            <br />
-            <br />
-            <br />
-            <div class="callout-box">
-              <div class="push-2 number-breakout">
-                <strong>1</strong>
-              </div>
-              <p class="no-bottom-margin">
-                <strong>New Orders and Shipments of Capital Goods by Manufacturers: Better Forecasting Using High-frequency Business Sentiment Survey Data (2019 - Ongoing)</strong>, with Eugenio Pinto.
-              </p>
-              <p class="no-bottom-margin"><a href="https://www.youtube.com/travisneilson" class="small-link">YouTube.com/TravisNeilson</a></p>
-            </div>
-          </div>
-        </div>
-
-        <div style="height: 50px" class="section-spacer"></div>
-
-        <div class="row">
-          <div class="col-7 push-3 pull-2 col-d-6 push-d-3 pull-d-1">
-            <div class="callout-box">
-              <div class="push-8 number-breakout"><strong>2</strong></div>
-              <p class="no-bottom-margin">
-                <strong>The Story Chain Index: A General Semantic Text Matching Algorithm for News Item Linkage Across Time (2018 - Ongoing)</strong>, with Sarah Adler and Andrew Chang.
-              </p>
-              <p class="no-bottom-margin"><a href="https://www.youtube.com/watch?v=v2xMWIFMWDE" class="small-link">YouTube.com/AdobeCreativeCloud</a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="section-spacer"></div>
-
-        <div class="row">
-          <div class="col-7 push-1 pull-3">
-            <div class="push-1 number-breakout box-decoration">
-              <strong>Finished</strong>
-            </div>
-            <br />
-            <br />
-            <br />
-            <div class="push-2 number-breakout">
-              <strong>Papers</strong>
-            </div>
-            <br />
-            <br />
-            <br />
-            <div class="callout-box">
-              <div class="push-2 number-breakout">
-                <strong>1</strong>
-              </div>
-              <p class="no-bottom-margin">
-                <strong><a href="https://drive.google.com/file/d/0B1o_SCwTPL6TaEZuZ0ZBdXhlRms/view">Mathematically Modelling the Dynamics of Tuberculosis (2017)</strong></a>, (sole author).
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div style="height: 50px" class="section-spacer"></div>
-
-        <div class="row">
-          <div class="col-7 push-3 pull-2 col-d-6 push-d-3 pull-d-1">
-            <div class="callout-box">
-              <div class="push-8 number-breakout"><strong>2</strong></div>
-              <p class="no-bottom-margin">
-                <strong><a href="https://drive.google.com/file/d/0B1o_SCwTPL6TRzI3clFtbGdiVk0/view">An Extension to the Profits Theory of Investment: Less Competition, More Growth? (2017)</strong></a>, with Derrick Choe.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="section-spacer"></div>
+    -->
+      <div class="section-spacer"></div>
 
       <div class="row">
-        <div class="col-8 push-2 pull-2 col-d-4 push-d-4 pull-d-4">
-          <a href="mailto:gwong.lee@gmail.com" class="callout-cta">
-            Send me an email!
-            <div class="mail-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <g id="ic_mail_outline_black_24dp" transform="translate(0 0)">
-                  <path id="Path_16" data-name="Path 16" class="social-icon-fill-1" d="M0,0H24V24H0Z"/>
-                  <path id="Path_17" data-name="Path 17" class="social-icon-fill-2" d="M20,4H4A2,2,0,0,0,2.01,6L2,18a2.006,2.006,0,0,0,2,2H20a2.006,2.006,0,0,0,2-2V6A2.006,2.006,0,0,0,20,4Zm0,14H4V8l8,5,8-5Zm-8-7L4,6H20Z" transform="translate(0 0)"/>
-                </g>
-              </svg>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div style="height: 150px" class="section-spacer"></div>
-
-      <div class="pagination">
-        <div class="row">
-          <div class="col-3 push-2 pull-7 pagination-label">Other things...</div>
-        </div>
-        <!--
-        <div class="row">
-          <div class="col-6 push-5 pull-1 next-wrap">
-            <a href="/speaking" onclick="ga('send', 'event', 'Pagination Menu', 'Click', 'Next');" class="next"><span>Speaking</span><?xml version="1.0" encoding="utf-8"?>
-              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" fill="#000000">
-                <path d="M8.59,16.59L13.17,12L8.59,7.41L10,6l6,6l-6,6L8.59,16.59z"/>
-                <path fill="none" d="M0,0h24v24H0V0z"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-        -->
-        <div class="row">
-          <div class="col-6 push-1 pull-5 prev-wrap">
-            <a href="/" onclick="ga('send', 'event', 'Pagination Menu', 'Click', 'Prev');" class="prev"><?xml version="1.0" encoding="utf-8"?>
-            <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" fill="#000000">
-                <path d="M15.41,16.59L10.83,12l4.58-4.59L14,6l-6,6l6,6L15.41,16.59z"/>
-                <path fill="none" d="M0,0h24v24H0V0z"/>
-              </svg>
-              <span>Home</span>
-            </a>
+        <div class="col-7 push-1 pull-3">
+          <div style="color: #ff1400" class="push-1 number-breakout">
+            <strong>RESEARCH</strong>
           </div>
         </div>
       </div>
 
       <div class="section-spacer"></div>
 
+      <div class="row">
+        <div class="col-7 push-1 pull-3">
+          <div class="push-1 number-breakout box-decoration">
+            <strong>Working</strong>
+          </div>
+          <br />
+          <br />
+          <br />
+          <div class="push-2 number-breakout">
+            <strong>Papers</strong>
+          </div>
+          <br />
+          <br />
+          <br />
+          <div class="callout-box">
+            <div class="push-2 number-breakout">
+              <strong>1</strong>
+            </div>
+            <p class="no-bottom-margin">
+              <strong>New Orders and Shipments of Capital Goods by Manufacturers: Better Forecasting Using High-frequency Business Sentiment Survey Data (2019 - Ongoing)</strong>, with Eugenio Pinto.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div style="height: 50px" class="section-spacer"></div>
+
+      <div class="row">
+        <div class="col-7 push-3 pull-2 col-d-6 push-d-3 pull-d-1">
+          <div class="callout-box">
+            <div class="push-8 number-breakout"><strong>2</strong></div>
+            <p class="no-bottom-margin">
+              <strong>The Story Chain Index: A General Semantic Text Matching Algorithm for News Item Linkage Across Time (2018 - Ongoing)</strong>, with Sarah Adler and Andrew Chang.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-spacer"></div>
+
+      <div class="row">
+        <div class="col-7 push-1 pull-3">
+          <div class="push-1 number-breakout box-decoration">
+            <strong>Finished</strong>
+          </div>
+          <br />
+          <br />
+          <br />
+          <div class="push-2 number-breakout">
+            <strong>Papers</strong>
+          </div>
+          <br />
+          <br />
+          <br />
+          <div class="callout-box">
+            <div class="push-2 number-breakout">
+              <strong>1</strong>
+            </div>
+            <p class="no-bottom-margin">
+              <strong><a href="https://drive.google.com/file/d/0B1o_SCwTPL6TaEZuZ0ZBdXhlRms/view">Mathematically Modelling the Dynamics of Tuberculosis (2017)</strong></a>, (sole author).
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div style="height: 50px" class="section-spacer"></div>
+
+      <div class="row">
+        <div class="col-7 push-3 pull-2 col-d-6 push-d-3 pull-d-1">
+          <div class="callout-box">
+            <div class="push-8 number-breakout"><strong>2</strong></div>
+            <p class="no-bottom-margin">
+              <strong><a href="https://drive.google.com/file/d/0B1o_SCwTPL6TRzI3clFtbGdiVk0/view">An Extension to the Profits Theory of Investment: Less Competition, More Growth? (2017)</strong></a>, with Derrick Choe.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-spacer"></div>
+
+    <div class="row">
+      <div class="col-8 push-2 pull-2 col-d-4 push-d-4 pull-d-4">
+        <a href="mailto:gwong.lee@gmail.com" class="callout-cta">
+          Send me an email!
+          <div class="mail-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <g id="ic_mail_outline_black_24dp" transform="translate(0 0)">
+                <path id="Path_16" data-name="Path 16" class="social-icon-fill-1" d="M0,0H24V24H0Z"/>
+                <path id="Path_17" data-name="Path 17" class="social-icon-fill-2" d="M20,4H4A2,2,0,0,0,2.01,6L2,18a2.006,2.006,0,0,0,2,2H20a2.006,2.006,0,0,0,2-2V6A2.006,2.006,0,0,0,20,4Zm0,14H4V8l8,5,8-5Zm-8-7L4,6H20Z" transform="translate(0 0)"/>
+              </g>
+            </svg>
+          </div>
+        </a>
+      </div>
     </div>
+
+    <div style="height: 150px" class="section-spacer"></div>
+
+    <div class="pagination">
+      <div class="row">
+        <div class="col-3 push-2 pull-7 pagination-label">Pick a path...</div>
+      </div>
+      <div class="row">
+        <div class="col-6 push-5 pull-1 next-wrap">
+          <a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="ga('send', 'event', 'Pagination Menu', 'Click', 'CV');" class="next"><span>CV</span><?xml version="1.0" encoding="utf-8"?>
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" fill="#000000">
+              <path d="M8.59,16.59L13.17,12L8.59,7.41L10,6l6,6l-6,6L8.59,16.59z"/>
+              <path fill="none" d="M0,0h24v24H0V0z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 push-1 pull-5 prev-wrap">
+          <a href="/" onclick="ga('send', 'event', 'Pagination Menu', 'Click', 'Prev');" class="prev"><?xml version="1.0" encoding="utf-8"?>
+          <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" fill="#000000">
+              <path d="M15.41,16.59L10.83,12l4.58-4.59L14,6l-6,6l6,6L15.41,16.59z"/>
+              <path fill="none" d="M0,0h24v24H0V0z"/>
+            </svg>
+            <span>Home</span>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 push-5 pull-1 next-wrap">
+          <a href="https://drive.google.com/file/d/0B1o_SCwTPL6TTXBFa0Z6M2J4VTA/view" onclick="ga('send', 'event', 'Pagination Menu', 'Click', 'Transcript');" class="next"><span>Transcript</span><?xml version="1.0" encoding="utf-8"?>
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" fill="#000000">
+              <path d="M8.59,16.59L13.17,12L8.59,7.41L10,6l6,6l-6,6L8.59,16.59z"/>
+              <path fill="none" d="M0,0h24v24H0V0z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-spacer"></div>
+
+  </div>
   </body>
 
   <script src="/js/zepto.js"></script>
