@@ -1,10 +1,9 @@
-# Travis Neilson Dot Com
+# Paul Le Tran dot com
 
-Things to remember:
+Inspired by Travis Neilson's website
 
-- When the book video is made, it can be uncommented
-- When a better videos video is made it can be swapped
-- Speaking topics still need example decks
-- Article archive still needs to be resurrected
-- Past versions should be rebuilt
-- I think I am missing a version somewhere...
+A website that I gives the world an image of me.
+
+It's both a personal and professional website.
+
+That's basically it.
