@@ -1095,6 +1095,19 @@ p.no-bottom-margin {
         -ms-flex-align: center;
             align-items: center; } }
 
+.page-research .finishedpapers { 
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    color: #CCCCCC; 
+    padding: 20px;
+}
+
+.page-research .finishedpapers:hover { 
+    color: #ff5d5d;
+}
+
 .page-research a {
   color: #ff5d5d; }
 
