@@ -1078,7 +1078,7 @@ p.no-bottom-margin {
     -webkit-transition: fill 200ms ease-in-out;
     transition: fill 200ms ease-in-out; }
   .social-icon:hover .social-icon-fill-2 {
-    fill: #00cc86; }
+    fill: #00F2FF; }
   .social-icon a {
     display: block; }
 
@@ -1743,7 +1743,7 @@ p.no-bottom-margin {
     font-size: 42px;
     line-height: 1.2; }
     .content-404 h1 span {
-      color: #00FFA7; }
+      color: #00F2FF; }
 
 .page-prompts {
   margin-bottom: 70px; }
