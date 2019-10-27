@@ -1,0 +1,24 @@
+mixin menu(menuplace)
+  li.menu-name-home: a(href="/" class="special-link" onclick="ga('send', 'event', '#{menuplace}', 'Click', 'Home');") Hom<span>e</span>
+  li.menu-name-research: a(href="/videos" class="special-link" onclick="ga('send', 'event', '#{menuplace}', 'Click', 'Research');") Researc<span>h</span>
+  li.menu-name-cv: a(href="/speaking" class="special-link" onclick="ga('send', 'event', '#{menuplace}', 'Click', 'CV');") C<span>V</span>
+  li.menu-name-transcript: a(href="/podcasts" class="special-link" onclick="ga('send', 'event', '#{menuplace}', 'Click', 'Transcript');") Transcrip<span>t</span>
+
+
+.menu-desktop.hide.d-show
+  ul
+    +menu('Desktop Menu')
+
+.menu-mobile.d-hide
+
+  .icon-menu
+    include ../images/menu-icon.svg
+
+  .site-menu-overlay.hidden
+
+  .icon-menu-close.hidden
+    include ../images/icon-close.svg
+
+  .site-menu.hidden
+    ul
+      +menu('Mobile Menu')

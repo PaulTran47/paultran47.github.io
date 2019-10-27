@@ -1,0 +1,74 @@
+extends ../includes/_page-head
+
+block vars
+  - var page = 'research'
+  - var prevurl = '/'
+  - var prevlabel = 'Home'
+
+block content
+  
+  .breadcrumb <a href="/">paulletran.com</a> / #{page}
+  
+  .container
+    
+    .row(style="margin-bottom: -10px")
+      .col-6.pull-6.title-container
+        include ../images/title-research.svg
+    
+    .section-spacer
+
+    .row
+      .col-7.push-1.pull-3
+        .push-1.number-breakout.box-decoration: strong Working
+        |
+        |
+        |
+        .push-2.number-breakout: strong Papers
+        |
+        |
+        |
+        .callout-box
+          .push-2.number-breakout: strong 1
+          p.no-bottom-margin: <strong>New Orders and Shipments of Capital Goods by Manufacturers: Better Forecasting Using High-frequency Business Sentiment Survey Data (2019 - Ongoing)</strong>, with Eugenio Pinto.
+    
+    .section-spacer(style="height: 50px")
+
+    .row
+      .col-7.push-3.pull-2.col-d-6.push-d-3.pull-d-1
+        .callout-box
+          .push-8.number-breakout: strong 2
+          p.no-bottom-margin: <strong>The Story Chain Index: A General Semantic Text Matching Algorithm for News Item Linkage Across Time (2018 - Ongoing)</strong>, with Sarah Adler and Andrew Chang.
+    
+    .section-spacer
+
+    .row
+      .col-7.push-1.pull-3
+        .push-1.number-breakout.box-decoration: strong Finished
+        |
+        |
+        |
+        .push-2.number-breakout: strong Papers
+        |
+        |
+        |
+        .callout-box
+          .push-2.number-breakout: strong 1
+          p.no-bottom-margin: <strong><a href="https://drive.google.com/file/d/0B1o_SCwTPL6TaEZuZ0ZBdXhlRms/view">Mathematically Modelling the Dynamics of Tuberculosis</a></strong>, (sole author).
+  
+    .section-spacer(style="height: 50px")
+
+    .row
+      .col-7.push-3.pull-2.col-d-6.push-d-3.pull-d-1
+        .callout-box
+          .push-8.number-breakout: strong 2
+          p.no-bottom-margin: <strong><a href="https://drive.google.com/file/d/0B1o_SCwTPL6TaEZuZ0ZBdXhlRms/view">An Extension to the Profits Theory of Investment: Less Competition, More Growth?</a></strong>, (sole author).
+
+    .section-spacer
+
+    .row
+      .col-8.push-2.pull-2.col-d-4.push-d-4.pull-d-4
+        a(href="mailto:gwong.lee@gmail.com").callout-cta Send me an email!
+          .mail-icon
+            include ../images/icon-mail.svg
+    
+    include ../includes/_pagination.jade

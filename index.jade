@@ -1,0 +1,44 @@
+extends includes/_page-head
+
+block vars
+  - var page = 'home'
+
+block content
+  
+  .flex-floaty
+    
+    .container
+      
+      .row
+        .col-11.pull-1.tagline-container ECONOMICS PHD STUDENT SOON TM / FRB RESEARCH ASSISTANT / POWERLIFTER
+        
+      .row
+        .col-11.pull-1.col-d-6.push-d-1.title-container
+          .pt-title
+            include ./images/title-pt.svg
+      
+      .row
+        .push-1.col-11.push-d-4.col-d-10
+          picture
+            img.fit-img.hero-image(src="images/pt-star.jpg" alt="Paul Le Tran")
+      
+      .row
+        .col-8.push-2.pull-2.col-d-5.push-d-1.pull-d-5
+          p.lead
+            span I am a senior research asssistant at the <a href="https://www.federalreserve.gov/" class="special-link" onclick="ga('send', 'event', 'Home Paragraph Menu', 'Click', 'FRB');">Board of Governors of the Federal Reserve System</a> in the Household and Business Spending Section of the Research and Statistics Divison.
+
+        .col-8.push-2.pull-2.col-d-5.push-d-6.pull-d-1
+          p.lead
+            span Feel free to <a href="/research" class="special-link" onclick="ga('send', 'event', 'Home Paragraph Menu', 'Click', 'Research');">read over my research</a>, <a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" class="special-link" onclick="ga('send', 'event', 'Home Paragraph Menu', 'Click', 'CV');">download my CV</a>, <a href="https://drive.google.com/file/d/0B1o_SCwTPL6TTXBFa0Z6M2J4VTA/view" class="special-link" onclick="ga('send', 'event', 'Home Paragraph Menu', 'Click', 'Transcript');">take a look at my transcript</a>, &amp; <a href="/podcasts" class="special-link" onclick="ga('send', 'event', 'Home Paragraph Menu', 'Click', 'Powerlifting');">check out my powerlifting</a>.
+      
+      .row
+        .col-8.push-2.pull-2.col-d-5.push-d-6
+          .social-icons
+            .social-icon: a(href="https://www.linkedin.com/in/tranlephupaulletran/")
+              include ./images/icon-linkedin.svg
+            .social-icon: a(href="https://www.instagram.com/tranlephu/")
+              include ./images/icon-instagram.svg
+            .social-icon: a(href="mailto:gwong.lee@gmail.com")
+              include ./images/icon-mail.svg
+      
+      .section-spacer(style="height: 30px")
