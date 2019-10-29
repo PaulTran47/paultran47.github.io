@@ -1,4 +1,4 @@
-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+.page-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 progress, sub, sup {
   vertical-align: baseline; }
 
@@ -914,7 +914,7 @@ p.no-bottom-margin {
     float: left;
     margin: 2px 10px 25px 0px; }
 
-.page-researh .end-cta p {
+.page-research .end-cta p {
   color: #FF1400; }
 
 .page-research .end-cta .social-icon-fill-2 {
@@ -1095,7 +1095,7 @@ p.no-bottom-margin {
         -ms-flex-align: center;
             align-items: center; } }
 
-.page-research .finishedpapers { 
+.page-research .section-text-color-shift { 
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
@@ -1104,7 +1104,7 @@ p.no-bottom-margin {
     padding: 20px;
 }
 
-.page-research .finishedpapers:hover { 
+.page-research .section-text-color-shift:hover { 
     color: #ff5d5d;
 }
 
