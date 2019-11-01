@@ -768,7 +768,7 @@ p.no-bottom-margin {
     padding: 16px 16px 30px 16px;
     border: 4px solid #E5E5E5;
     border: 4px dotted #f1f1f1;
-    position: relative;
+    position: relative; }
 
 .box-decoration {
   border: 4px dotted #f1f1f1;
