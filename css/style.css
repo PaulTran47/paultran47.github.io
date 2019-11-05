@@ -447,7 +447,7 @@ ul.bulleted li {
 ul.spaced {
   padding-left: 16px; }
   ul.spaced li {
-    margin-bottom: 16px; }
+    margin-bottom: 8px; }
 
 em {
   font-style: italic; }
@@ -772,8 +772,11 @@ p.no-bottom-margin {
 
 .box-decoration {
   border: 4px dotted #f1f1f1;
-  height: 120px;
-  margin-bottom: -112px; }
+  margin-bottom: -112px;
+  height: 245px; }
+  @media (min-width: 800px) {
+    .box-decoration {
+      height: 200px; } }
 
 .box-stripey {
   position: relative;
