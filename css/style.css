@@ -176,6 +176,7 @@ textarea {
 
 .row-img {
   background-position: center;
+  background-size: 100%;
   background-repeat: no-repeat;
   overflow: hidden;
   background-color: #222222;
@@ -184,6 +185,8 @@ textarea {
 /* Hide the image so only the background image will be vissible */
 .row-img img {
   opacity: 0;
+  /* Making sure the webp images used are squares as desired. */
+  height: 0px;
 }
 
 .col-0 {
