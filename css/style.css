@@ -174,6 +174,19 @@ textarea {
       -ms-flex: auto;
           flex: auto; }
 
+.row-img {
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #222222;
+}
+
+/* Hide the image so only the background image will be vissible */
+.row-img img {
+  opacity: 0;
+}
+
 .col-0 {
   width: 0%; }
 
