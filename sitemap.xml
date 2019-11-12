@@ -9,15 +9,15 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
   <url>
-    <loc>https://www.paulletran.com/</loc>
+    <loc>https://paulletran.com/</loc>
     <lastmod>2019-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.paulletran.com/research/</loc>
+    <loc>https://paulletran.com/research/</loc>
     <lastmod>2019-11-01</lastmod>
   </url>
   <url>
-    <loc>https://www.paulletran.com/more</loc>
+    <loc>https://paulletran.com/more</loc>
     <lastmod>2019-11-01</lastmod>
   </url>
 </urlset>
