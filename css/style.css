@@ -182,7 +182,7 @@ textarea {
   background-color: #222222;
 }
 
-/* Hide the image so only the background image will be vissible */
+/* Hide the image so only the background image will be visible */
 .row-img img {
   opacity: 0;
   /* Making sure the webp images used are squares as desired. */
