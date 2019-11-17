@@ -1,7 +1,7 @@
 # Paul Le Tran dot com
 ===============================================================================
 
-Source code for a website showing the internet who I am. MIT Licenced. Contains a Google Drive link to my CV, unofficial transcript, and links to my Github. :octocat:
+Source code for a website showing the internet who I am. MIT Licenced. Also contains a Google Drive link to my CV and unofficial transcript.
 
 That's basically it.
 
