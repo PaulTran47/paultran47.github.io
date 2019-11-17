@@ -1,5 +1,5 @@
 # Paul Le Tran dot com
-================================================================================
+===============================================================================
 
 Source code for a website showing the internet who I am. MIT Licenced. Contains a Google Drive link to my CV, unofficial transcript, and links to my Github. :octocat:
 
@@ -8,7 +8,7 @@ That's basically it.
 View it here: [Paul Le Tran dot com](https://paulletran.com/)
 
 # Built using:
-================================================================================
+===============================================================================
 
 [HTML5](https://developers.google.com/web/)  
 [Pure CSS](https://www.w3.org/Style/CSS/Overview.en.html)
