@@ -1118,6 +1118,17 @@ p.no-bottom-margin {
 /** Research page **/
 /*******************/
 
+.page-research .container {}
+  @media (min-width: 800px) {
+    .container {
+      max-width: 1080px; } }
+
+.page-research .column {}
+  @media (min-width: 800px) {
+    .column {
+      float: left;
+      width: 50%; } }
+
 .page-research .section-text-color-shift { 
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
