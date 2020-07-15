@@ -428,6 +428,11 @@ textarea {
 .section-spacer {
   height: 100px; }
 
+@media (max-width: 800px) {
+  .section-spacer-home {
+    height: 180px; } }
+
+
 .padding-10 {
   padding: 10px; }
 
@@ -1124,7 +1129,7 @@ p.no-bottom-margin {
 @media (min-width: 800px) {
   .page-research .column {
     float: left;
-    width: 50%; } }
+    width: 33.33%; } }
 
 .page-research .section-text-color-shift { 
     -moz-transition: all .2s ease-in;
