@@ -1,14 +1,14 @@
 # Paul Le Tran dot com
-===============================================================================
+============================================================================
 
-Source code for a website showing the internet who I am. MIT Licenced. Also contains a Google Drive link to my CV and unofficial transcript.
+Repository hosting all assets and source code for the website showing the internet who I am. That's basically it.
 
-That's basically it.
+MIT Licenced.
 
 View it here: [Paul Le Tran dot com](https://paulletran.com/)
 
 # Built using:
-===============================================================================
+============================================================================
 
 [HTML5](https://developers.google.com/web/)  
 [Pure CSS](https://www.w3.org/Style/CSS/Overview.en.html)  
