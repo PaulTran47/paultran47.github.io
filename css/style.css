@@ -1321,10 +1321,6 @@ p.no-bottom-margin {
     .content-404 h1 span {
       color: #00F2FF; }
 
-.page-404 .site-menu a.special-link:hover {
-  -webkit-box-shadow: 0px -16px 0px 0px #00F2FF inset;
-          box-shadow: 0px -16px 0px 0px #00F2FF inset; }
-
 .page-404 a.special-link {
   display: inline;
   text-decoration: none;
@@ -1335,9 +1331,7 @@ p.no-bottom-margin {
   transition: -webkit-box-shadow 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out; }
-.page-404 a.special-link {
-  -webkit-box-shadow: 0px -3px 0px 0px #00F2FF inset;
-          box-shadow: 0px -3px 0px 0px #00F2FF inset; }
+  .site-menu a.special-link:hover,
   .page-404 a.special-link:hover {
     -webkit-box-shadow: 0px -16px 0px 0px #00F2FF inset;
             box-shadow: 0px -16px 0px 0px #00F2FF inset; }
