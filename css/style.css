@@ -793,10 +793,10 @@ p.no-bottom-margin {
 .box-decoration {
   border: 4px dotted #f1f1f1;
   margin-bottom: -112px;
-  height: 245px; }
+  height: 160px; }
   @media (min-width: 800px) {
     .box-decoration {
-      height: 200px; } }
+      height: 160px; } }
 
 .box-stripey {
   position: relative;
