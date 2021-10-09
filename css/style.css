@@ -1318,13 +1318,6 @@ p.no-bottom-margin {
     .content-404 h1 span {
       color: #00F2FF; }
 
-.page-404 .site-menu a.special-link {
-  -webkit-box-shadow: 0px -3px 0px 0px #00F2FF inset;
-          box-shadow: 0px -3px 0px 0px #00F2FF inset; }
-  .page-404 .site-menu a.special-link:hover {
-    -webkit-box-shadow: 0px -16px 0px 0px #00F2FF inset;
-            box-shadow: 0px -16px 0px 0px #00F2FF inset; }
-
 .page-404 a.special-link {
   display: inline;
   text-decoration: none;
@@ -1341,3 +1334,23 @@ p.no-bottom-margin {
   .page-404 a.special-link:hover {
     -webkit-box-shadow: 0px -16px 0px 0px #00F2FF inset;
             box-shadow: 0px -16px 0px 0px #00F2FF inset; }
+
+.menu-desktop .page-404 a.special-link {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 3px;
+  padding: 0px 4px;
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  -webkit-box-shadow: 0px 0px 0px 0px #00F2FF inset;
+          box-shadow: 0px 0px 0px 0px #00F2FF inset;
+  -webkit-transition: color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
+  transition: color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
+  transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out;
+  transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out; }
+  .menu-desktop .page-404 a.special-link:hover {
+    -webkit-box-shadow: 0px -17px 0px 0px #00F2FF inset;
+            box-shadow: 0px -17px 0px 0px #00F2FF inset;
+    color: rgba(0, 0, 0, 0.87); }
+  .menu-desktop .page-404 a.special-link span {
+    letter-spacing: 0px; }
