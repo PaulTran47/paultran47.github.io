@@ -864,6 +864,9 @@ p.no-bottom-margin {
 .ig-promo .read-prompt {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
 
+.github-promo .read-prompt {
+  background: radial-gradient(circle at 30% 107%, #000000 0%, #000000 5%, #000000 45%, #000000 60%, #000000 90%); }
+
 .articles-promo .read-prompt {
   background: #333;
   background: #ff0089; }
