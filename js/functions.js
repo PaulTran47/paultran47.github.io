@@ -1,29 +1,29 @@
-var $menuOpenIcon = $('.icon-menu'),
-    $menuCloseIcon = $('.icon-menu-close'),
-    $menuList = $('.site-menu'),
-    $menuOverlay = $('.site-menu-overlay');
+let $menuOpenIcon = document.querySelector('.icon-menu'),
+  $menuCloseIcon = document.querySelector('.icon-menu-close'),
+  $menuList = document.querySelector('.site-menu'),
+  $menuOverlay = document.querySelector('.site-menu-overlay');
 
-$menuOverlay.on('click', function(e){
+$menuOverlay.addEventListener('click', function(e){
   closeMenu();
 });
 
-$menuCloseIcon.on('click', function(e){
+$menuCloseIcon.addEventListener('click', function(e){
   closeMenu();
 });
 
-$menuOpenIcon.on('click', function(e){
+$menuOpenIcon.addEventListener('click', function(e){
   openMenu();
 });
 
 function closeMenu(){
-  $menuCloseIcon.addClass('hidden');
-  $menuList.addClass('hidden');
-  $menuOverlay.addClass('hidden');
+  $menuCloseIcon.classList.add('hidden');
+  $menuList.classList.add('hidden');
+  $menuOverlay.classList.add('hidden');
 }
 
 function openMenu() {
-  $menuCloseIcon.removeClass('hidden');
-  $menuList.removeClass('hidden');
-  $menuList.removeClass('hidden');
-  $menuOverlay.removeClass('hidden');
+  $menuCloseIcon.classList.remove("hidden");
+  $menuList.classList.remove("hidden");
+  $menuList.classList.remove("hidden");
+  $menuOverlay.classList.remove("hidden");
 }
