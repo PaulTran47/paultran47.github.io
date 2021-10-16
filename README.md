@@ -12,12 +12,12 @@ View it here: [Paul Le Tran dot com](https://paulletran.com/)
 # Built using:
 ============================================================================
 
-[HTML5](https://developers.google.com/web/)  
-[Pure CSS](https://www.w3.org/Style/CSS/Overview.en.html)  
-[Pure JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
-[Google Domains](https://domains.google/) for the awesome domain  
-[GitHub Pages](https://pages.github.com/) for hosting  
-[CloudFlare](https://www.cloudflare.com/) for the SSL cert and fancy green lock :lock:  
-[git](https://git-scm.com/) for source control
+[HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML);  
+[Pure CSS](https://developer.mozilla.org/en-US/docs/Web/CSS); 
+[Pure JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript);
+[Google Domains](https://domains.google/) for the awesome domain;
+[GitHub Pages](https://pages.github.com/) for hosting;
+[CloudFlare](https://www.cloudflare.com/) for the SSL cert and fancy green lock :lock:;
+[git](https://git-scm.com/) for source control.
 
 ============================================================================
