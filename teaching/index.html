@@ -10,10 +10,14 @@
     <link rel="canonical" href="https://paulletran.com/teaching/" />
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
+    <link rel="stylesheet" media="print" onload="this.onload=null; this.removeAttribute('media');" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
+    </noscript>
+    <link rel="stylesheet" href="/css/reset.css" media="print" onload="this.media='all'; this.onload=null;">
+    <link rel="stylesheet" href="/css/normalize.css" media="print" onload="this.media='all'; this.onload=null;">
+    <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all'; this.onload=null;">
     <script async src="/js/functions.js"></script>
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
