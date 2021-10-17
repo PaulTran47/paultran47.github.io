@@ -186,11 +186,9 @@ textarea {
   background-color: #222222;
 }
 
-/* Hide the image so only the background image will be visible */
+/* Make image inside div fill dimensions of div */
 .row-img img {
-  opacity: 0;
-  /* Making sure the webp images used are squares as desired. */
-  height: 0px;
+  height: 100%;
 }
 
 .col-0 {
@@ -1374,8 +1372,7 @@ p.no-bottom-margin {
 
 .page-more .thumbs > div {
   background-position: center;
-  background-size: cover;
-  padding-top: 33.33333%; }
+  background-size: cover; }
 
 .page-more .account-name {
   display: -webkit-box;
