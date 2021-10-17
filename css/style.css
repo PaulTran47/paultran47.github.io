@@ -151,6 +151,11 @@ textarea {
     .container {
       max-width: 648px; } }
 
+.lazy-img {
+  max-width: 100%;
+  width: 100%;
+}
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
