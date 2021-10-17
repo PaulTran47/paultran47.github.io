@@ -189,6 +189,7 @@ textarea {
 /* Make image inside div fill dimensions of div */
 .row-img img {
   height: 100%;
+  width: 100%;
 }
 
 .col-0 {
