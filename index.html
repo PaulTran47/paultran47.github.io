@@ -8,16 +8,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link rel="canonical" href="https://paulletran.com/" />
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
-    <link rel="stylesheet" media="print" onload="this.onload=null; this.removeAttribute('media');" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
-    <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
-    </noscript>
+    <!-- Async loading non-critical CSS -->
     <link rel="stylesheet" href="/css/reset.css" media="print" onload="this.media='all'; this.onload=null;">
     <link rel="stylesheet" href="/css/normalize.css" media="print" onload="this.media='all'; this.onload=null;">
-    <link rel="stylesheet" href="/css/style.css" media="print" onload="this.media='all'; this.onload=null;">
+    <!-- Inline critical CSS in style.css-->
+    <style type="text/css">
+      html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent;-webkit-text-decoration-skip:objects}svg:not(:root){overflow:hidden}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}.hide{display:none}@media (min-width:800px){.d-hide{display:none}.d-show{display:block}}*{-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}ul,li{margin:0;padding:0;list-style:none}.page-home a.special-link{display:inline;text-decoration:none;color:rgba(0,0,0,0.87);-webkit-box-shadow:0px -3px 0px 0px #00F2FF inset;box-shadow:0px -3px 0px 0px #00F2FF inset}.page-border-decoration{border:20px solid #F7F7F7;position:fixed;top:0;left:0;right:0;bottom:0;z-index:-1}@media (min-width:800px){.page-border-decoration{top:20px;left:20px;right:20px;bottom:20px}}.icon-menu{width:24px;height:24px;position:fixed;top:30px;left:30px;opacity:0.7}@media (min-width:800px){.icon-menu{top:50px;left:50px}}.menu-desktop{text-transform:uppercase;color:rgba(0,0,0,0.54);position:relative;margin:30px;line-height:1;letter-spacing:1.5px;margin:50px}.menu-desktop ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.menu-desktop li{margin-right:30px}.menu-desktop li:last-child{margin-right:0px}.menu-desktop a.special-link{text-transform:uppercase;font-size:13px;letter-spacing:3px;padding:0px 4px;color:rgba(0,0,0,0.3);text-decoration:none;-webkit-box-shadow:0px 0px 0px 0px #00F2FF inset;box-shadow:0px 0px 0px 0px #00F2FF inset}.menu-desktop a.special-link span{letter-spacing:0px}.page-home .menu-desktop .menu-name-home{display:none}
+    </style>
+    <style type="text/css">
+      body {
+        font-family: 'Roboto Mono', 'Courier New', monospace;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.87);
+      }
+    </style>
+    <style type="text/css">
+      @font-face {
+        font-family: 'Roboto Mono';
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/fonts/robotomono_700.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      @font-face {
+        font-family: 'Roboto Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/robotomono_400.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
+    <!-- Preloading non-critical CSS in style.css -->
+    <link rel="preload" href="/css/style.css" as="style">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Async loading JS -->
     <script async src="/js/functions.js"></script>
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
