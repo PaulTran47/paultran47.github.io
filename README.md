@@ -15,7 +15,7 @@ View it here: [Paul Le Tran dot com](https://paulletran.com/)
 Performance: 100;<br>
 Accessibility: 100;<br>
 Best Practices: 100;<br>
-SEO: 93;<br>
+SEO: 100;<br>
 
 [Full report](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fpaulletran.com%2F).
 
