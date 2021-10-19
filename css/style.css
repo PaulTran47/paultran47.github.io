@@ -519,6 +519,7 @@ p.no-bottom-margin {
   top: 30px;
   left: 30px;
   opacity: 0.7;
+  z-index: 3;
   -webkit-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
 }
@@ -731,6 +732,7 @@ p.no-bottom-margin {
   line-height: 1;
   letter-spacing: 1.5px;
   margin: 50px;
+  z-index: 3;
 }
 .menu-desktop ul {
   display: -webkit-box;
@@ -1046,11 +1048,11 @@ p.no-bottom-margin {
   z-index: 2;
 }
 .page-home .container {
-  margin-top: 65px;
+  margin-top: -130px;
 }
 @media (min-height: 700px) {
   .page-home .container {
-    margin-top: 0;
+    margin-top: -1px;
   }
 }
 .pt-title {
