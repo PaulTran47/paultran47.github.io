@@ -1049,6 +1049,7 @@ p.no-bottom-margin {
   box-shadow: 0 70px 40px -50px rgba(0, 0, 0, 0.2), 0 3px 20px rgba(0, 0, 0, 0.1);
 }
 .page-home .title-container {
+  margin-bottom: -53px;
   z-index: 2;
 }
 @media (min-height: 500px) {
