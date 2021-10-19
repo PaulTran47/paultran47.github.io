@@ -957,7 +957,7 @@ p.no-bottom-margin {
 .pagination .next-wrap {
   margin-bottom: -10px;
   z-index: 3;
-  position: realative;
+  position: relative;
 }
 .pagination .next-wrap:hover .next {
   -webkit-box-shadow: 0 40px 27px -20px rgba(0, 0, 0, 0.2), 0 3px 20px rgba(0, 0, 0, 0.1);
