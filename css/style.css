@@ -1253,7 +1253,7 @@ p.no-bottom-margin {
   color: rgba(0, 0, 0, 0.87);
 }
 .page-research .menu-desktop a {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.54);
   -webkit-box-shadow: 0 0 0 0 #ff5d5d inset;
   box-shadow: 0 0 0 0 #ff5d5d inset;
 }
@@ -1337,7 +1337,7 @@ p.no-bottom-margin {
   color: rgba(0, 0, 0, 0.87);
 }
 .page-teaching .menu-desktop a {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.54);
   -webkit-box-shadow: 0 0 0 0 #eb6b00 inset;
   box-shadow: 0 0 0 0 #eb6b00 inset;
 }
@@ -1402,7 +1402,7 @@ p.no-bottom-margin {
   color: rgba(0, 0, 0, 0.87);
 }
 .page-more .menu-desktop a {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.54);
   -webkit-box-shadow: 0 0 0 0 #ff0089 inset;
   box-shadow: 0 0 0 0 #ff0089 inset;
 }
@@ -1487,7 +1487,7 @@ p.no-bottom-margin {
   box-shadow: 0 -16px 0 0 #00f2ff inset;
 }
 .page-404 .menu-desktop a {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.54);
   -webkit-box-shadow: 0 0 0 0 #00f2ff inset;
   box-shadow: 0 0 0 0 #00f2ff inset;
 }
