@@ -25,19 +25,19 @@ Every other page design remains responsive since day one.
 
 To view the full reports, please visit [this directory](https://github.com/PaulTran47/paultran47.github.io/tree/master/lighthouse_reports) and paste the respective JSON file into the [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/).
 
-| Desktop         | Score/100 |
-|:----------------|:----------|
-| Performance:    | 100       |
-| Accessibility:  | 100       |
-| Best Practices: | 100       |
-| SEO:            | 100       |
-|:----------------|:----------|
-| Mobile          | Score/100 |
-|:----------------|:----------|
-| Performance:    | 100       |
-| Accessibility:  | 100       |
-| Best Practices: | 100       |
-| SEO:            | 100       |
+| Desktop         | Metric          | Score/100 |
+|:----------------|:----------------|:----------|
+| &nbsp;          | Performance:    | 100       |
+| &nbsp;          | Accessibility:  | 100       |
+| &nbsp;          | Best Practices: | 100       |
+| &nbsp;          | SEO:            | 100       |
+
+| Mobile          | Metric          | Score/100 |
+|:----------------|:----------------|:----------|
+| &nbsp;          | Performance:    | 100       |
+| &nbsp;          | Accessibility:  | 100       |
+| &nbsp;          | Best Practices: | 100       |
+| &nbsp;          | SEO:            | 100       |
 
 # Built using:
 =========================================================================
