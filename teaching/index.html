@@ -44,12 +44,13 @@
     </style>
     <!-- Async loading JS -->
     <script async src="/js/functions.js"></script>
+    <!-- Lightweight alternative to GA JS script: https://github.com/jehna/ga-lite -->
     <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-85626326-1', 'auto');
-      ga('send', 'pageview');
+      window.galite=window.galite||function(){(galite.q=galite.q||[]).push(arguments)};
+      galite('create', 'UA-85626326-1', 'auto');
+      galite('send', 'pageview');
     </script>
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <script async src="https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js"></script>
   </head>
   <body>
     <div class="page-border-decoration"></div>
