@@ -1069,7 +1069,7 @@ p.no-bottom-margin {
 }
 @media (min-height: 700px) {
   .page-home .container {
-    margin-top: -1px;
+    margin-top: -10px;
   }
 }
 @media (min-height: 700px) {

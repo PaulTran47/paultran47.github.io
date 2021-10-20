@@ -9,6 +9,17 @@ View it here: [Paul Le Tran dot com](https://paulletran.com/)
 
 ============================================================================
 
+# Website entirely responsive
+============================================================================
+
+As of 20 October, 2021, the home page is now completely scaled for almost all common, non-desktop screen resolutions (e.g., iPhone 5/SE, iPhone 6/7/8, iphone 6/7/8 Plus, iPhone X, iPad, iPad Pro, Surface Duo, Galaxy Fold, Nest Hub, Nest Hub Max, Nexus line, Pixel line, and Moto G4). This means the home page is unscrollable and its entire contents can be viewed as is.
+
+Only resolutions with heights less than that of the iPhone 5/SE will result in content being scrollable (better alternative than shrinking content too small to fit screen height).
+
+Every other page design remains responsive since day one.
+
+============================================================================
+
 # Google Lighthouse score
 ============================================================================
 
