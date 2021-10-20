@@ -20,15 +20,22 @@ Every other page design remains responsive since day one.
 
 =========================================================================
 
-# Google Lighthouse score
+# Google Lighthouse scores
 =========================================================================
 
+## Desktop:
 Performance: 100;<br>
 Accessibility: 100;<br>
 Best Practices: 100;<br>
 SEO: 100;<br>
 
-[Full report](https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fpaulletran.com%2F).
+## Mobile:
+Performance: 100;<br>
+Accessibility: 100;<br>
+Best Practices: 100;<br>
+SEO: 100;<br>
+
+To view the full reports, please visit [this directory](https://github.com/PaulTran47/paultran47.github.io/tree/master/lighthouse_scores) and paste the respective JSON file into the [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/).
 
 # Built using:
 =========================================================================
