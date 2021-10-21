@@ -815,7 +815,7 @@ p.no-bottom-margin {
 }
 .number-breakout {
   color: #ccc;
-  font-size: 76px;
+  font-size: 60px;
   line-height: 0;
   position: relative;
   top: -35px;
@@ -829,11 +829,11 @@ p.no-bottom-margin {
 .box-decoration {
   border: 4px dotted #f1f1f1;
   margin-bottom: -112px;
-  height: 160px;
+  height: 350px;
 }
 @media (min-width: 800px) {
   .box-decoration {
-    height: 160px;
+    height: 200px;
   }
 }
 .promo-box {
