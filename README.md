@@ -1,7 +1,11 @@
 # Paul Le Tran dot com
 =========================================================================
 
-Repository hosting all assets and source code for the website showing the internet who I am. That's basically it.
+Repository hosting all assets and source code for the website showing the internet who I am.
+
+Happy to say this is coded from scratch using only vanilla HTML5/CSS/JS, so it should be accessible for all programmers.
+
+That's basically it.
 
 MIT Licenced.
 
@@ -42,9 +46,9 @@ To view the full reports, please visit [this directory](https://github.com/PaulT
 # Built using:
 =========================================================================
 
-[HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML);<br>
-[Pure CSS](https://developer.mozilla.org/en-US/docs/Web/CSS);<br>
-[Pure JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript);<br>
+[Vanilla HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML);<br>
+[Vanilla CSS](https://developer.mozilla.org/en-US/docs/Web/CSS);<br>
+[Vanilla JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript);<br>
 [Google Domains](https://domains.google/) for the awesome domain;<br>
 [GitHub Pages](https://pages.github.com/) for hosting;<br>
 [CloudFlare](https://www.cloudflare.com/) for the SSL cert and fancy green lock :lock:;<br>
