@@ -1077,11 +1077,6 @@ p.no-bottom-margin {
     margin-top: -10px;
   }
 }
-@media (min-height: 700px) {
-  .pt-letter {
-    margin-top: -1px;
-  }
-}
 .pt-title {
   margin-left: 5px;
 }
