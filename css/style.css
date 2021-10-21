@@ -1052,19 +1052,24 @@ p.no-bottom-margin {
   margin-bottom: -53px;
   z-index: 2;
 }
-@media (min-height: 500px) {
+@media (min-height: 400px) {
   .page-home .container {
     margin-top: -160px;
   }
 }
+@media (min-height: 500px) {
+  .page-home .container {
+    margin-top: -110px;
+  }
+}
 @media (min-height: 600px) {
   .page-home .container {
-    margin-top: -115px;
+    margin-top: -90px;
   }
 }
 @media (min-height: 600px) and (width: 1024px) {
   .page-home .container {
-    margin-top: -45px;
+    margin-top: -10px;
   }
 }
 @media (min-height: 700px) {
