@@ -1,55 +1,28 @@
-/* http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain)*/
-a,
-b,
-body,
-center,
-dd,
-div,
-em,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-html,
-i,
-img,
-label,
-li,
-menu,
-output,
-p,
-q,
-s,
-section,
-span,
-strong,
-time,
-u,
-ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+    all: unset;
+    display: revert;
 }
-menu,
-section {
-  display: block;
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
-body {
-  line-height: 1;
+/* Remove list styles (bullets/numbers) */
+ol, ul {
+    list-style: none;
 }
-ul {
-  list-style: none;
+/* For images to not be able to exceed their container */
+img {
+    max-width: 100%;
 }
-q {
-  quotes: none;
+/* removes spacing between cells in tables */
+table {
+    border-collapse: collapse;
 }
-q:after,
-q:before {
-  content: "";
-  content: none;
+/* revert the 'white-space' property for textarea elements on Safari */
+textarea {
+    white-space: revert;
 }
