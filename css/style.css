@@ -29,6 +29,9 @@ progress {
 [hidden] {
   display: none;
 }
+small {
+  font-size: 12px;
+}
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
