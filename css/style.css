@@ -839,6 +839,9 @@ p.no-bottom-margin {
     height: 220px;
   }
 }
+.page-home .box-decoration {
+  height:  100px;
+}
 .promo-box {
   padding: 0;
   display: block;
