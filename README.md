@@ -18,8 +18,6 @@ View it here: [Paul Le Tran dot com](https://paulletran.com/)
 
 As of 21 October, 2021, the home page is now completely scaled for almost all common, non-desktop display resolutions (i.e., the home page is unscrollable and its entire contents can be viewed as is). This includes screens as small as the iPhone 4 to as large as the iPad Pro. Uncommon display resolutions such as the Galaxy Fold, Surface Duo, and Nest Hub are also supported.
 
-Only resolutions with heights less than that of the iPhone 4 will result in content being scrollable. This was a conscious decision made, as shrinking the content small enough to fit would result in said content to be unreadable or crash into each other.
-
 Every other page design remains responsive since day one.
 
 =========================================================================
@@ -29,7 +27,7 @@ Every other page design remains responsive since day one.
 
 To view the full reports, please visit [this directory](https://github.com/PaulTran47/paultran47.github.io/tree/master/lighthouse_reports) and paste the respective JSON file into the [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/).
 
-__Every single page has a Lighthouse score of 100/100 for both mobile and desktop.__ That includes the Github Pages for my [economics PhD app deadlines project](https://github.com/PaulTran47/econ-grad-app-deadlines).
+**Every single page has a Lighthouse score of 100/100 for both mobile and desktop resolutions**. That includes the Github Pages for my [economics PhD app deadlines project](https://github.com/PaulTran47/econ-grad-app-deadlines).
 
 # Built using:
 =========================================================================
