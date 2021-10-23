@@ -818,7 +818,7 @@ p.no-bottom-margin {
 }
 .number-breakout {
   color: #ccc;
-  font-size: 60px;
+  font-size: 55px;
   line-height: 0;
   position: relative;
   top: -35px;
@@ -962,7 +962,6 @@ p.no-bottom-margin {
   align-items: center;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
-  margin: 0 10px;
 }
 .pagination .next-wrap {
   margin-bottom: -10px;
