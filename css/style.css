@@ -872,7 +872,7 @@ p.no-bottom-margin {
 .ig-promo .read-prompt {
   background: radial-gradient(circle at 30% 107%, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 }
-.github-promo .read-prompt {
+.black-promo .read-prompt {
   background: radial-gradient(circle at 30% 107%, #000 0, #000 5%, #000 45%, #000 60%, #000 90%);
 }
 @-webkit-keyframes ctabounce1 {
