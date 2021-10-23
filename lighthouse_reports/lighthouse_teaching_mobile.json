@@ -1748,7 +1748,7 @@
                 "width": 59,
                 "height": 19
               },
-              "snippet": "<a href=\"https://github.com/PaulTran47/ECO384G\" class=\"special-link\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; ga('send', 'event', 'Gith…\">",
+              "snippet": "<a href=\"https://github.com/PaulTran47/ECO384G\" class=\"special-link\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; galite('send', 'event', 'Gith…\">",
               "nodeLabel": "Github."
             },
             "score": 0.004470393708455776
@@ -1926,7 +1926,7 @@
                 "width": 180,
                 "height": 56
               },
-              "snippet": "<a href=\"/research\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; ga('send', 'event', 'Pagi…\" class=\"next\">",
+              "snippet": "<a href=\"/research\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; galite('send', 'event', 'Pagi…\" class=\"next\">",
               "nodeLabel": "RESEARCH"
             },
             "subItems": {
@@ -1953,7 +1953,7 @@
                 "width": 180,
                 "height": 56
               },
-              "snippet": "<a href=\"/more\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; ga('send', 'event', 'Pagi…\" class=\"next\">",
+              "snippet": "<a href=\"/more\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; galite('send', 'event', 'Pagi…\" class=\"next\">",
               "nodeLabel": "MORE STUFF"
             },
             "subItems": {
@@ -1980,7 +1980,7 @@
                 "width": 180,
                 "height": 56
               },
-              "snippet": "<a href=\"https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; ga('send', 'event', 'Pagi…\" class=\"next\">",
+              "snippet": "<a href=\"https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; galite('send', 'event', 'Pagi…\" class=\"next\">",
               "nodeLabel": "CV"
             },
             "subItems": {
@@ -2007,7 +2007,7 @@
                 "width": 180,
                 "height": 56
               },
-              "snippet": "<a href=\"/\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; ga('send', 'event', 'Pagi…\" class=\"prev\">",
+              "snippet": "<a href=\"/\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; galite('send', 'event', 'Pagi…\" class=\"prev\">",
               "nodeLabel": "HOME"
             },
             "subItems": {

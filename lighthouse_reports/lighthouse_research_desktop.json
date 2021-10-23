@@ -1644,7 +1644,7 @@
                 "width": 540,
                 "height": 56
               },
-              "snippet": "<a href=\"/teaching\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; ga('send', 'event', 'Pagi…\" class=\"next\">",
+              "snippet": "<a href=\"/teaching\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; galite('send', 'event', 'Pagi…\" class=\"next\">",
               "nodeLabel": "TEACHING"
             },
             "subItems": {
@@ -1671,7 +1671,7 @@
                 "width": 540,
                 "height": 56
               },
-              "snippet": "<a href=\"/more\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; ga('send', 'event', 'Pagi…\" class=\"next\">",
+              "snippet": "<a href=\"/more\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; galite('send', 'event', 'Pagi…\" class=\"next\">",
               "nodeLabel": "MORE STUFF"
             },
             "subItems": {
@@ -1698,7 +1698,7 @@
                 "width": 540,
                 "height": 56
               },
-              "snippet": "<a href=\"https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; ga('send', 'event', 'Pagi…\" class=\"next\">",
+              "snippet": "<a href=\"https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; galite('send', 'event', 'Pagi…\" class=\"next\">",
               "nodeLabel": "CV"
             },
             "subItems": {
@@ -1725,7 +1725,7 @@
                 "width": 540,
                 "height": 56
               },
-              "snippet": "<a href=\"/\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; ga('send', 'event', 'Pagi…\" class=\"prev\">",
+              "snippet": "<a href=\"/\" onclick=\"if (!window.__cfRLUnblockHandlers) return false; galite('send', 'event', 'Pagi…\" class=\"prev\">",
               "nodeLabel": "HOME"
             },
             "subItems": {
