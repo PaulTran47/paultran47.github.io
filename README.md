@@ -24,26 +24,12 @@ Every other page design remains responsive since day one.
 
 =========================================================================
 
-# Google Lighthouse (v8.5.0) scores
+# Google Lighthouse scores
 =========================================================================
 
 To view the full reports, please visit [this directory](https://github.com/PaulTran47/paultran47.github.io/tree/master/lighthouse_reports) and paste the respective JSON file into the [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/).
 
-__Every single page has a Lighthouse score of 100/100.__
-
-| Desktop         | Metric         | Score/100 |
-|:----------------|:---------------|:----------|
-| &nbsp;          | Performance    | 100       |
-| &nbsp;          | Accessibility  | 100       |
-| &nbsp;          | Best Practices | 100       |
-| &nbsp;          | SEO:           | 100       |
-
-| Mobile          | Metric         | Score/100 |
-|:----------------|:---------------|:----------|
-| &nbsp;          | Performance    | 100       |
-| &nbsp;          | Accessibility  | 100       |
-| &nbsp;          | Best Practices | 100       |
-| &nbsp;          | SEO            | 100       |
+__Every single page has a Lighthouse score of 100/100 for both mobile and desktop.__ That includes the Github Pages for my [economics PhD app deadlines project](https://github.com/PaulTran47/econ-grad-app-deadlines).
 
 # Built using:
 =========================================================================
