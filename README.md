@@ -29,7 +29,7 @@ Every other page design remains responsive since day one.
 
 To view the full reports, please visit [this directory](https://github.com/PaulTran47/paultran47.github.io/tree/master/lighthouse_reports) and paste the respective JSON file into the [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/).
 
-Every single page has a Lighthouse score of 100/100.
+__Every single page has a Lighthouse score of 100/100.__
 
 | Desktop         | Metric         | Score/100 |
 |:----------------|:---------------|:----------|
