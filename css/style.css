@@ -1163,11 +1163,22 @@ p.no-bottom-margin {
   fill: none;
 }
 .social-icon .social-icon-fill-2 {
-  fill: rgba(0, 0, 0, 0.4);
+  fill: rgba(0, 0, 0, 0.87);
   -webkit-transition: fill 0.2s ease-in-out;
   transition: fill 0.2s ease-in-out;
 }
 .social-icon:hover .social-icon-fill-2 {
+  fill: #00f2ff;
+}
+.social-icon .social-icon-fill-1-menu-mobile {
+  fill: none;
+}
+.social-icon .social-icon-fill-2-menu-mobile {
+  fill: rgba(0, 0, 0, 0.87);
+  -webkit-transition: fill 0.2s ease-in-out;
+  transition: fill 0.2s ease-in-out;
+}
+.social-icon:hover .social-icon-fill-2-menu-mobile {
   fill: #00f2ff;
 }
 .social-icon a {
@@ -1274,6 +1285,9 @@ p.no-bottom-margin {
 .page-research a {
   color: #ff1400;
 }
+.page-research .social-icon:hover .social-icon-fill-2-menu-mobile {
+  fill: #ff5d5d;
+}
 @media (min-width: 800px) {
   .page-teaching .container {
     max-width: 1080px;
@@ -1355,8 +1369,8 @@ p.no-bottom-margin {
 .page-teaching .title-container svg {
   margin-left: 10px;
 }
-.page-teaching a {
-  color: #ff7400;
+.page-teaching .social-icon:hover .social-icon-fill-2-menu-mobile {
+  fill: #eb6b00;
 }
 .page-more a {
   color: #ff0089;
@@ -1419,6 +1433,9 @@ p.no-bottom-margin {
 }
 .page-more .social-icon-fill-2 {
   fill: #fff;
+}
+.page-more .social-icon:hover .social-icon-fill-2-menu-mobile {
+  fill: #ff0089;
 }
 .page-more .behind-box {
   margin-bottom: -40px;
