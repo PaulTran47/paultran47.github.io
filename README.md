@@ -13,7 +13,7 @@
     </li>
     <li><a href="#built-with">Built with</a></li>
     <li><a href="#google-lighthouse-scores">Google Lighthouse scores</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#acknowledgements">Acknowledgments</a></li>
   </ul>
 </details>
 
@@ -94,12 +94,13 @@ To view the full reports, please visit [this subdirectory](https://github.com/Pa
 
 =========================================================================
 
-### Acknowledgments
+### Acknowledgements
 =========================================================================
 
 Below are the awesome Github repos that made optimisation of my website possible:
 
 * [Autoprefixer CSS](https://github.com/postcss/autoprefixer);
+* [google-webfonts-helper](https://github.com/majodev/google-webfonts-helper);
 * [remedy.css](https://github.com/jensimmons/cssremedy);
 * [reset.css](https://elad2412.github.io/the-new-css-reset/);
 * [Lightweight Google Analytics JS](https://github.com/jehna/ga-lite).
