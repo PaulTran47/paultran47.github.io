@@ -54,7 +54,10 @@ Below are some features of my website that I feel are noteworthy:
     * All graphics are lazily loaded for minimal FOIT.
   * HTML5 and CSS code pass the W3C validator with no errors.
     * An exception is the "line-sizing" CSS property in remedy.css. This is only a CSSWG draft, but is still included for futureproofing.
-  * __Every website page has a Google Lighthouse score of 100/100 on both mobile and desktop platforms__.
+
+* __Every website page has a Google Lighthouse score of 100/100 on both mobile and desktop platforms__.
+
+* Favicon support for every platform (with different favicon embedded for night mode support).
 
 <p align="right">
   (<a href="#paul-le-tran-dot-com">back to top.</a>)
@@ -103,7 +106,8 @@ Below are the awesome Github repos that made optimisation of my website possible
 * [google-webfonts-helper](https://github.com/majodev/google-webfonts-helper);
 * [remedy.css](https://github.com/jensimmons/cssremedy);
 * [reset.css](https://elad2412.github.io/the-new-css-reset/);
-* [Lightweight Google Analytics JS](https://github.com/jehna/ga-lite).
+* [Lightweight Google Analytics JS](https://github.com/jehna/ga-lite);
+* [Real Favicon Generator](https://github.com/RealFaviconGenerator).
 
 <p align="right">
   (<a href="#paul-le-tran-dot-com">back to top.</a>)
