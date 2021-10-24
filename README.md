@@ -4,28 +4,17 @@
 
 <details>
   <summary>Table of Contents</summary>
-  <ol>
+  <ul>
     <li>
       <a href="#overview">Overview</a>
       <ul>
         <li><a href="#notable-features">Notable features</a></li>
-        <li><a href="#built-with">Built with</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#built-with">Built with</a></li>
+    <li><a href="#google-lighthouse-scores">Google Lighthouse scores</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
+  </ul>
 </details>
 
 =========================================================================
@@ -55,7 +44,7 @@ Below are some features of my website that I feel are noteworthy:
 * Every website page is designed to be responsive for almost all common display resolutions, both desktop and mobile.
   * This includes displays as small as the iPhone4 to as large as widescreen desktop monitors.
   * Uncommon display resolutions such as the Galaxy Fold, Surface Duo, and Nest Hub are also supported.
-  
+
 * Every website page is optimised for slow connections (e.g., 3G network connections). This is achieved by:
   * Having all HTML5/CSS/JS files auto-minified upon user delivery;
   * Critical CSS for initial rendering of every page is inlined in the head tags.
@@ -92,12 +81,28 @@ Below are some features of my website that I feel are noteworthy:
 
 =========================================================================
 
-# Google Lighthouse scores
+### Google Lighthouse scores
 =========================================================================
 
 100/100 for every website page on both mobile and desktop platforms. You can't get anymore optimised than that.
 
 To view the full reports, please visit [this subdirectory](https://github.com/PaulTran47/paultran47.github.io/tree/master/lighthouse_reports) and paste the respective JSON file into the [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/).
+
+<p align="right">
+  (<a href="#paul-le-tran-dot-com">back to top.</a>)
+</p>
+
+=========================================================================
+
+### Acknowledgements
+=========================================================================
+
+Below are the awesome Github repos that made optimisation of my website possible:
+
+* [Autoprefixer CSS](https://github.com/postcss/autoprefixer);
+* [remedy.css](https://github.com/jensimmons/cssremedy);
+* [reset.css](https://elad2412.github.io/the-new-css-reset/);
+* [Lightweight Google Analytics JS](https://github.com/jehna/ga-lite).
 
 <p align="right">
   (<a href="#paul-le-tran-dot-com">back to top.</a>)
