@@ -1104,7 +1104,7 @@ p.no-bottom-margin {
 }
 @media (max-width: 300px) {
   .title-container {
-    padding-bottom: 14%;
+    padding-bottom: 3%;
   }
 }
 @media (min-width: 800px) and (max-height: 600px) {
