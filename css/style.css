@@ -840,11 +840,11 @@ p.no-bottom-margin {
   }
 }
 .page-home .box-decoration {
-  height: 110px;
+  height: 150px;
 }
 @media (min-width: 800px) {
   .page-home .box-decoration {
-    height: 150px;
+    height: 110px;
   }
 }
 .promo-box {
