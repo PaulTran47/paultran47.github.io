@@ -51,9 +51,11 @@ View it here: [Paul Le Tran dot com](https://paulletran.com/)
 Below are some features of my website that I feel are noteworthy:
 
 * The website source code is entirely vanilla HTML5, CSS, and JS. This was consciously done to make the source code (and all of its mistakes) completely understandable to all programmers.
+
 * Every website page is designed to be responsive for almost all common display resolutions, both desktop and mobile.
   * This includes displays as small as the iPhone4 to as large as widescreen desktop monitors.
   * Uncommon display resolutions such as the Galaxy Fold, Surface Duo, and Nest Hub are also supported.
+  
 * Every website page is optimised for slow connections (e.g., 3G network connections). This is achieved by:
   * Having all HTML5/CSS/JS files auto-minified upon user delivery;
   * Critical CSS for initial rendering of every page is inlined in the head tags.
