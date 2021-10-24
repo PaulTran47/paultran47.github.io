@@ -488,6 +488,7 @@ strong {
   box-shadow: 0 -3px 0 0 #005d62 inset;
   -webkit-transition: -webkit-box-shadow 150ms ease-in-out;
   transition: -webkit-box-shadow 150ms ease-in-out;
+  -o-transition: box-shadow 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
 }
@@ -529,6 +530,7 @@ p.no-bottom-margin {
   opacity: 0.7;
   z-index: 3;
   -webkit-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
 }
 @media (min-width: 800px) {
@@ -625,12 +627,14 @@ p.no-bottom-margin {
   animation: bounce-out 0.4s ease-in-out;
   -webkit-transition: -webkit-transform 150ms ease-in-out;
   transition: -webkit-transform 150ms ease-in-out;
+  -o-transition: transform 150ms ease-in-out;
   transition: transform 150ms ease-in-out;
   transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
 }
 .icon-menu-close:hover {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+      transform: scale(1.1);
 }
 .icon-menu-close.hidden {
   display: none;
@@ -656,9 +660,11 @@ p.no-bottom-margin {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   -webkit-transform: scale(0);
-  transform: scale(0);
+  -ms-transform: scale(0);
+      transform: scale(0);
   -webkit-transform-origin: top left;
-  transform-origin: top left;
+  -ms-transform-origin: top left;
+      transform-origin: top left;
   z-index: 9;
 }
 @media (min-width: 800px) {
@@ -693,6 +699,7 @@ p.no-bottom-margin {
   background: rgba(0, 0, 0, 0.15);
   z-index: 8;
   -webkit-transition: background 0.2s ease-in-out;
+  -o-transition: background 0.2s ease-in-out;
   transition: background 0.2s ease-in-out;
 }
 .site-menu-overlay.hidden {
@@ -767,6 +774,7 @@ p.no-bottom-margin {
   box-shadow: 0 0 0 0 #005d62 inset;
   -webkit-transition: color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
   transition: color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
+  -o-transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
 }
@@ -800,6 +808,7 @@ p.no-bottom-margin {
   box-shadow: 0 0 0 0 #00ffa7 inset;
   -webkit-transition: color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
   transition: color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
+  -o-transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
 }
@@ -878,9 +887,11 @@ p.no-bottom-margin {
   left: -33px;
 }
 .ig-promo .read-prompt {
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
   background: radial-gradient(circle at 30% 107%, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 }
 .black-promo .read-prompt {
+  background: -o-radial-gradient(30% 107%, circle, #000 0, #000 5%, #000 45%, #000 60%, #000 90%);
   background: radial-gradient(circle at 30% 107%, #000 0, #000 5%, #000 45%, #000 60%, #000 90%);
 }
 @-webkit-keyframes ctabounce1 {
@@ -969,6 +980,7 @@ p.no-bottom-margin {
   -ms-flex-align: center;
   align-items: center;
   -webkit-transition: all 150ms ease-in-out;
+  -o-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
 }
 .pagination .next-wrap {
@@ -987,6 +999,7 @@ p.no-bottom-margin {
   background: #fff;
   position: relative;
   -webkit-transition: all 150ms ease-in-out;
+  -o-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
   top: 0;
   -webkit-box-pack: end;
@@ -1010,6 +1023,7 @@ p.no-bottom-margin {
   position: relative;
   top: 0;
   -webkit-transition: top 150ms ease-in-out;
+  -o-transition: top 150ms ease-in-out;
   transition: top 150ms ease-in-out;
 }
 .pagination .prev:hover {
@@ -1048,6 +1062,7 @@ p.no-bottom-margin {
   background-size: contain;
   background-repeat: no-repeat;
   -webkit-transition: all 150ms ease-in-out;
+  -o-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
   pointer-events: none;
 }
@@ -1172,6 +1187,7 @@ p.no-bottom-margin {
 .social-icon .social-icon-fill-2 {
   fill: rgba(0, 0, 0, 0.87);
   -webkit-transition: fill 0.2s ease-in-out;
+  -o-transition: fill 0.2s ease-in-out;
   transition: fill 0.2s ease-in-out;
 }
 .social-icon:hover .social-icon-fill-2 {
@@ -1183,6 +1199,7 @@ p.no-bottom-margin {
 .social-icon .social-icon-fill-2-menu-mobile {
   fill: rgba(0, 0, 0, 0.87);
   -webkit-transition: fill 0.2s ease-in-out;
+  -o-transition: fill 0.2s ease-in-out;
   transition: fill 0.2s ease-in-out;
 }
 .social-icon:hover .social-icon-fill-2-menu-mobile {
@@ -1252,6 +1269,7 @@ p.no-bottom-margin {
   box-shadow: 0 -3px 0 0 #ff5d5d inset;
   -webkit-transition: -webkit-box-shadow 150ms ease-in-out;
   transition: -webkit-box-shadow 150ms ease-in-out;
+  -o-transition: box-shadow 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
 }
@@ -1339,6 +1357,7 @@ p.no-bottom-margin {
   box-shadow: 0 -3px 0 0 #eb6b00 inset;
   -webkit-transition: -webkit-box-shadow 150ms ease-in-out;
   transition: -webkit-box-shadow 150ms ease-in-out;
+  -o-transition: box-shadow 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
 }
@@ -1404,6 +1423,7 @@ p.no-bottom-margin {
   box-shadow: 0 -3px 0 0 #af005e inset;
   -webkit-transition: -webkit-box-shadow 150ms ease-in-out;
   transition: -webkit-box-shadow 150ms ease-in-out;
+  -o-transition: box-shadow 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
 }
@@ -1502,6 +1522,7 @@ p.no-bottom-margin {
   box-shadow: 0 -3px 0 0 #005d62 inset;
   -webkit-transition: -webkit-box-shadow 150ms ease-in-out;
   transition: -webkit-box-shadow 150ms ease-in-out;
+  -o-transition: box-shadow 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out;
   transition: box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
 }
