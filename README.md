@@ -94,7 +94,7 @@ To view the full reports, please visit [this subdirectory](https://github.com/Pa
 
 =========================================================================
 
-### Acknowledgements
+### Acknowledgments
 =========================================================================
 
 Below are the awesome Github repos that made optimisation of my website possible:
