@@ -74,7 +74,5 @@ User-agent: Yeti
 User-agent: YioopBot
 User-agent: yoozBot
 User-agent: YoudaoBot
-Allow: /
-User-agent: *
-Disallow: /
+Disallow:
 Sitemap: https://www.paulletran.com/sitemap.xml
