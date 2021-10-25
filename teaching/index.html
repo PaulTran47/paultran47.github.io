@@ -70,23 +70,37 @@
     </style>
     <!-- Async loading JS -->
     <script async src="/js/functions.js"></script>
-    <!-- Lightweight alternative to GA JS script: https://github.com/jehna/ga-lite -->
+    <!-- Minimal GA JS snippet (1.5kb): https://minimalanalytics.com/ -->
     <script>
-      window.galite=window.galite||function(){(galite.q=galite.q||[]).push(arguments)};
-      galite('create', 'UA-85626326-1', 'auto');
-      galite('send', 'pageview');
+      (function(a,b,c){var d=a.history,e=document,f=navigator||{},g=localStorage,
+      h=encodeURIComponent,i=d.pushState,k=function(){return Math.random().toString(36)},
+      l=function(){return g.cid||(g.cid=k()),g.cid},m=function(r){var s=[];for(var t in r)
+      r.hasOwnProperty(t)&&void 0!==r[t]&&s.push(h(t)+"="+h(r[t]));return s.join("&")},
+      n=function(r,s,t,u,v,w,x){var z="https://www.google-analytics.com/collect",
+      A=m({v:"1",ds:"web",aip:c.anonymizeIp?1:void 0,tid:b,cid:l(),t:r||"pageview",
+      sd:c.colorDepth&&screen.colorDepth?screen.colorDepth+"-bits":void 0,dr:e.referrer||
+      void 0,dt:e.title,dl:e.location.origin+e.location.pathname+e.location.search,ul:c.language?
+      (f.language||"").toLowerCase():void 0,de:c.characterSet?e.characterSet:void 0,
+      sr:c.screenSize?(a.screen||{}).width+"x"+(a.screen||{}).height:void 0,vp:c.screenSize&&
+      a.visualViewport?(a.visualViewport||{}).width+"x"+(a.visualViewport||{}).height:void 0,
+      ec:s||void 0,ea:t||void 0,el:u||void 0,ev:v||void 0,exd:w||void 0,exf:"undefined"!=typeof x&&
+      !1==!!x?0:void 0});if(f.sendBeacon)f.sendBeacon(z,A);else{var y=new XMLHttpRequest;
+      y.open("POST",z,!0),y.send(A)}};d.pushState=function(r){return"function"==typeof d.onpushstate&&
+      d.onpushstate({state:r}),setTimeout(n,c.delay||10),i.apply(d,arguments)},n(),
+      a.ma={trackEvent:function o(r,s,t,u){return n("event",r,s,t,u)},
+      trackException:function q(r,s){return n("exception",null,null,null,null,r,s)}}})
+      (window,"UA-85626326-1",{anonymizeIp:true,colorDepth:true,characterSet:true,screenSize:true,language:true});
     </script>
-    <script async src="https://cdn.jsdelivr.net/npm/ga-lite@2/dist/ga-lite.min.js"></script>
   </head>
   <body>
     <div class="page-border-decoration"></div>
     <div class="menu-desktop hide d-show">
       <ul>
-        <li class="menu-name-home"><a href="/" onclick="galite('send', 'event', 'Desktop Menu', 'Click', 'Home');" class="special-link" title="Home">Hom<span>e</span></a></li>
-        <li class="menu-name-research"><a href="/research" onclick="galite('send', 'event', 'Desktop Menu', 'Click', 'Research');" class="special-link" title="Research">Researc<span>h</span></a></li>
-        <li class="menu-name-teaching"><a href="/teaching" onclick="galite('send', 'event', 'Desktop Menu', 'Click', 'Teaching');" class="special-link" title="Teaching">Teachin<span>g</span></a></li>
-        <li class="menu-name-cv"><a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="galite('send', 'event', 'Desktop Menu', 'Click', 'CV');" class="special-link" title="CV">C<span>V</span></a></li>
-        <li class="menu-name-more"><a href="/more" onclick="galite('send', 'event', 'Desktop Menu', 'Click', 'More');" class="special-link" title="More stuff">More Stuf<span>f</span></a></li>
+        <li class="menu-name-home"><a href="/" onclick="ma.trackEvent('Desktop Menu', 'Click', 'Home');" class="special-link" title="Home">Hom<span>e</span></a></li>
+        <li class="menu-name-research"><a href="/research" onclick= "ma.trackEvent('Desktop Menu', 'Click', 'Research');" class="special-link" title="Research">Researc<span>h</span></a></li>
+        <li class="menu-name-teaching"><a href="/teaching" onclick="ma.trackEvent('Desktop Menu', 'Click', 'Teaching');" class="special-link" title="Teaching">Teachin<span>g</span></a></li>
+        <li class="menu-name-cv"><a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="ma.trackEvent('Desktop Menu', 'Click', 'CV');" class="special-link" title="CV">C<span>V</span></a></li>
+        <li class="menu-name-more"><a href="/more" onclick="ma.trackEvent('Desktop Menu', 'Click', 'More stuff');" class="special-link" title="More stuff">More Stuf<span>f</span></a></li>
       </ul>
     </div>
     <div class="menu-mobile d-hide">
@@ -123,15 +137,15 @@
       </div>
       <div class="site-menu hidden">
         <ul>
-          <li class="menu-name-home"><a href="/" onclick="galite('send', 'event', 'Mobile Menu', 'Click', 'Home');" class="special-link" title="Home">Hom<span>e</span></a></li>
-          <li class="menu-name-research"><a href="/research" onclick="galite('send', 'event', 'Mobile Menu', 'Click', 'Research');" class="special-link" title="Research">Researc<span>h</span></a></li>
-          <li class="menu-name-teaching"><a href="/teaching" onclick="galite('send', 'event', 'Mobile Menu', 'Click', 'Teaching');" class="special-link" title="Teaching">Teachin<span>g</span></a></li>
-          <li class="menu-name-cv"><a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="galite('send', 'event', 'Mobile Menu', 'Click', 'CV');" class="special-link" title="CV">C<span>V</span></a></li>
-          <li class="menu-name-more"><a href="/more" onclick="galite('send', 'event', 'Mobile Menu', 'Click', 'More');" class="special-link" title="More stuff">More Stuf<span>f</span></a></li>
+          <li class="menu-name-home"><a href="/" onclick="ma.trackEvent('Mobile Menu', 'Click', 'Home');" class="special-link" title="Home">Hom<span>e</span></a></li>
+          <li class="menu-name-research"><a href="/research" onclick="ma.trackEvent('Mobile Menu', 'Click', 'Research');" class="special-link" title="Research">Researc<span>h</span></a></li>
+          <li class="menu-name-teaching"><a href="/teaching" onclick="ma.trackEvent('Mobile Menu', 'Click', 'Teaching');" class="special-link" title="Teaching">Teachin<span>g</span></a></li>
+          <li class="menu-name-cv"><a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="ma.trackEvent('Mobile Menu', 'Click', 'CV');" class="special-link" title="CV">C<span>V</span></a></li>
+          <li class="menu-name-more"><a href="/more" onclick="ma.trackEvent('Mobile Menu', 'Click', 'More stuff');" class="special-link" title="More stuff">More Stuf<span>f</span></a></li>
           <li>
             <div class="social-icons">
               <div class="social-icon">
-                <a href="https://github.com/PaulTran47" title="Github">
+                <a href="https://github.com/PaulTran47" onclick="ma.trackEvent('Mobile menu', 'Click', 'Github profile');" title="Github profile">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <title id="github-icon-title-menu-mobile">Github icon</title>
                     <desc id="github-icon-desc-menu-mobile">The Github logo icon.</desc>
@@ -143,7 +157,7 @@
                 </a>
               </div>
               <div class="social-icon">
-                <a href="https://www.instagram.com/tranlephu/" title="Instagram">
+                <a href="https://www.instagram.com/tranlephu/" onclick="ma.trackEvent('Mobile menu', 'Click', 'Instagram');" title="Instagram">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <title id="instagram-icon-title-menu-mobile">Instagram icon</title>
                       <desc id="instagram-icon-desc-menu-mobile">The Instagram logo icon.</desc>
@@ -155,7 +169,7 @@
                 </a>
               </div>
               <div class="social-icon">
-                <a href="mailto:pltran@utexas.edu" title="Send an email">
+                <a href="mailto:pltran@utexas.edu" onclick="ma.trackEvent('Mobile menu', 'Click', 'Send email to UT Gmail');" title="Send an email">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <title id="mail-icon-title-menu-mobile">Mail icon</title>
                       <desc id="mail-icon-desc-menu-mobile">Mail icon.</desc>
@@ -185,9 +199,9 @@
             <strong>Resources</strong>
           </p>
           <ul class="bulleted spaced">
-            <li>ECO384G (Business Cycle Analysis): Problem sets and solutions/code are provided. <a href="https://github.com/PaulTran47/ECO384G" class="special-link" onclick="galite('send', 'event', 'Github repo', 'Click', 'Github repo for ECO384G');" title="Github repo for ECO384G">Github.</a></li>
-            <li>ECO385K (Advanced Macro Labour I): Problem sets and solutions/code are provided. <a href="https://github.com/PaulTran47/ECO385K" class="special-link" onclick="galite('send', 'event', 'Github repo', 'Click', 'Github repo for ECO385K');" title="Github repo for ECO385K">Github.</a></li>
-            <li>ECO388E (Structural Econometrics): Problem sets and solutions/code are provided. <a href="https://github.com/PaulTran47/ECO388E" class="special-link" onclick="galite('send', 'event', 'Github repo', 'Click', 'Github repo for ECO388E');" title="Github repo for ECO388E">Github.</a></li>
+            <li>ECO384G (Business Cycle Analysis): Problem sets and solutions/code are provided. <a href="https://github.com/PaulTran47/ECO384G" class="special-link" onclick="ma.trackEvent('Github repo', 'Click', 'Github repo for ECO384G');" title="Github repo for ECO384G">Github.</a></li>
+            <li>ECO385K (Advanced Macro Labour I): Problem sets and solutions/code are provided. <a href="https://github.com/PaulTran47/ECO385K" class="special-link" onclick="ma.trackEvent('Github repo', 'Click', 'Github repo for ECO385K');" title="Github repo for ECO385K">Github.</a></li>
+            <li>ECO388E (Structural Econometrics): Problem sets and solutions/code are provided. <a href="https://github.com/PaulTran47/ECO388E" class="special-link" onclick="ma.trackEvent('Github repo', 'Click', 'Github repo for ECO388E');" title="Github repo for ECO388E">Github.</a></li>
           </ul>
         </div>
       </div>
@@ -233,7 +247,7 @@
         </div>
         <div class="row">
           <div class="col-6 push-5 pull-1 next-wrap">
-            <a href="/research" onclick="galite('send', 'event', 'Pagination Menu', 'Click', 'Research');" class="next" title="Research next"><span>Research</span><?xml version="1.0" encoding="utf-8"?>
+            <a href="/research" onclick="ma.trackEvent('Pagination menu', 'Click', 'Research');" class="next" title="Research next"><span>Research</span><?xml version="1.0" encoding="utf-8"?>
               <svg version="1.1" id="Layer_1_Research" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" fill="#000000">
                 <title id="next-icon-title-research">Next icon</title>
                 <desc id="next-icon-desc-research">A chevron pointing right for next.</desc>
@@ -245,7 +259,7 @@
         </div>
         <div class="row">
           <div class="col-6 push-5 pull-1 next-wrap">
-            <a href="/more" onclick="galite('send', 'event', 'Pagination Menu', 'Click', 'More');" class="next" title="More stuff next"><span>More Stuff</span><?xml version="1.0" encoding="utf-8"?>
+            <a href="/more" onclick="ma.trackEvent('Pagination menu', 'Click', 'More stuff');" class="next" title="More stuff next"><span>More stuff</span><?xml version="1.0" encoding="utf-8"?>
               <svg version="1.1" id="Layer_1_More" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" fill="#000000">
                 <title id="next-icon-title-more">Next icon</title>
                 <desc id="next-icon-desc-more">A chevron pointing right for next.</desc>
@@ -257,7 +271,7 @@
         </div>
         <div class="row">
           <div class="col-6 push-5 pull-1 next-wrap">
-            <a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="galite('send', 'event', 'Pagination Menu', 'Click', 'CV');" class="next" title="CV next"><span>CV</span><?xml version="1.0" encoding="utf-8"?>
+            <a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="ma.trackEvent('Pagination menu', 'Click', 'CV');" class="next" title="CV next"><span>CV</span><?xml version="1.0" encoding="utf-8"?>
               <svg version="1.1" id="Layer_1_CV" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" fill="#000000">
                 <title id="next-icon-title-cv">Next icon</title>
                 <desc id="next-icon-desc-cv">A chevron pointing right for next.</desc>
@@ -269,7 +283,7 @@
         </div>
         <div class="row">
           <div class="col-6 push-1 pull-5">
-            <a href="/" onclick="galite('send', 'event', 'Pagination Menu', 'Click', 'Prev');" class="prev" title="Home previous"><?xml version="1.0" encoding="utf-8"?>
+            <a href="/" onclick="ma.trackEvent('Pagination menu', 'Click', 'Prev');" class="prev" title="Home previous"><?xml version="1.0" encoding="utf-8"?>
             <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" fill="#000000">
                 <title id="prev-icon-title">Previous icon</title>
@@ -285,7 +299,7 @@
       <div style="height: 10px" class="section-spacer"></div>
       <footer class="row">
         <div class="col-8 push-2 pull-2 col-d-8 push-d-3 pull-d-4">
-          <small>Published with <a href="https://pages.github.com" class="special-link" onclick="galite('send', 'event', 'Bottom Disclaimer Section', 'Click', 'GitHub Pages');" title="GitHub Pages">GitHub Pages</a>. &#9400; 2021 by <a href="https://github.com/PaulTran47" class="special-link" onclick="galite('send', 'event', 'Bottom Disclaimer Section', 'Click', 'Github');" title="Github">Paul Le Tran</a> under the terms of the <a href="https://github.com/PaulTran47/paultran47.github.io/blob/master/LICENCE.md" class="special-link" onclick="galite('send', 'event', 'Bottom Disclaimer Section', 'Click', 'MIT Licence');" title="MIT Licence">MIT Licence</a>.</small>
+          <small>Published with <a href="https://pages.github.com" class="special-link" onclick="ma.trackEvent('Bottom disclaimer section', 'Click', 'Github Pages');" title="GitHub Pages">GitHub Pages</a>. &#9400; 2021 by <a href="https://github.com/PaulTran47" class="special-link" onclick="ma.trackEvent('Bottom disclaimer section', 'Click', 'Github profile');" title="Github profile">Paul Le Tran</a> under the terms of the <a href="https://github.com/PaulTran47/paultran47.github.io/blob/master/LICENCE.md" class="special-link" onclick="ma.trackEvent('Bottom disclaimer section', 'Click', 'MIT Licence');" title="MIT Licence">MIT Licence</a>.</small>
         </div>
       </footer>
       <div style="height: 50px" class="section-spacer"></div>
