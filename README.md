@@ -107,7 +107,8 @@ Below are the awesome Github repos that made optimisation of my website possible
 * [remedy.css](https://github.com/jensimmons/cssremedy);
 * [reset.css](https://elad2412.github.io/the-new-css-reset/);
 * [Minimal Google Analytics Snippet with localstorage support](https://gist.github.com/aym3nb/5e78a3c11e9974a9f17ab7d32154fd39) (1.05kb v. 73kb when compiled with Google Compiler Service!);
-* [Real Favicon Generator](https://github.com/RealFaviconGenerator).
+* [Real Favicon Generator](https://github.com/RealFaviconGenerator);
+* [jonasjacek's comprehensive robots.txt](https://github.com/jonasjacek/robots.txt).
 
 <p align="right">
   (<a href="#paul-le-tran-dot-com">back to top.</a>)
