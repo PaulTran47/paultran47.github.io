@@ -106,7 +106,7 @@ Below are the awesome Github repos that made optimisation of my website possible
 * [google-webfonts-helper](https://github.com/majodev/google-webfonts-helper);
 * [remedy.css](https://github.com/jensimmons/cssremedy);
 * [reset.css](https://elad2412.github.io/the-new-css-reset/);
-* [Lightweight Google Analytics JS](https://github.com/jehna/ga-lite);
+* [Minimal Google Analytics Snippet](https://minimalanalytics.com/) (1.5kb v. 73kb!);
 * [Real Favicon Generator](https://github.com/RealFaviconGenerator).
 
 <p align="right">
