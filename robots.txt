@@ -75,4 +75,7 @@ User-agent: YioopBot
 User-agent: yoozBot
 User-agent: YoudaoBot
 Disallow:
+User-agent: *
+Disallow: /bib_files/
+Disallow: /lighthouse_reports/
 Sitemap: https://www.paulletran.com/sitemap.xml
