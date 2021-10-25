@@ -1,4 +1,10 @@
-# Overview
+# [Paul Le Tran dot com](https://paulletran.com)
+
+[MIT licensed](https://github.com/PaulTran47/paultran47.github.io/blob/master/LICENCE.md).
+
+=========================================================================
+
+## Overview
 =========================================================================
 
 All CSS files are preloaded and asychronously loaded. Thanks to the file sizes, the following loading order is usually obeyed:
