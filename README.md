@@ -73,7 +73,7 @@ Below are some features of my website that I feel are noteworthy:
 * [Vanilla JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript);<br>
 * [GitHub Pages](https://pages.github.com/) for hosting;<br>
 * [Google Domains](https://domains.google/) for the awesome domain;<br>
-* [CloudFlare](https://www.cloudflare.com/) for the SSL certificates and fancy green lock :lock:;<br>
+* [CloudFlare](https://www.cloudflare.com/) for DNS management and security, full SSL/TLS encryption mode, HTTPS enforcement, auto-minification, Brotli compression, tiered cache, the fancy green lock :lock:, and a whole lot more;<br>
 * [git](https://git-scm.com/) for source control.
 
 <p align="right">
