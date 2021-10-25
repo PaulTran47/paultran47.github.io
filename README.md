@@ -3,7 +3,7 @@
 [MIT licensed](https://github.com/PaulTran47/paultran47.github.io/blob/master/LICENCE.md).
 
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Table of contents</summary>
   <ul>
     <li>
       <a href="#overview">Overview</a>
