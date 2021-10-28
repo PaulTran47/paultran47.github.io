@@ -47,6 +47,7 @@ Below are some features of my website that I feel are noteworthy:
 
 * Every website page is designed to be accessible for all input types.
   * Every page, menu, and link can be navigated using a mouse, keyboard, or touch.
+  * Research page features live filtered search for publications, with ARIA accessibility by displaying number of results.
 
 * Every website page is optimised for slow connections (e.g., 3G network connections). This is achieved by:
   * Having all HTML5/CSS/JS files auto-minified upon user delivery;
@@ -112,6 +113,7 @@ Below are the awesome Github repos that made optimisation of my website possible
 * [Minimal Google Analytics Snippet with localstorage support](https://gist.github.com/aym3nb/5e78a3c11e9974a9f17ab7d32154fd39) (1.05kb v. 73kb when compiled with Google Compiler Service!);
 * [Real Favicon Generator](https://github.com/RealFaviconGenerator);
 * [jonasjacek's comprehensive robots.txt](https://github.com/jonasjacek/robots.txt).
+* [Hilman Ramadhan's live filtered search](https://css-tricks.com/in-page-filtered-search-with-vanilla-javascript/).
 
 <p align="right">
   (<a href="#paul-le-tran-dot-com">back to top.</a>)
