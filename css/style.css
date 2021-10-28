@@ -1252,6 +1252,13 @@ p.no-bottom-margin {
   color: #767676;
   padding: 20px;
 }
+.page-research .filtered-search{
+  background-color: #fff;
+  border-style: solid;
+  border-color: #ff5d5d;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.87);
+}
 .page-research .section-text-color-shift:hover,
 .page-research .section-text-color-shift:focus {
   color: #ff5d5d;
@@ -1561,9 +1568,4 @@ p.no-bottom-margin {
 .page-404 .site-menu a.special-link:focus {
   -webkit-box-shadow: 0 -16px 0 0 #005d62 inset;
   box-shadow: 0 -16px 0 0 #005d62 inset;
-}
-.page-404 .menu-desktop a {
-  color: rgba(0, 0, 0, 0.54);
-  -webkit-box-shadow: 0 0 0 0 #005d62 inset;
-  box-shadow: 0 0 0 0 #005d62 inset;
 }
