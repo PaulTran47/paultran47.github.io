@@ -45,6 +45,9 @@ Below are some features of my website that I feel are noteworthy:
   * This includes displays as small as the iPhone4 to as large as widescreen desktop monitors.
   * Uncommon display resolutions such as the Galaxy Fold, Surface Duo, and Nest Hub are also supported.
 
+* Every website page is designed to be accessible for all input types.
+  * Every page, menu, and link can be navigated using a mouse, keyboard, or touch.
+
 * Every website page is optimised for slow connections (e.g., 3G network connections). This is achieved by:
   * Having all HTML5/CSS/JS files auto-minified upon user delivery;
   * Critical CSS for initial rendering of every page is inlined in the head tags.

@@ -1,32 +1,50 @@
 /* Functionality for mobile menu */
-let $menuOpenIcon = document.querySelector('.icon-menu'),
-  $menuCloseIcon = document.querySelector('.icon-menu-close'),
-  $menuList = document.querySelector('.site-menu'),
-  $menuOverlay = document.querySelector('.site-menu-overlay');
+let menuOpenIcon = document.querySelector('.icon-menu'),
+  menuCloseIcon = document.querySelector('.icon-menu-close'),
+  menuList = document.querySelector('.site-menu'),
+  menuOverlay = document.querySelector('.site-menu-overlay');
 
-$menuOverlay.addEventListener('click', function(e){
+menuOverlay.addEventListener('click', function(e){
   closeMenu();
 });
-
-$menuCloseIcon.addEventListener('click', function(e){
-  closeMenu();
+menuOverlay.addEventListener("keydown", function(event) {
+  if (event.key === "Escape") {
+    closeMenu();
+  }
 });
 
-$menuOpenIcon.addEventListener('click', function(e){
+menuCloseIcon.addEventListener('click', function(e){
+  closeMenu();
+});
+menuCloseIcon.addEventListener("keydown", function(event) {
+  if (event.key === "Escape") {
+    closeMenu();
+  }
+});
+
+menuList.addEventListener("keydown", function(event) {
+  if (event.key === "Escape") {
+    closeMenu();
+  }
+});
+
+menuOpenIcon.addEventListener('click', function(e){
+  openMenu();
+});
+menuOpenIcon.addEventListener('keydown', function(e){
   openMenu();
 });
 
 function closeMenu(){
-  $menuCloseIcon.classList.add('hidden');
-  $menuList.classList.add('hidden');
-  $menuOverlay.classList.add('hidden');
+  menuCloseIcon.classList.add('hidden');
+  menuList.classList.add('hidden');
+  menuOverlay.classList.add('hidden');
 }
-
 function openMenu() {
-  $menuCloseIcon.classList.remove("hidden");
-  $menuList.classList.remove("hidden");
-  $menuList.classList.remove("hidden");
-  $menuOverlay.classList.remove("hidden");
+  menuCloseIcon.classList.remove("hidden");
+  menuList.classList.remove("hidden");
+  menuList.classList.remove("hidden");
+  menuOverlay.classList.remove("hidden");
 }
 
 /* InntersectionObserver API */
@@ -38,7 +56,6 @@ const imgObserver = new IntersectionObserver((entries, self) => {
     }
   });
 });
-
 document.querySelectorAll('.lazy-img').forEach(img => {
   imgObserver.observe(img);
 });
@@ -47,7 +64,6 @@ document.querySelectorAll('.lazy-img').forEach(img => {
 function lazyLoad(img) {
   const picture = img.parentElement;
   const source = picture.querySelector('.lazy-source');
-
   source.srcset = source.getAttribute('data-srcset');
   img.src = img.getAttribute('data-src');
 }
