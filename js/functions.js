@@ -61,9 +61,10 @@ function lazyLoad(img) {
   img.src = img.getAttribute('data-src');
 }
 /* Filtered live search function with aria accessibility*/
-let cards = document.querySelectorAll('.callout-box')
+let cards = document.querySelectorAll('.callout-box');
 function liveSearch() {
-  let search_query = document.getElementById("searchbox").value;
+  let searchQuery = document.getElementById("searchbox").value;
+  let isEmpty
   /*
     Use innerText if all contents are visible
     Use textContent for including hidden elements
@@ -71,14 +72,20 @@ function liveSearch() {
   */
   let counter = 0;
   for (var i = 0; i < cards.length; i++) {
-    if(cards[i].textContent.toLowerCase().includes(search_query.toLowerCase())) {
+    if(cards[i].textContent.toLowerCase().includes(searchQuery.toLowerCase())) {
       cards[i].classList.remove("is-hidden");
       counter += 1;
     }
     else {
       cards[i].classList.add("is-hidden");
     }
-  document.getElementById("resultsmsg").innerHTML = counter + ' publication(s) found.';
+    /* If input field is empty or has only whitespaces, return default message. */
+    if (searchQuery == "" || searchQuery == null || searchQuery.trim().length == 0) {
+      document.getElementById("resultsmsg").innerHTML = 'Filter publications to see results.';
+    }
+    else {
+      document.getElementById("resultsmsg").innerHTML = counter + ' publication(s) found.';
+    }
   }
 }
 /* Adding a little delay for liveSearch() results to appear */
