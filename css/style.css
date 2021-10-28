@@ -531,6 +531,7 @@ p.no-bottom-margin {
   left: 30px;
   opacity: 0.7;
   z-index: 3;
+  background:#005d62;
   -webkit-transition: opacity 0.5s ease-in-out;
   -o-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
