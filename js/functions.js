@@ -82,10 +82,13 @@ function liveSearch() {
   }
 }
 /* Adding a little delay for liveSearch() results to appear */
-let typingTimer;               
-let typeInterval = 500;  
+let typingTimer;
+let typeInterval = 500;
 let searchInput = document.getElementById('searchbox');
-searchInput.addEventListener('keyup', () => {
-  clearTimeout(typingTimer);
-  typingTimer = setTimeout(liveSearch, typeInterval);
-});
+/* Checking searchInput is not null before adding event listener */
+if(searchInput) {
+  searchInput.addEventListener('keyup', () => {
+    clearTimeout(typingTimer);
+    typingTimer = setTimeout(liveSearch, typeInterval);
+  });
+}
