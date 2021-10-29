@@ -60,7 +60,10 @@ function lazyLoad(img) {
   source.srcset = source.getAttribute('data-srcset');
   img.src = img.getAttribute('data-src');
 }
-/* Filtered live search function with aria accessibility*/
+/*
+  Filtered live search function with ARIA22 accessibility.
+  Search is case-insensitive, whitespace-senstive.
+*/
 let cards = document.querySelectorAll('.callout-box');
 function liveSearch() {
   let searchQuery = document.getElementById("searchbox").value;
@@ -75,6 +78,10 @@ function liveSearch() {
     if(cards[i].textContent.toLowerCase().includes(searchQuery.toLowerCase())) {
       cards[i].classList.remove("is-hidden");
       counter += 1;
+    }
+    /* If input field is empty or has only whitespaces, display all results (i.e., no filter applied) */
+    else if (searchQuery == "" || searchQuery == null || searchQuery.trim().length == 0) {
+      cards[i].classList.remove("is-hidden");
     }
     else {
       cards[i].classList.add("is-hidden");
