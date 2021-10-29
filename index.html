@@ -80,7 +80,7 @@
   </head>
   <body>
     <div class="page-border-decoration"></div>
-    <div class="menu-desktop hide d-show">
+    <nav class="menu-desktop hide d-show">
       <ul>
         <li class="menu-name-home"><a href="/" onclick="ma.trackEvent('Desktop menu', 'Click', 'Home');" class="special-link" title="Home">Hom<span>e</span></a></li>
         <li class="menu-name-research"><a href="/research" onclick= "ma.trackEvent('Desktop menu', 'Click', 'Research');" class="special-link" title="Research">Researc<span>h</span></a></li>
@@ -88,9 +88,9 @@
         <li class="menu-name-cv"><a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="ma.trackEvent('Desktop menu', 'Click', 'CV');" class="special-link" title="CV">C<span>V</span></a></li>
         <li class="menu-name-more"><a href="/more" onclick="ma.trackEvent('Desktop menu', 'Click', 'More stuff');" class="special-link" title="More stuff">More Stuf<span>f</span></a></li>
       </ul>
-    </div>
-    <div class="menu-mobile d-hide">
-      <div class="icon-menu" tabindex="0">
+    </nav>
+    <nav class="menu-mobile d-hide">
+      <nav class="icon-menu" tabindex="0">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <title id="menu-mobile-icon-title">Mobile menu icon</title>
           <desc id="menu-mobile-icon-desc">Mobile menu icon consisting of 3 horizontal lines, with the bottom line shorter than the other two.</desc>
@@ -101,17 +101,17 @@
             <rect style="fill: none" width="24" height="24" />
           </g>
         </svg>
-      </div>
-      <div class="site-menu-overlay hidden"></div>
-      <div class="icon-menu-close hidden" tabindex="0">
+      </nav>
+      <nav class="site-menu-overlay hidden"></nav>
+      <nav class="icon-menu-close hidden" tabindex="0">
         <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#fff">
           <title id="menu-mobile-close-icon-title">Mobile menu icon</title>
           <desc id="menu-mobile-close-icon-desc">Exit icon from mobile menu that is the letter x made from two orthogonal lines.</desc>
           <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
           <path d="M0 0h24v24H0z" fill="none"/>
         </svg>
-      </div>
-      <div class="site-menu hidden">
+      </nav>
+      <nav class="site-menu hidden">
         <ul>
           <li class="menu-name-home"><a href="/" onclick="ma.trackEvent('Mobile menu', 'Click', 'Home');" class="special-link" title="Home">Hom<span>e</span></a></li>
           <li class="menu-name-research"><a href="/research" onclick="ma.trackEvent('Mobile menu', 'Click', 'Research');" class="special-link" title="Research">Researc<span>h</span></a></li>
@@ -119,8 +119,8 @@
           <li class="menu-name-cv"><a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="ma.trackEvent('Mobile menu', 'Click', 'CV');" class="special-link" title="CV">C<span>V</span></a></li>
           <li class="menu-name-more"><a href="/more" onclick="ma.trackEvent('Mobile menu', 'Click', 'More stuff');" class="special-link" title="More stuff">More Stuf<span>f</span></a></li>
           <li>
-            <div class="social-icons">
-              <div class="social-icon">
+            <nav class="social-icons">
+              <nav class="social-icon">
                 <a href="https://github.com/PaulTran47" class="social-icon" onclick="ma.trackEvent('Mobile menu', 'Click', 'Github profile');" title="Github profile">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <title id="github-icon-title-menu-mobile">Github icon</title>
@@ -131,8 +131,8 @@
                     </g>
                   </svg>
                 </a>
-              </div>
-              <div class="social-icon">
+              </nav>
+              <nav class="social-icon">
                 <a href="https://www.instagram.com/tranlephu/" class="social-icon" onclick="ma.trackEvent('Mobile menu', 'Click', 'Instagram');"  title="Instagram">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <title id="instagram-icon-title-menu-mobile">Instagram icon</title>
@@ -143,8 +143,8 @@
                     </g>
                   </svg>
                 </a>
-              </div>
-              <div class="social-icon">
+              </nav>
+              <nav class="social-icon">
                 <a href="mailto:pltran@utexas.edu" class="social-icon" onclick="ma.trackEvent('Mobile menu', 'Click', 'Send mail to UT Gmail');" title="Send an email">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <title id="mail-icon-title-menu-mobile">Mail icon</title>
@@ -155,12 +155,12 @@
                     </g>
                   </svg>
                 </a>
-              </div>
-            </div>
+              </nav>
+            </nav>
           </li>
         </ul>
-      </div>
-    </div>
+      </nav>
+    </nav>
     <div class="flex-floaty">
       <div class="container">
         <div class="section-spacer-home"></div>
@@ -312,9 +312,9 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-8 push-2 pull-2 col-d-12 push-d-1 pull-d-6">
-            <div class="social-icons">
-              <div class="social-icon">
+          <div class="col-8 push-2 pull-2 col-d-12 push-d-1">
+            <nav class="social-icons">
+              <nav class="social-icon">
                 <a href="https://github.com/PaulTran47" class="social-icon" onclick="ma.trackEvent('Home page icon menu', 'Click', 'Github profile');" title="Github profile">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <title id="github-icon-title">Github icon</title>
@@ -325,8 +325,8 @@
                     </g>
                   </svg>
                 </a>
-              </div>
-              <div class="social-icon">
+              </nav>
+              <nav class="social-icon">
                 <a href="https://www.instagram.com/tranlephu/" class="social-icon" onclick="ma.trackEvent('Home page icon menu', 'Click', 'Instagram');" title="Instagram">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <title id="instagram-icon-title">Instagram icon</title>
@@ -337,8 +337,8 @@
                     </g>
                   </svg>
                 </a>
-              </div>
-              <div class="social-icon">
+              </nav>
+              <nav class="social-icon">
                 <a href="mailto:pltran@utexas.edu" class="social-icon" onclick="ma.trackEvent('Home page icon menu', 'Click', 'Send email to UT Gmail');" title="Send an email">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <title id="mail-icon-title">Mail icon</title>
@@ -349,8 +349,8 @@
                     </g>
                   </svg>
                 </a>
-              </div>
-              <div class="social-icon">
+              </nav>
+              <nav class="social-icon">
                 <a href="/more" class="social-icon" onclick="ma.trackEvent('Home page icon menu', 'Click', 'More stuff');" title="Go to more page">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                       <title id="more-icon-title">More icon</title>
@@ -361,8 +361,8 @@
                     </g>
                   </svg>
                 </a>
-              </div>
-            </div>
+              </nav>
+            </nav>
           </div>
         </div>
         <div style="height: 10px" class="section-spacer"></div>
