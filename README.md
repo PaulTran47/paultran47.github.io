@@ -113,7 +113,8 @@ Below are the awesome Github repos that made optimisation of my website possible
 * [Minimal Google Analytics Snippet with localstorage support](https://gist.github.com/aym3nb/5e78a3c11e9974a9f17ab7d32154fd39) (1.05kb v. 73kb when compiled with Google Compiler Service!);
 * [Real Favicon Generator](https://github.com/RealFaviconGenerator);
 * [jonasjacek's comprehensive robots.txt](https://github.com/jonasjacek/robots.txt).
-* [Hilman Ramadhan's live filtered search](https://css-tricks.com/in-page-filtered-search-with-vanilla-javascript/).
+* [Hilman Ramadhan's live filtered search](https://css-tricks.com/in-page-filtered-search-with-vanilla-javascript/);
+* [Harry Roberts's ct.css for optimising head tag elements](https://csswizardry.com/ct/).
 
 <p align="right">
   (<a href="#paul-le-tran-dot-com">back to top.</a>)
