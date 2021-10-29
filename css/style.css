@@ -50,6 +50,7 @@ h1 {
 }
 img {
   border-style: none;
+  max-width: 100%;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -154,6 +155,7 @@ button:-moz-focusring {
   background-color: #222;
 }
 .row-img img {
+  max-width: 100%;
   height: 100%;
   width: 100%;
 }
