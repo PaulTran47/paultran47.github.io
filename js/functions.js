@@ -81,7 +81,7 @@ function liveSearch() {
     }
     /* If input field is empty or has only whitespaces, return default message. */
     if (searchQuery == "" || searchQuery == null || searchQuery.trim().length == 0) {
-      document.getElementById("resultsmsg").innerHTML = 'Filter publications to see results.';
+      document.getElementById("resultsmsg").innerHTML = 'Publication&#0040;s&#0041; matching typed keywords will be displayed in real-time.';
     }
     else {
       document.getElementById("resultsmsg").innerHTML = counter + ' publication(s) found.';
