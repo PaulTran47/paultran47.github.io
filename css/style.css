@@ -486,8 +486,8 @@ strong {
   display: inline;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
-  -webkit-box-shadow: 0 -3px 0 0 #005d62 inset;
-  box-shadow: 0 -3px 0 0 #005d62 inset;
+  -webkit-box-shadow: 0 -3px 0 0 #fdcc48 inset;
+  box-shadow: 0 -3px 0 0 #fdcc48 inset;
   -webkit-transition: -webkit-box-shadow 150ms ease-in-out;
   transition: -webkit-box-shadow 150ms ease-in-out;
   -o-transition: box-shadow 150ms ease-in-out;
@@ -498,9 +498,9 @@ strong {
 .page-home a.special-link:focus,
 .site-menu a.special-link:hover,
 .site-menu a.special-link:focus {
-  -webkit-box-shadow: 0 -16px 0 0 #005d62 inset;
-  box-shadow: 0 -16px 0 0 #005d62 inset;
-  color: rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0 -16px 0 0 #fdcc48 inset;
+  box-shadow: 0 -16px 0 0 #fdcc48 inset;
+  color: rgba(0, 0, 0, 0.87);
 }
 p {
   line-height: 26px;
@@ -534,7 +534,7 @@ p.no-bottom-margin {
   left: 30px;
   opacity: 0.7;
   z-index: 3;
-  background:#005d62;
+  background:#fdcc48;
   -webkit-transition: opacity 0.5s ease-in-out;
   -o-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
@@ -624,7 +624,7 @@ p.no-bottom-margin {
   width: 24px;
   height: 24px;
   padding: 4px;
-  background: #005d62;
+  background: #fdcc48;
   position: fixed;
   top: 26px;
   left: 26px;
@@ -780,8 +780,8 @@ p.no-bottom-margin {
   padding: 0 4px;
   color: rgba(0, 0, 0, 0.54);
   text-decoration: none;
-  -webkit-box-shadow: 0 0 0 0 #005d62 inset;
-  box-shadow: 0 0 0 0 #005d62 inset;
+  -webkit-box-shadow: 0 0 0 0 #fdcc48 inset;
+  box-shadow: 0 0 0 0 #fdcc48 inset;
   -webkit-transition: color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
   transition: color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
   -o-transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out;
@@ -790,9 +790,9 @@ p.no-bottom-margin {
 }
 .menu-desktop a.special-link:hover,
 .menu-desktop a.special-link:focus {
-  -webkit-box-shadow: 0 -17px 0 0 #005d62 inset;
-  box-shadow: 0 -17px 0 0 #005d62 inset;
-  color: rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0 -17px 0 0 #fdcc48 inset;
+  box-shadow: 0 -17px 0 0 #fdcc48 inset;
+  color: rgba(0, 0, 0, 0.87);
 }
 .menu-desktop a.special-link span {
   letter-spacing: 0;
@@ -815,8 +815,8 @@ p.no-bottom-margin {
 .breadcrumb a {
   color: rgba(0, 0, 0, 0.54);
   text-decoration: none;
-  -webkit-box-shadow: 0 0 0 0 #005d62 inset;
-  box-shadow: 0 0 0 0 #005d62 inset;
+  -webkit-box-shadow: 0 0 0 0 #fdcc48 inset;
+  box-shadow: 0 0 0 0 #fdcc48 inset;
   -webkit-transition: color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
   transition: color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
   -o-transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out;
@@ -825,8 +825,8 @@ p.no-bottom-margin {
 }
 .breadcrumb a:hover,
 .breadcrumb a:focus {
-  -webkit-box-shadow: 0 -9.5px 0 0 #005d62 inset;
-  box-shadow: 0 -9.5px 0 0 #005d62 inset;
+  -webkit-box-shadow: 0 -9.5px 0 0 #fdcc48 inset;
+  box-shadow: 0 -9.5px 0 0 #fdcc48 inset;
   color: rgba(0, 0, 0, 0.87);
 }
 .callout-box {
@@ -1202,7 +1202,7 @@ p.no-bottom-margin {
 }
 .social-icon:hover .social-icon-fill-2,
 .social-icon:focus .social-icon-fill-2 {
-  fill: #005d62;
+  fill: #fdcc48;
 }
 .social-icon .social-icon-fill-1-menu-mobile {
   fill: none;
@@ -1215,7 +1215,7 @@ p.no-bottom-margin {
 }
 .social-icon:hover .social-icon-fill-2-menu-mobile,
 .social-icon:focus .social-icon-fill-2-menu-mobile {
-  fill: #005d62;
+  fill: #fdcc48;
 }
 .social-icon a {
   display: block;
@@ -1546,19 +1546,19 @@ p.no-bottom-margin {
   line-height: 1.2;
 }
 .content-404 h2 span {
-  color: #005d62;
+  color: #0233B7;
 }
 .page-404 .menu-desktop a{
   color:rgba(0,0,0,.54);
-  -webkit-box-shadow:0 0 0 0 #005d62 inset;
-  box-shadow:0 0 0 0 #005d62 inset
+  -webkit-box-shadow:0 0 0 0 #fdcc48 inset;
+  box-shadow:0 0 0 0 #fdcc48 inset
 }
 .page-404 a.special-link {
   display: inline;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
-  -webkit-box-shadow: 0 -3px 0 0 #005d62 inset;
-  box-shadow: 0 -3px 0 0 #005d62 inset;
+  -webkit-box-shadow: 0 -3px 0 0 #fdcc48 inset;
+  box-shadow: 0 -3px 0 0 #fdcc48 inset;
   -webkit-transition: -webkit-box-shadow 150ms ease-in-out;
   transition: -webkit-box-shadow 150ms ease-in-out;
   -o-transition: box-shadow 150ms ease-in-out;
@@ -1569,7 +1569,7 @@ p.no-bottom-margin {
 .page-404 a.special-link:focus,
 .page-404 .site-menu a.special-link:hover,
 .page-404 .site-menu a.special-link:focus {
-  -webkit-box-shadow: 0 -16px 0 0 #005d62 inset;
-  box-shadow: 0 -16px 0 0 #005d62 inset;
-  color: rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0 -16px 0 0 #fdcc48 inset;
+  box-shadow: 0 -16px 0 0 #fdcc48 inset;
+  color: rgba(0, 0, 0, 0.87);
 }
