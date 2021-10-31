@@ -1502,7 +1502,7 @@ p.no-bottom-margin {
 .page-more .behind-box {
   margin-bottom: -40px;
 }
-.page-more .thumbs > div {
+.page-more .thumbs > figure {
   background-position: center;
   background-size: cover;
 }
