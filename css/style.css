@@ -44,7 +44,7 @@ b,
 strong {
   font-weight: bolder;
 }
-h1 {
+h2 {
   font-size: 2em;
   margin: 0.67em 0;
 }
@@ -1542,11 +1542,11 @@ p.no-bottom-margin {
 .content-404 {
   width: 360px;
 }
-.content-404 h1 {
+.content-404 h2 {
   font-size: 42px;
   line-height: 1.2;
 }
-.content-404 h1 span {
+.content-404 h2 span {
   color: #005d62;
 }
 .page-404 a.special-link {

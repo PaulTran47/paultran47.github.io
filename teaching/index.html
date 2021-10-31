@@ -79,117 +79,120 @@
     </style>
   </head>
   <body>
-    <div class="page-border-decoration"></div>
-    <nav class="menu-desktop hide d-show">
-      <ul>
-        <li class="menu-name-home"><a href="/" onclick="ma.trackEvent('Desktop menu', 'Click', 'Home');" class="special-link" title="Home">Hom<span>e</span></a></li>
-        <li class="menu-name-research"><a href="/research" onclick= "ma.trackEvent('Desktop menu', 'Click', 'Research');" class="special-link" title="Research">Researc<span>h</span></a></li>
-        <li class="menu-name-teaching"><a href="/teaching" onclick="ma.trackEvent('Desktop menu', 'Click', 'Teaching');" class="special-link" title="Teaching">Teachin<span>g</span></a></li>
-        <li class="menu-name-cv"><a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="ma.trackEvent('Desktop menu', 'Click', 'CV');" class="special-link" title="CV">C<span>V</span></a></li>
-        <li class="menu-name-more"><a href="/more" onclick="ma.trackEvent('Desktop menu', 'Click', 'More stuff');" class="special-link" title="More stuff">More Stuf<span>f</span></a></li>
-      </ul>
-    </nav>
-    <nav class="menu-mobile d-hide">
-      <nav class="icon-menu" tabindex="0">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-          <title id="menu-mobile-icon-title">Mobile menu icon</title>
-          <desc id="menu-mobile-icon-desc">Mobile menu icon consisting of 3 horizontal lines, with the bottom line shorter than the other two.</desc>
-          <g>
-            <rect class="menu-bar-1" style="fill: #fff" width="18" height="2" transform="translate(3 6)"/>
-            <rect class="menu-bar-2" style="fill: #fff" width="18" height="2" transform="translate(3 11)"/>
-            <rect class="menu-bar-3" style="fill: #fff" width="12" height="2" transform="translate(3 16)"/>
-            <rect style="fill: none" width="24" height="24" />
-          </g>
-        </svg>
-      </nav>
-      <nav class="site-menu-overlay hidden"></nav>
-      <nav class="icon-menu-close hidden" tabindex="0">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#fff">
-          <title id="menu-mobile-close-icon-title">Mobile menu icon</title>
-          <desc id="menu-mobile-close-icon-desc">Exit icon from mobile menu that is the letter x made from two orthogonal lines.</desc>
-          <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
-          <path d="M0 0h24v24H0z" fill="none"/>
-        </svg>
-      </nav>
-      <nav class="site-menu hidden">
+    <header>
+      <nav class="menu-desktop hide d-show">
         <ul>
-          <li class="menu-name-home"><a href="/" onclick="ma.trackEvent('Mobile menu', 'Click', 'Home');" class="special-link" title="Home">Hom<span>e</span></a></li>
-          <li class="menu-name-research"><a href="/research" onclick="ma.trackEvent('Mobile menu', 'Click', 'Research');" class="special-link" title="Research">Researc<span>h</span></a></li>
-          <li class="menu-name-teaching"><a href="/teaching" onclick="ma.trackEvent('Mobile menu', 'Click', 'Teaching');" class="special-link" title="Teaching">Teachin<span>g</span></a></li>
-          <li class="menu-name-cv"><a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="ma.trackEvent('Mobile menu', 'Click', 'CV');" class="special-link" title="CV">C<span>V</span></a></li>
-          <li class="menu-name-more"><a href="/more" onclick="ma.trackEvent('Mobile menu', 'Click', 'More stuff');" class="special-link" title="More stuff">More Stuf<span>f</span></a></li>
-          <li>
-            <nav class="social-icons">
-              <nav class="social-icon">
-                <a href="https://github.com/PaulTran47" class="social-icon" onclick="ma.trackEvent('Mobile menu', 'Click', 'Github profile');" title="Github profile">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <title id="github-icon-title-menu-mobile">Github icon</title>
-                    <desc id="github-icon-desc-menu-mobile">The Github logo icon.</desc>
-                    <g id="ic_crop_github_black_24dp-menu-mobile" transform="translate(0 0)">
-                      <path id="Path_23" data-name="Path 23" class="social-icon-fill-1-menu-mobile" d="M0,0H24V24H0Z"/>
-                      <path id="github-menu-mobile" class="social-icon-fill-2-menu-mobile" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-                    </g>
-                  </svg>
-                </a>
-              </nav>
-              <nav class="social-icon">
-                <a href="https://www.instagram.com/tranlephu/" class="social-icon" onclick="ma.trackEvent('Mobile menu', 'Click', 'Instagram');"  title="Instagram">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                      <title id="instagram-icon-title-menu-mobile">Instagram icon</title>
-                      <desc id="instagram-icon-desc-menu-mobile">The Instagram logo icon.</desc>
-                    <g id="ic_crop_square_black_24dp-menu-mobile" transform="translate(0 0)">
-                      <path id="Path_24" data-name="Path 24" class="social-icon-fill-1-menu-mobile" d="M0,0H24V24H0Z"/>
-                      <path id="instagram-menu-mobile" class="social-icon-fill-2-menu-mobile" d="M8.338,3h7.731a5.344,5.344,0,0,1,5.338,5.338v7.731a5.338,5.338,0,0,1-5.338,5.338H8.338A5.344,5.344,0,0,1,3,16.069V8.338A5.338,5.338,0,0,1,8.338,3M8.154,4.841A3.313,3.313,0,0,0,4.841,8.154h0v8.1a3.313,3.313,0,0,0,3.313,3.313h8.1a3.313,3.313,0,0,0,3.313-3.313h0v-8.1a3.313,3.313,0,0,0-3.313-3.313h-8.1m8.884,1.38a1.153,1.153,0,1,1-1.153,1.153,1.153,1.153,0,0,1,1.153-1.153M12.2,7.6a4.6,4.6,0,1,1-4.6,4.6,4.6,4.6,0,0,1,4.6-4.6m0,1.841A2.761,2.761,0,1,0,14.964,12.2,2.761,2.761,0,0,0,12.2,9.442Z" transform="translate(-0.203 -0.203)"/>
-                    </g>
-                  </svg>
-                </a>
-              </nav>
-              <nav class="social-icon">
-                <a href="mailto:pltran@utexas.edu" class="social-icon" onclick="ma.trackEvent('Mobile menu', 'Click', 'Send mail to UT Gmail');" title="Send an email">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                      <title id="mail-icon-title-menu-mobile">Mail icon</title>
-                      <desc id="mail-icon-desc-menu-mobile">Mail icon.</desc>
-                    <g id="ic_mail_outline_black_24dp-menu-mobile" transform="translate(0 0)">
-                      <path id="Path_25" data-name="Path 25" class="social-icon-fill-1-menu-mobile" d="M0,0H24V24H0Z"/>
-                      <path id="Path_26" data-name="Path 26" class="social-icon-fill-2-menu-mobile" d="M20,4H4A2,2,0,0,0,2.01,6L2,18a2.006,2.006,0,0,0,2,2H20a2.006,2.006,0,0,0,2-2V6A2.006,2.006,0,0,0,20,4Zm0,14H4V8l8,5,8-5Zm-8-7L4,6H20Z" transform="translate(0 0)"/>
-                    </g>
-                  </svg>
-                </a>
-              </nav>
-            </nav>
-          </li>
+          <li class="menu-name-home"><a href="/" onclick="ma.trackEvent('Desktop menu', 'Click', 'Home');" class="special-link" title="Home">Hom<span>e</span></a></li>
+          <li class="menu-name-research"><a href="/research" onclick= "ma.trackEvent('Desktop menu', 'Click', 'Research');" class="special-link" title="Research">Researc<span>h</span></a></li>
+          <li class="menu-name-teaching"><a href="/teaching" onclick="ma.trackEvent('Desktop menu', 'Click', 'Teaching');" class="special-link" title="Teaching">Teachin<span>g</span></a></li>
+          <li class="menu-name-cv"><a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="ma.trackEvent('Desktop menu', 'Click', 'CV');" class="special-link" title="CV">C<span>V</span></a></li>
+          <li class="menu-name-more"><a href="/more" onclick="ma.trackEvent('Desktop menu', 'Click', 'More stuff');" class="special-link" title="More stuff">More Stuf<span>f</span></a></li>
         </ul>
       </nav>
-    </nav>
+      <nav class="menu-mobile d-hide">
+        <nav class="icon-menu" tabindex="0">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <title id="menu-mobile-icon-title">Mobile menu icon</title>
+            <desc id="menu-mobile-icon-desc">Mobile menu icon consisting of 3 horizontal lines, with the bottom line shorter than the other two.</desc>
+            <g>
+              <rect class="menu-bar-1" style="fill: #fff" width="18" height="2" transform="translate(3 6)"/>
+              <rect class="menu-bar-2" style="fill: #fff" width="18" height="2" transform="translate(3 11)"/>
+              <rect class="menu-bar-3" style="fill: #fff" width="12" height="2" transform="translate(3 16)"/>
+              <rect style="fill: none" width="24" height="24" />
+            </g>
+          </svg>
+        </nav>
+        <nav class="site-menu-overlay hidden"></nav>
+        <nav class="icon-menu-close hidden" tabindex="0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#fff">
+            <title id="menu-mobile-close-icon-title">Mobile menu icon</title>
+            <desc id="menu-mobile-close-icon-desc">Exit icon from mobile menu that is the letter x made from two orthogonal lines.</desc>
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+            <path d="M0 0h24v24H0z" fill="none"/>
+          </svg>
+        </nav>
+        <nav class="site-menu hidden">
+          <ul>
+            <li class="menu-name-home"><a href="/" onclick="ma.trackEvent('Mobile menu', 'Click', 'Home');" class="special-link" title="Home">Hom<span>e</span></a></li>
+            <li class="menu-name-research"><a href="/research" onclick="ma.trackEvent('Mobile menu', 'Click', 'Research');" class="special-link" title="Research">Researc<span>h</span></a></li>
+            <li class="menu-name-teaching"><a href="/teaching" onclick="ma.trackEvent('Mobile menu', 'Click', 'Teaching');" class="special-link" title="Teaching">Teachin<span>g</span></a></li>
+            <li class="menu-name-cv"><a href="https://drive.google.com/file/d/1P3rTeJtPRlIMhha3hauKHkdX2BGse3ht/view" onclick="ma.trackEvent('Mobile menu', 'Click', 'CV');" class="special-link" title="CV">C<span>V</span></a></li>
+            <li class="menu-name-more"><a href="/more" onclick="ma.trackEvent('Mobile menu', 'Click', 'More stuff');" class="special-link" title="More stuff">More Stuf<span>f</span></a></li>
+          </ul>
+          <ul class="social-icons">
+            <li class="social-icon">
+              <a href="https://github.com/PaulTran47" class="social-icon" onclick="ma.trackEvent('Mobile menu', 'Click', 'Github profile');" title="Github profile">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <title id="github-icon-title-menu-mobile">Github icon</title>
+                  <desc id="github-icon-desc-menu-mobile">The Github logo icon.</desc>
+                  <g id="ic_crop_github_black_24dp-menu-mobile" transform="translate(0 0)">
+                    <path id="Path_23" data-name="Path 23" class="social-icon-fill-1-menu-mobile" d="M0,0H24V24H0Z"/>
+                    <path id="github-menu-mobile" class="social-icon-fill-2-menu-mobile" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon">
+              <a href="https://www.instagram.com/tranlephu/" class="social-icon" onclick="ma.trackEvent('Mobile menu', 'Click', 'Instagram');"  title="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <title id="instagram-icon-title-menu-mobile">Instagram icon</title>
+                  <desc id="instagram-icon-desc-menu-mobile">The Instagram logo icon.</desc>
+                  <g id="ic_crop_square_black_24dp-menu-mobile" transform="translate(0 0)">
+                    <path id="Path_24" data-name="Path 24" class="social-icon-fill-1-menu-mobile" d="M0,0H24V24H0Z"/>
+                    <path id="instagram-menu-mobile" class="social-icon-fill-2-menu-mobile" d="M8.338,3h7.731a5.344,5.344,0,0,1,5.338,5.338v7.731a5.338,5.338,0,0,1-5.338,5.338H8.338A5.344,5.344,0,0,1,3,16.069V8.338A5.338,5.338,0,0,1,8.338,3M8.154,4.841A3.313,3.313,0,0,0,4.841,8.154h0v8.1a3.313,3.313,0,0,0,3.313,3.313h8.1a3.313,3.313,0,0,0,3.313-3.313h0v-8.1a3.313,3.313,0,0,0-3.313-3.313h-8.1m8.884,1.38a1.153,1.153,0,1,1-1.153,1.153,1.153,1.153,0,0,1,1.153-1.153M12.2,7.6a4.6,4.6,0,1,1-4.6,4.6,4.6,4.6,0,0,1,4.6-4.6m0,1.841A2.761,2.761,0,1,0,14.964,12.2,2.761,2.761,0,0,0,12.2,9.442Z" transform="translate(-0.203 -0.203)"/>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li class="social-icon">
+              <a href="mailto:pltran@utexas.edu" class="social-icon" onclick="ma.trackEvent('Mobile menu', 'Click', 'Send mail to UT Gmail');" title="Send an email">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <title id="mail-icon-title-menu-mobile">Mail icon</title>
+                  <desc id="mail-icon-desc-menu-mobile">Mail icon.</desc>
+                  <g id="ic_mail_outline_black_24dp-menu-mobile" transform="translate(0 0)">
+                    <path id="Path_25" data-name="Path 25" class="social-icon-fill-1-menu-mobile" d="M0,0H24V24H0Z"/>
+                    <path id="Path_26" data-name="Path 26" class="social-icon-fill-2-menu-mobile" d="M20,4H4A2,2,0,0,0,2.01,6L2,18a2.006,2.006,0,0,0,2,2H20a2.006,2.006,0,0,0,2-2V6A2.006,2.006,0,0,0,20,4Zm0,14H4V8l8,5,8-5Zm-8-7L4,6H20Z" transform="translate(0 0)"/>
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </nav>
+    </header>
+    <div class="page-border-decoration"></div>
     <div class="breadcrumb"><a href="/" title="Paul Le Tran dot com">paulletran.com</a> / teaching</div>
     <div class="container">
       <div class="section-spacer"></div>
-      <div class="row">
-        <div class="col-12 col-d-6 push-0 push-d-3">
-          <div style="color: #eb6b00" class="push-1 push-d-1 number-breakout">
-            <strong>TEACHING</strong>
-          </div>
-        </div>
-        <div class="box-decoration col-10 col-d-10 push-1">
-          <p>
-            <strong>Resources</strong>
-          </p>
-          <ul class="bulleted spaced">
-            <li>ECO384G (Business Cycle Analysis): Problem sets and solutions/code are provided. <a href="https://github.com/PaulTran47/ECO384G" class="special-link" onclick="ma.trackEvent('Github repo', 'Click', 'Github repo for ECO384G');" title="Github repo for ECO384G">Github.</a></li>
-            <li>ECO385K (Advanced Macro Labour I): Problem sets and solutions/code are provided. <a href="https://github.com/PaulTran47/ECO385K" class="special-link" onclick="ma.trackEvent('Github repo', 'Click', 'Github repo for ECO385K');" title="Github repo for ECO385K">Github.</a></li>
-            <li>ECO388E (Structural Econometrics): Problem sets and solutions/code are provided. <a href="https://github.com/PaulTran47/ECO388E" class="special-link" onclick="ma.trackEvent('Github repo', 'Click', 'Github repo for ECO388E');" title="Github repo for ECO388E">Github.</a></li>
-          </ul>
-        </div>
-      </div>
-      <div style="height: 350px" class="section-spacer"></div>
-      <div class="row">
-        <div class="column">
-          <div class="col-12 col-d-12">
-            <div class="col-10 push-1 push-d-3 number-breakout">
+      <main>
+        <section class="row">
+          <h1 style="display: none">Teaching headline and resources article</h1>
+          <article class="col-12 col-d-6 push-0">
+            <header style="color: #eb6b00" class="push-1 push-d-1 number-breakout">
+              <strong>TEACHING</strong>
+            </header>
+            <article class="box-decoration col-10 col-d-10 push-1">
+              <p>
+                <strong>Resources</strong>
+              </p>
+              <ul class="bulleted spaced">
+                <li>ECO384G (Business Cycle Analysis): Problem sets and solutions/code are provided. <a href="https://github.com/PaulTran47/ECO384G" class="special-link" onclick="ma.trackEvent('Github repo', 'Click', 'Github repo for ECO384G');" title="Github repo for ECO384G">Github.</a></li>
+                <li>ECO385K (Advanced Macro Labour I): Problem sets and solutions/code are provided. <a href="https://github.com/PaulTran47/ECO385K" class="special-link" onclick="ma.trackEvent('Github repo', 'Click', 'Github repo for ECO385K');" title="Github repo for ECO385K">Github.</a></li>
+                <li>ECO388E (Structural Econometrics): Problem sets and solutions/code are provided. <a href="https://github.com/PaulTran47/ECO388E" class="special-link" onclick="ma.trackEvent('Github repo', 'Click', 'Github repo for ECO388E');" title="Github repo for ECO388E">Github.</a></li>
+              </ul>
+            </article>
+          </article>
+        </section>
+        <div style="height: 195px" class="section-spacer"></div>
+        <section class="row">
+          <h2 style="display: none">Classes taught</h2>
+          <article class="column col-12 col-d-12">
+            <header class="col-10 push-1 push-d-3 number-breakout">
+              <h3 style="display: none">Classes taught heading</h3>
               <strong>Classes</strong>
-            </div>
+            </header>
             <br>
-            <div class="callout-box push-1 pull-1 push-d-1 pull-d-1">
+            <article class="callout-box push-1 pull-1 push-d-1 pull-d-1">
               <p class="no-bottom-margin">
                 <strong>ECO304K</strong>: Introduction to Microeconomics (Synchronous Massive Online Course); Analysis of the economic behavior of individual consumers, firms, and workers. Demand, supply, and market equilibrium. Impact of taxes, externalities, and market power on equilibrium.
                 <br>
@@ -202,9 +205,9 @@
                 <br>
                 <strong>Mean student evaluation score</strong>: Soon TM/5.
               </p>
-            </div>
+            </article>
             <div style="height: 50px" class="section-spacer"></div>
-            <div class="callout-box push-1 pull-1 push-d-1 pull-d-1">
+            <article class="callout-box push-1 pull-1 push-d-1 pull-d-1">
               <p class="no-bottom-margin">
                 <strong>ECO304L</strong>: Introduction to Macroeconomics; Analysis of the economy as a whole. Measurement of output, the price level, and employment. Basic theories of the determination of Gross domestic product, investment and growth, and inflation. Introduction to fiscal policy and monetary policy.
                 <br>
@@ -217,18 +220,18 @@
                 <br>
                 <strong>Mean student evaluation score</strong>: 4.2/5.
               </p>
-            </div>
-          </div>
-          <div style="height: 50px" class="section-spacer"></div>
-        </div>
-      </div>
+            </article>
+          </article>
+        </section>
+      </main>
       <div class="section-spacer"></div>
       <nav class="pagination">
-        <div class="row">
+        <header class="row">
           <div class="col-3 push-2 pull-7 pagination-label">Pick a path...</div>
-        </div>
-        <div class="row">
-          <nav class="col-6 push-5 pull-1">
+        </header>
+        <section class="row">
+          <h2 style="display: none">Navigate to next page</h2>
+          <div class="col-6 push-5 pull-1">
             <a href="/more" onclick="ma.trackEvent('Pagination menu', 'Click', 'More stuff');" class="next" title="More stuff next"><span>More stuff</span><?xml version="1.0" encoding="utf-8"?>
               <svg version="1.1" id="Layer_1_More" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" fill="#000000">
                 <title id="next-icon-title-more">Next icon</title>
@@ -237,10 +240,11 @@
                 <path fill="none" d="M0,0h24v24H0V0z"/>
               </svg>
             </a>
-          </nav>
-        </div>
-        <div class="row">
-          <nav class="col-6 push-1 pull-5">
+          </div>
+        </section>
+        <section class="row">
+          <h2 style="display: none">Navigate to previous page</h2>
+          <div class="col-6 push-1 pull-5">
             <a href="/research" onclick="ma.trackEvent('Pagination menu', 'Click', 'Research');" class="prev" title="Research prev"><?xml version="1.0" encoding="utf-8"?>
             <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" fill="#000000">
@@ -251,14 +255,14 @@
               </svg>
               <span>Research</span>
             </a>
-          </nav>
-        </div>
+          </div>
+        </section>
       </nav>
       <div style="height: 10px" class="section-spacer"></div>
       <footer class="row">
-        <div class="col-8 push-1 pull-1 col-d-8 push-d-2">
+        <article class="col-8 push-1 pull-1 col-d-8 push-d-2">
           <small>Published with <a href="https://pages.github.com" class="special-link" onclick="ma.trackEvent('Bottom disclaimer section', 'Click', 'Github Pages');" title="GitHub Pages">GitHub Pages</a>. &#9400; 2021 by <a href="https://github.com/PaulTran47" class="special-link" onclick="ma.trackEvent('Bottom disclaimer section', 'Click', 'Github profile');" title="Github profile">Paul Le Tran</a> under the terms of the <a href="https://github.com/PaulTran47/paultran47.github.io/blob/master/LICENCE.md" class="special-link" onclick="ma.trackEvent('Bottom disclaimer section', 'Click', 'MIT Licence');" title="MIT Licence">MIT Licence</a>.</small>
-        </div>
+        </article>
       </footer>
       <div style="height: 50px" class="section-spacer"></div>
     </div>

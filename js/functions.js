@@ -86,12 +86,12 @@ function liveSearch() {
     else {
       cards[i].classList.add("is-hidden");
     }
-    /* If input field is empty or has only whitespaces, return default message. */
-    if (searchQuery == "" || searchQuery == null || searchQuery.trim().length == 0) {
-      document.getElementById("resultsmsg").innerHTML = 'Publication&#0040;s&#0041; matching typed keywords will be displayed in real-time.';
-    }
-    else {
+    if (searchQuery != "" && searchQuery != null && searchQuery.trim().length != 0) {
       document.getElementById("resultsmsg").innerHTML = counter + ' publication(s) found.';
+    }
+    /* Return default ARIA22 message. */
+    else {
+      document.getElementById("resultsmsg").innerHTML = 'Publication&#0040;s&#0041; with matched keywords will be displayed in real-time.';
     }
   }
 }
