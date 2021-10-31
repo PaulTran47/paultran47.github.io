@@ -80,7 +80,7 @@
   </head>
   <body>
     <header>
-      <nav class="menu-desktop hide d-show">
+      <nav aria-label="Desktop navigation" class="menu-desktop hide d-show">
         <ul>
           <li class="menu-name-home"><a href="/" onclick="ma.trackEvent('Desktop menu', 'Click', 'Home');" class="special-link" title="Home">Hom<span>e</span></a></li>
           <li class="menu-name-research"><a href="/research" onclick= "ma.trackEvent('Desktop menu', 'Click', 'Research');" class="special-link" title="Research">Researc<span>h</span></a></li>
@@ -89,8 +89,8 @@
           <li class="menu-name-more"><a href="/more" onclick="ma.trackEvent('Desktop menu', 'Click', 'More stuff');" class="special-link" title="More stuff">More Stuf<span>f</span></a></li>
         </ul>
       </nav>
-      <nav class="menu-mobile d-hide">
-        <nav class="icon-menu" tabindex="0">
+      <nav aria-label="Mobile navigation" class="menu-mobile d-hide">
+        <section aria-label="Mobile menu hamburger icon" class="icon-menu" tabindex="0">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <title id="menu-mobile-icon-title">Mobile menu icon</title>
             <desc id="menu-mobile-icon-desc">Mobile menu icon consisting of 3 horizontal lines, with the bottom line shorter than the other two.</desc>
@@ -101,17 +101,17 @@
               <rect style="fill: none" width="24" height="24" />
             </g>
           </svg>
-        </nav>
-        <nav class="site-menu-overlay hidden"></nav>
-        <nav class="icon-menu-close hidden" tabindex="0">
+        </section>
+        <div class="site-menu-overlay hidden"></div>
+        <section aria-label="Mobile menu close icon" class="icon-menu-close hidden" tabindex="0">
           <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="#fff">
             <title id="menu-mobile-close-icon-title">Mobile menu icon</title>
             <desc id="menu-mobile-close-icon-desc">Exit icon from mobile menu that is the letter x made from two orthogonal lines.</desc>
             <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
             <path d="M0 0h24v24H0z" fill="none"/>
           </svg>
-        </nav>
-        <nav class="site-menu hidden">
+        </section>
+        <section aria-label="Mobile navigation menu items" class="site-menu hidden">
           <ul>
             <li class="menu-name-home"><a href="/" onclick="ma.trackEvent('Mobile menu', 'Click', 'Home');" class="special-link" title="Home">Hom<span>e</span></a></li>
             <li class="menu-name-research"><a href="/research" onclick="ma.trackEvent('Mobile menu', 'Click', 'Research');" class="special-link" title="Research">Researc<span>h</span></a></li>
@@ -157,7 +157,7 @@
               </a>
             </li>
           </ul>
-        </nav>
+        </section>
       </nav>
     </header>
     <div class="page-border-decoration"></div>
