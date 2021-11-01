@@ -118,7 +118,8 @@ Below are the awesome Github repos that made optimisation of my website possible
 * [Real Favicon Generator](https://github.com/RealFaviconGenerator);
 * [jonasjacek's comprehensive robots.txt](https://github.com/jonasjacek/robots.txt).
 * [Hilman Ramadhan's live filtered search](https://css-tricks.com/in-page-filtered-search-with-vanilla-javascript/);
-* [Harry Roberts's ct.css for optimising head tag elements](https://csswizardry.com/ct/).
+* [Harry Roberts's ct.css for optimising head tag elements](https://csswizardry.com/ct/);
+* [Unminify](https://unminify.com/) and its wonderful CSS prettification for quick updates of critical inline CSS.
 
 <p align="right">
   (<a href="#paul-le-tran-dot-com">back to top.</a>)
