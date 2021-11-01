@@ -56,7 +56,7 @@ Below are some features of my website that I feel are noteworthy:
   * Having all HTML5/CSS/JS files auto-minified upon user delivery;
   * Critical CSS for initial rendering of every page is inlined in the head tags.
     * All non-critical CSS preloaded and asynchronously loaded.
-    * All JS is asynchronously loaded.
+  * All JS is asynchronously loaded.
   * All graphics are served in compressed .webp format (with compressed .jpg as a fallback)
     * All graphics are lazily loaded for minimal FOIT.
   * HTML5 and CSS code pass the W3C validator with no errors.
