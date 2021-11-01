@@ -1414,6 +1414,9 @@ button:-moz-focusring {
   fill: none;
 }
 .page-more .social-icon-fill-2 {
+  fill: #fff;
+}
+.page-more .account-name .social-icon-fill-2 {
   fill: #999;
 }
 .page-more .icon-menu-close {
