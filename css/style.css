@@ -495,9 +495,9 @@ strong {
   transition: box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
 }
 .page-home a.special-link:hover,
-.page-home a.special-link:focus,
+.page-home a.special-link:focus-within,
 .site-menu a.special-link:hover,
-.site-menu a.special-link:focus {
+.site-menu a.special-link:focus-within {
   -webkit-box-shadow: 0 -16px 0 0 #fdcc48 inset;
   box-shadow: 0 -16px 0 0 #fdcc48 inset;
   color: rgba(0, 0, 0, 0.87);
@@ -550,17 +550,17 @@ p.no-bottom-margin {
   opacity: 1;
 }
 .icon-menu:hover .menu-bar-1,
-.icon-menu:focus .menu-bar-1 {
+.icon-menu:focus-within .menu-bar-1 {
   -webkit-animation: menu-ani 0.6s ease-in-out;
   animation: menu-ani 0.6s ease-in-out;
 }
 .icon-menu:hover .menu-bar-2,
-.icon-menu:focus .menu-bar-2 {
+.icon-menu:focus-within .menu-bar-2 {
   -webkit-animation: menu-ani 0.6s 0.1s ease-in-out;
   animation: menu-ani 0.6s 0.1s ease-in-out;
 }
 .icon-menu:hover .menu-bar-3,
-.icon-menu:focus .menu-bar-3 {
+.icon-menu:focus-within .menu-bar-3 {
   -webkit-animation: menu-ani-bottom 0.6s 0.2s ease-in-out;
   animation: menu-ani-bottom 0.6s 0.2s ease-in-out;
 }
@@ -641,7 +641,7 @@ p.no-bottom-margin {
   transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
 }
 .icon-menu-close:hover,
-.icon-menu-close:focus {
+.icon-menu-close:focus-within {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
       transform: scale(1.1);
@@ -784,7 +784,7 @@ p.no-bottom-margin {
   transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
 }
 .menu-desktop a.special-link:hover,
-.menu-desktop a.special-link:focus {
+.menu-desktop a.special-link:focus-within {
   -webkit-box-shadow: 0 -17px 0 0 #fdcc48 inset;
   box-shadow: 0 -17px 0 0 #fdcc48 inset;
   color: rgba(0, 0, 0, 0.87);
@@ -819,7 +819,7 @@ p.no-bottom-margin {
   transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
 }
 .breadcrumb a:hover,
-.breadcrumb a:focus {
+.breadcrumb a:focus-within {
   -webkit-box-shadow: 0 -9.5px 0 0 #fdcc48 inset;
   box-shadow: 0 -9.5px 0 0 #fdcc48 inset;
   color: rgba(0, 0, 0, 0.87);
@@ -870,12 +870,12 @@ p.no-bottom-margin {
   color: #000;
 }
 .promo-box:hover,
-.promo-box:focus {
+.promo-box:focus-within {
   -webkit-animation: ctabounce1 0.4s ease-in-out forwards;
   animation: ctabounce1 0.4s ease-in-out forwards;
 }
 .promo-box:hover .read-prompt,
-.promo-box:focus .read-prompt {
+.promo-box:focus-within .read-prompt {
   -webkit-animation: ctabounce2 450ms ease-in-out forwards;
   animation: ctabounce2 450ms ease-in-out forwards;
 }
@@ -1004,7 +1004,7 @@ p.no-bottom-margin {
   position: relative;
 }
 .pagination .next:hover,
-.pagination .next:focus {
+.pagination .next:focus-within {
   background: #fff;
   transform: translate3d(0px, -5px, 0px);
 }
@@ -1027,15 +1027,15 @@ p.no-bottom-margin {
   position: relative;
 }
 .pagination .prev:hover,
-.pagination .prev:focus {
+.pagination .prev:focus-within {
   background: #eee;
   -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2) inset;
   box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2) inset;
 }
 .pagination .prev:hover span,
-.pagination .prev:focus span,
+.pagination .prev:focus-within span,
 .pagination .prev:hover svg,
-.pagination .prev:focus svg {
+.pagination .prev:focus-within svg {
   top: 3px;
 }
 .pagination-label {
@@ -1047,12 +1047,12 @@ p.no-bottom-margin {
   display: inline-block;
 }
 .research-link:hover,
-.research-link:focus {
+.research-link:focus-within {
   -webkit-animation: ctabounce1 0.4s ease-in-out forwards;
   animation: ctabounce1 0.4s ease-in-out forwards;
 }
 .research-link:hover:after,
-.research-link:focus:after {
+.research-link:focus-within:after {
   -webkit-animation: ctabounce2 450ms ease-in-out forwards;
   animation: ctabounce2 450ms ease-in-out forwards;
 }
@@ -1196,7 +1196,7 @@ p.no-bottom-margin {
   transition: fill 0.2s ease-in-out;
 }
 .social-icon:hover .social-icon-fill-2,
-.social-icon:focus .social-icon-fill-2 {
+.social-icon:focus-within .social-icon-fill-2 {
   fill: #fdcc48;
 }
 .social-icon .social-icon-fill-1-menu-mobile {
@@ -1209,7 +1209,7 @@ p.no-bottom-margin {
   transition: fill 0.2s ease-in-out;
 }
 .social-icon:hover .social-icon-fill-2-menu-mobile,
-.social-icon:focus .social-icon-fill-2-menu-mobile {
+.social-icon:focus-within .social-icon-fill-2-menu-mobile {
   fill: #fdcc48;
 }
 .social-icon a {
@@ -1259,7 +1259,7 @@ p.no-bottom-margin {
   color: rgba(0, 0, 0, 0.87);
 }
 .page-research .section-text-color-shift:hover,
-.page-research .section-text-color-shift:focus {
+.page-research .section-text-color-shift:focus-within {
   color: #ff5d5d;
 }
 .page-research a {
@@ -1273,7 +1273,7 @@ p.no-bottom-margin {
   box-shadow: 0 -3px 0 0 #ff5d5d inset;
 }
 .page-research .site-menu a.special-link:hover,
-.page-research .site-menu a.special-link:focus {
+.page-research .site-menu a.special-link:focus-within {
   -webkit-box-shadow: 0 -16px 0 0 #ff5d5d inset;
   box-shadow: 0 -16px 0 0 #ff5d5d inset;
 }
@@ -1294,7 +1294,7 @@ p.no-bottom-margin {
   box-shadow: 0 -3px 0 0 #ff5d5d inset;
 }
 .page-research a.special-link:hover,
-.page-research a.special-link:focus {
+.page-research a.special-link:focus-within {
   -webkit-box-shadow: 0 -16px 0 0 #ff5d5d inset;
   box-shadow: 0 -16px 0 0 #ff5d5d inset;
 }
@@ -1304,7 +1304,7 @@ p.no-bottom-margin {
   box-shadow: 0 0 0 0 #ff5d5d inset;
 }
 .page-research .breadcrumb a:hover,
-.page-research .breadcrumb a:focus {
+.page-research .breadcrumb a:focus-within {
   -webkit-box-shadow: 0 -9.5px 0 0 #ff5d5d inset;
   box-shadow: 0 -9.5px 0 0 #ff5d5d inset;
   color: rgba(0, 0, 0, 0.87);
@@ -1315,7 +1315,7 @@ p.no-bottom-margin {
   box-shadow: 0 0 0 0 #ff5d5d inset;
 }
 .page-research .menu-desktop a:hover,
-.page-research .menu-desktop a:focus {
+.page-research .menu-desktop a:focus-within {
   color: rgba(0, 0, 0, 0.87);
   -webkit-box-shadow: 0 -17px 0 0 #ff5d5d inset;
   box-shadow: 0 -17px 0 0 #ff5d5d inset;
@@ -1330,7 +1330,7 @@ p.no-bottom-margin {
   color: #ff1400;
 }
 .page-research .social-icon:hover .social-icon-fill-2-menu-mobile,
-.page-research .social-icon:focus .social-icon-fill-2-menu-mobile {
+.page-research .social-icon:focus-within .social-icon-fill-2-menu-mobile {
   fill: #ff5d5d;
 }
 @media (min-width: 800px) {
@@ -1353,7 +1353,7 @@ p.no-bottom-margin {
   padding: 20px;
 }
 .page-teaching .section-text-color-shift:hover,
-.page-teaching .section-text-color-shift:focus {
+.page-teaching .section-text-color-shift:focus-within {
   color: #eb6b00;
 }
 .page-teaching a {
@@ -1367,7 +1367,7 @@ p.no-bottom-margin {
   box-shadow: 0 -3px 0 0 #eb6b00 inset;
 }
 .page-teaching .site-menu a.special-link:hover,
-.page-teaching .site-menu a.special-link:focus {
+.page-teaching .site-menu a.special-link:focus-within {
   -webkit-box-shadow: 0 -16px 0 0 #eb6b00 inset;
   box-shadow: 0 -16px 0 0 #eb6b00 inset;
 }
@@ -1388,7 +1388,7 @@ p.no-bottom-margin {
   box-shadow: 0 -3px 0 0 #eb6b00 inset;
 }
 .page-teaching a.special-link:hover,
-.page-teaching a.special-link:focus {
+.page-teaching a.special-link:focus-within {
   -webkit-box-shadow: 0 -16px 0 0 #eb6b00 inset;
   box-shadow: 0 -16px 0 0 #eb6b00 inset;
 }
@@ -1398,7 +1398,7 @@ p.no-bottom-margin {
   box-shadow: 0 0 0 0 #eb6b00 inset;
 }
 .page-teaching .breadcrumb a:hover,
-.page-teaching .breadcrumb a:focus {
+.page-teaching .breadcrumb a:focus-within {
   -webkit-box-shadow: 0 -9.5px 0 0 #eb6b00 inset;
   box-shadow: 0 -9.5px 0 0 #eb6b00 inset;
   color: rgba(0, 0, 0, 0.87);
@@ -1409,7 +1409,7 @@ p.no-bottom-margin {
   box-shadow: 0 0 0 0 #eb6b00 inset;
 }
 .page-teaching .menu-desktop a:hover,
-.page-teaching .menu-desktop a:focus {
+.page-teaching .menu-desktop a:focus-within {
   color: rgba(0, 0, 0, 0.87);
   -webkit-box-shadow: 0 -17px 0 0 #eb6b00 inset;
   box-shadow: 0 -17px 0 0 #eb6b00 inset;
@@ -1421,7 +1421,7 @@ p.no-bottom-margin {
   margin-left: 10px;
 }
 .page-teaching .social-icon:hover .social-icon-fill-2-menu-mobile,
-.page-teaching .social-icon:focus .social-icon-fill-2-menu-mobile {
+.page-teaching .social-icon:focus-within .social-icon-fill-2-menu-mobile {
   fill: #eb6b00;
 }
 .page-more a {
@@ -1438,7 +1438,7 @@ p.no-bottom-margin {
   box-shadow: 0 -3px 0 0 #af005e inset;
 }
 .page-more .site-menu a.special-link:hover,
-.page-more .site-menu a.special-link:focus {
+.page-more .site-menu a.special-link:focus-within {
   -webkit-box-shadow: 0 -16px 0 0 #af005e inset;
   box-shadow: 0 -16px 0 0 #af005e inset;
   color: rgba(255, 255, 255, 1);
@@ -1456,7 +1456,7 @@ p.no-bottom-margin {
   transition: box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
 }
 .page-more a.special-link:hover,
-.page-more a.special-link:focus {
+.page-more a.special-link:focus-within {
   -webkit-box-shadow: 0 -16px 0 0 #af005e inset;
   box-shadow: 0 -16px 0 0 #af005e inset;
   color: rgba(255, 255, 255, 1);
@@ -1467,7 +1467,7 @@ p.no-bottom-margin {
   box-shadow: 0 0 0 0 #af005e inset;
 }
 .page-more .breadcrumb a:hover,
-.page-more .breadcrumb a:focus {
+.page-more .breadcrumb a:focus-within {
   -webkit-box-shadow: 0 -9.5px 0 0 #af005e inset;
   box-shadow: 0 -9.5px 0 0 #af005e inset;
   color: rgba(255, 255, 255, 1);
@@ -1478,7 +1478,7 @@ p.no-bottom-margin {
   box-shadow: 0 0 0 0 #af005e inset;
 }
 .page-more .menu-desktop a:hover,
-.page-more .menu-desktop a:focus {
+.page-more .menu-desktop a:focus-within {
   color: rgba(255, 255, 255, 1);
   -webkit-box-shadow: 0 -17px 0 0 #af005e inset;
   box-shadow: 0 -17px 0 0 #af005e inset;
@@ -1490,7 +1490,7 @@ p.no-bottom-margin {
   fill: #fff;
 }
 .page-more .social-icon:hover .social-icon-fill-2-menu-mobile,
-.page-more .social-icon:focus .social-icon-fill-2-menu-mobile {
+.page-more .social-icon:focus-within .social-icon-fill-2-menu-mobile {
   fill: #af005e;
 }
 .page-more .behind-box {
@@ -1561,9 +1561,9 @@ p.no-bottom-margin {
   transition: box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
 }
 .page-404 a.special-link:hover,
-.page-404 a.special-link:focus,
+.page-404 a.special-link:focus-within,
 .page-404 .site-menu a.special-link:hover,
-.page-404 .site-menu a.special-link:focus {
+.page-404 .site-menu a.special-link:focus-within {
   -webkit-box-shadow: 0 -16px 0 0 #fdcc48 inset;
   box-shadow: 0 -16px 0 0 #fdcc48 inset;
   color: rgba(0, 0, 0, 0.87);
