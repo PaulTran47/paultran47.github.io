@@ -106,7 +106,7 @@ To view the full reports, please visit [this subdirectory](https://github.com/Pa
 ### Acknowledgements
 =========================================================================
 
-Below are the awesome Github repos that made optimisation of my website possible:
+Below are the awesome GitHub repos that made optimisation of my website possible:
 
 * [Autoprefixer CSS](https://github.com/postcss/autoprefixer);
 * [google-webfonts-helper](https://github.com/majodev/google-webfonts-helper);
