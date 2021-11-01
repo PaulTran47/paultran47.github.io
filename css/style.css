@@ -1056,9 +1056,9 @@ button:-moz-focusring {
 }
 .social-icon .social-icon-fill-2 {
   fill: rgba(0, 0, 0, 0.87);
-  -webkit-transition: fill 0.2s ease-in-out;
-  -o-transition: fill 0.2s ease-in-out;
-  transition: fill 0.2s ease-in-out;
+  -webkit-transition: fill 125ms ease-in-out;
+  -o-transition: fill 125ms ease-in-out;
+  transition: fill 125ms ease-in-out;
 }
 .social-icon:hover .social-icon-fill-2,
 .social-icon:focus-within .social-icon-fill-2 {
@@ -1069,9 +1069,9 @@ button:-moz-focusring {
 }
 .social-icon .social-icon-fill-2-menu-mobile {
   fill: rgba(0, 0, 0, 0.87);
-  -webkit-transition: fill 0.2s ease-in-out;
-  -o-transition: fill 0.2s ease-in-out;
-  transition: fill 0.2s ease-in-out;
+  -webkit-transition: fill 125ms ease-in-out;
+  -o-transition: fill 125ms ease-in-out;
+  transition: fill 125ms ease-in-out;
 }
 .social-icon:hover .social-icon-fill-2-menu-mobile,
 .social-icon:focus-within .social-icon-fill-2-menu-mobile {
