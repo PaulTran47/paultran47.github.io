@@ -744,11 +744,6 @@ p.no-bottom-margin {
     transform: scale(1);
   }
 }
-@media (min-width: 800px) {
-  .breadcrumb {
-    display: none;
-  }
-}
 .menu-desktop {
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.54);
