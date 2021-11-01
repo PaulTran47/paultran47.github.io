@@ -488,11 +488,11 @@ strong {
   color: rgba(0, 0, 0, 0.87);
   -webkit-box-shadow: 0 -1px 0 0 #fdcc48 inset;
   box-shadow: 0 -1px 0 0 #fdcc48 inset;
-  -webkit-transition: -webkit-box-shadow 150ms ease-in-out;
-  transition: -webkit-box-shadow 150ms ease-in-out;
-  -o-transition: box-shadow 150ms ease-in-out;
-  transition: box-shadow 150ms ease-in-out;
-  transition: box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
+  -webkit-transition: -webkit-box-shadow 50ms ease-in-out;
+  transition: -webkit-box-shadow 50ms ease-in-out;
+  -o-transition: box-shadow 50ms ease-in-out;
+  transition: box-shadow 50ms ease-in-out;
+  transition: box-shadow 50ms ease-in-out, -webkit-box-shadow 50ms ease-in-out;
 }
 .page-home a.special-link:hover,
 .page-home a.special-link:focus-within,
@@ -634,11 +634,11 @@ p.no-bottom-margin {
   z-index: 10;
   -webkit-animation: bounce-out 0.4s ease-in-out;
   animation: bounce-out 0.4s ease-in-out;
-  -webkit-transition: -webkit-transform 150ms ease-in-out;
-  transition: -webkit-transform 150ms ease-in-out;
-  -o-transition: transform 150ms ease-in-out;
-  transition: transform 150ms ease-in-out;
-  transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
+  -webkit-transition: -webkit-transform 50ms ease-in-out;
+  transition: -webkit-transform 50ms ease-in-out;
+  -o-transition: transform 50ms ease-in-out;
+  transition: transform 50ms ease-in-out;
+  transition: transform 50ms ease-in-out, -webkit-transform 50ms ease-in-out;
 }
 .icon-menu-close:hover,
 .icon-menu-close:focus-within {
@@ -777,11 +777,11 @@ p.no-bottom-margin {
   text-decoration: none;
   -webkit-box-shadow: 0 -1px 0 0 #fdcc48 inset;
   box-shadow: 0 -1px 0 0 #fdcc48 inset;
-  -webkit-transition: color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
-  transition: color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
-  -o-transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out;
-  transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out;
-  transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
+  -webkit-transition: color 50ms ease-in-out, -webkit-box-shadow 50ms ease-in-out;
+  transition: color 50ms ease-in-out, -webkit-box-shadow 50ms ease-in-out;
+  -o-transition: box-shadow 50ms ease-in-out, color 50ms ease-in-out;
+  transition: box-shadow 50ms ease-in-out, color 50ms ease-in-out;
+  transition: box-shadow 50ms ease-in-out, color 50ms ease-in-out, -webkit-box-shadow 50ms ease-in-out;
 }
 .menu-desktop a.special-link:hover,
 .menu-desktop a.special-link:focus-within {
@@ -812,11 +812,11 @@ p.no-bottom-margin {
   text-decoration: none;
   -webkit-box-shadow: 0 -1px 0 0 #fdcc48 inset;
   box-shadow: 0 -1px 0 0 #fdcc48 inset;
-  -webkit-transition: color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
-  transition: color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
-  -o-transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out;
-  transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out;
-  transition: box-shadow 150ms ease-in-out, color 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
+  -webkit-transition: color 50ms ease-in-out, -webkit-box-shadow 50ms ease-in-out;
+  transition: color 50ms ease-in-out, -webkit-box-shadow 50ms ease-in-out;
+  -o-transition: box-shadow 50ms ease-in-out, color 50ms ease-in-out;
+  transition: box-shadow 50ms ease-in-out, color 50ms ease-in-out;
+  transition: box-shadow 50ms ease-in-out, color 50ms ease-in-out, -webkit-box-shadow 50ms ease-in-out;
 }
 .breadcrumb a:hover,
 .breadcrumb a:focus-within {
@@ -1041,43 +1041,6 @@ p.no-bottom-margin {
 .pagination-label {
   margin-bottom: -20px;
 }
-.research-link {
-  float: left;
-  position: relative;
-  display: inline-block;
-}
-.research-link:hover,
-.research-link:focus-within {
-  -webkit-animation: ctabounce1 0.4s ease-in-out forwards;
-  animation: ctabounce1 0.4s ease-in-out forwards;
-}
-.research-link:hover:after,
-.research-link:focus-within:after {
-  -webkit-animation: ctabounce2 450ms ease-in-out forwards;
-  animation: ctabounce2 450ms ease-in-out forwards;
-}
-.research-link:after {
-  content: "";
-  position: absolute;
-  top: 25%;
-  left: 35%;
-  width: 30%;
-  height: 50%;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  -webkit-transition: all 150ms ease-in-out;
-  -o-transition: all 150ms ease-in-out;
-  transition: all 150ms ease-in-out;
-  pointer-events: none;
-}
-.research-link img {
-  max-width: 100%;
-  display: block;
-  border-radius: 8px;
-  -webkit-box-shadow: 0 70px 40px -50px rgba(0, 0, 0, 0.2), 0 3px 20px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 70px 40px -50px rgba(0, 0, 0, 0.2), 0 3px 20px rgba(0, 0, 0, 0.1);
-}
 .page-home .title-container {
   margin-bottom: -32px;
   z-index: 2;
@@ -1283,11 +1246,11 @@ p.no-bottom-margin {
   color: rgba(0, 0, 0, 0.87);
   -webkit-box-shadow: 0 -1px 0 0 #ff5d5d inset;
   box-shadow: 0 -1px 0 0 #ff5d5d inset;
-  -webkit-transition: -webkit-box-shadow 150ms ease-in-out;
-  transition: -webkit-box-shadow 150ms ease-in-out;
-  -o-transition: box-shadow 150ms ease-in-out;
-  transition: box-shadow 150ms ease-in-out;
-  transition: box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
+  -webkit-transition: -webkit-box-shadow 50ms ease-in-out;
+  transition: -webkit-box-shadow 50ms ease-in-out;
+  -o-transition: box-shadow 50ms ease-in-out;
+  transition: box-shadow 50ms ease-in-out;
+  transition: box-shadow 50ms ease-in-out, -webkit-box-shadow 50ms ease-in-out;
 }
 .page-research a.special-link {
   -webkit-box-shadow: 0 -1px 0 0 #ff5d5d inset;
@@ -1377,11 +1340,11 @@ p.no-bottom-margin {
   color: rgba(0, 0, 0, 0.87);
   -webkit-box-shadow: 0 -1px 0 0 #eb6b00 inset;
   box-shadow: 0 -1px 0 0 #eb6b00 inset;
-  -webkit-transition: -webkit-box-shadow 150ms ease-in-out;
-  transition: -webkit-box-shadow 150ms ease-in-out;
-  -o-transition: box-shadow 150ms ease-in-out;
-  transition: box-shadow 150ms ease-in-out;
-  transition: box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
+  -webkit-transition: -webkit-box-shadow 50ms ease-in-out;
+  transition: -webkit-box-shadow 50ms ease-in-out;
+  -o-transition: box-shadow 50ms ease-in-out;
+  transition: box-shadow 50ms ease-in-out;
+  transition: box-shadow 50ms ease-in-out, -webkit-box-shadow 50ms ease-in-out;
 }
 .page-teaching a.special-link {
   -webkit-box-shadow: 0 -1px 0 0 #eb6b00 inset;
@@ -1449,11 +1412,11 @@ p.no-bottom-margin {
   color: rgba(0, 0, 0, 0.87);
   -webkit-box-shadow: 0 -1px 0 0 #af005e inset;
   box-shadow: 0 -1px 0 0 #af005e inset;
-  -webkit-transition: -webkit-box-shadow 150ms ease-in-out;
-  transition: -webkit-box-shadow 150ms ease-in-out;
-  -o-transition: box-shadow 150ms ease-in-out;
-  transition: box-shadow 150ms ease-in-out;
-  transition: box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
+  -webkit-transition: -webkit-box-shadow 50ms ease-in-out;
+  transition: -webkit-box-shadow 50ms ease-in-out;
+  -o-transition: box-shadow 50ms ease-in-out;
+  transition: box-shadow 50ms ease-in-out;
+  transition: box-shadow 50ms ease-in-out, -webkit-box-shadow 50ms ease-in-out;
 }
 .page-more a.special-link:hover,
 .page-more a.special-link:focus-within {
@@ -1554,11 +1517,11 @@ p.no-bottom-margin {
   color: rgba(0, 0, 0, 0.87);
   -webkit-box-shadow: 0 -1px 0 0 #fdcc48 inset;
   box-shadow: 0 -1px 0 0 #fdcc48 inset;
-  -webkit-transition: -webkit-box-shadow 150ms ease-in-out;
-  transition: -webkit-box-shadow 150ms ease-in-out;
-  -o-transition: box-shadow 150ms ease-in-out;
-  transition: box-shadow 150ms ease-in-out;
-  transition: box-shadow 150ms ease-in-out, -webkit-box-shadow 150ms ease-in-out;
+  -webkit-transition: -webkit-box-shadow 50ms ease-in-out;
+  transition: -webkit-box-shadow 50ms ease-in-out;
+  -o-transition: box-shadow 50ms ease-in-out;
+  transition: box-shadow 50ms ease-in-out;
+  transition: box-shadow 50ms ease-in-out, -webkit-box-shadow 50ms ease-in-out;
 }
 .page-404 a.special-link:hover,
 .page-404 a.special-link:focus-within,
