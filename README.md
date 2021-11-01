@@ -41,16 +41,17 @@ Below are some features of my website that I feel are noteworthy:
 
 * The website source code is entirely vanilla HTML5, CSS, and JS. This was consciously done to make the source code (and all of its mistakes) completely understandable to all programmers.
 
+* Every website page is written entirely with semantic HTML.
+  * Usage of div and span tags are last resorts (e.g., div used instead of figure due to browser default styling applied, which causes FOIT when remedy.css and reset.css are loaded).
+  * Semantic HTML tags also comply with ARIA accessibility requirements (e.g., sections and articles having headings).
+
 * Every website page is designed to be responsive for almost all common display resolutions, both desktop and mobile.
   * This includes displays as small as the iPhone4 to as large as widescreen desktop monitors.
   * Uncommon display resolutions such as the Galaxy Fold, Surface Duo, and Nest Hub are also supported.
 
 * Every website page is designed to be accessible for all input types.
   * Every page, menu, and link can be navigated using a mouse, keyboard, or touch.
-  * Research page features live filtered search for publications, with ARIA22 accessibility by displaying number of results.
-
-* Every website page is written entirely with semantic HTML.
-  * Usage of div and span tags are last resorts (e.g., div used instead of figure due to browser default styling applied, which causes FOIT when remedy.css and reset.css are loaded).
+  * Research page features live filtered search for publications with ARIA22 accessibility by displaying number of results.
 
 * Every website page is optimised for slow connections (e.g., 3G network connections). This is achieved by:
   * Having all HTML5/CSS/JS files auto-minified upon user delivery;
