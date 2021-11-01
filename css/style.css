@@ -888,9 +888,13 @@ p.no-bottom-margin {
   background: -o-radial-gradient(30% 107%, circle, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
   background: radial-gradient(circle at 30% 107%, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 }
-.black-promo .read-prompt {
+.github-promo .read-prompt {
   background: -o-radial-gradient(30% 107%, circle, #6e5494 0, #6e5494 5%, #6e5494 45%, #6e5494 60%, #6e5494 90%);
   background: radial-gradient(circle at 30% 107%, #6e5494 0, #6e5494 5%, #6e5494 45%, #6e5494 60%, #6e5494 90%);
+}
+.black-promo .read-prompt {
+  background: -o-radial-gradient(30% 107%, circle, #000 0, #000 5%, #000 45%, #000 60%, #000 90%);
+  background: radial-gradient(circle at 30% 107%, #000 0, #000 5%, #000 45%, #000 60%, #000 90%);
 }
 @-webkit-keyframes ctabounce1 {
   0% {
@@ -995,7 +999,8 @@ p.no-bottom-margin {
 .pagination .next:hover,
 .pagination .next:focus-within {
   background: #fff;
-  transform: translate3d(0px, -5px, 0px);
+  -webkit-transform: translate3d(0px, -5px, 0px);
+          transform: translate3d(0px, -5px, 0px);
 }
 .pagination .prev {
   background: #efefef;
@@ -1196,7 +1201,6 @@ p.no-bottom-margin {
   }
 }
 .page-research .section-text-color-shift {
-  -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
@@ -1291,7 +1295,6 @@ p.no-bottom-margin {
   }
 }
 .page-teaching .section-text-color-shift {
-  -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
