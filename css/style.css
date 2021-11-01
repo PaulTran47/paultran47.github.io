@@ -1414,10 +1414,10 @@ button:-moz-focusring {
   fill: none;
 }
 .page-more .social-icon-fill-2 {
-  fill: #fff;
+  fill: #999;
 }
 .page-more .account-name .social-icon-fill-2 {
-  fill: #999;
+  fill: #fff;
 }
 .page-more .icon-menu-close {
   background: #af005e;
