@@ -75,6 +75,10 @@ img {
   border-style: none;
   max-width: 100%;
 }
+figure,
+figcaption {
+  all: unset;
+}
 .lazy-img {
   max-width: 100%;
   width: 100%;
@@ -1425,7 +1429,8 @@ button:-moz-focusring {
 .page-more .behind-box {
   margin-bottom: -40px;
 }
-.page-more .thumbs > div {
+.page-more .thumbs > figure,
+figcaption {
   background-position: center;
   background-size: cover;
 }
