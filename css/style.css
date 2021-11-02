@@ -1577,6 +1577,11 @@ figcaption {
   box-shadow: 0 -22px 0 0 var(--colour-404) inset;
   color: rgba(255, 255, 255, 0.87);
 }
+.page-404 .social-icon:hover .social-icon-fill-2-menu-mobile,
+.page-404 .social-icon:focus-within .social-icon-fill-2-menu-mobile {
+  fill: #0233b7;
+  fill: var(--colour-404);
+}
 .page-404 .icon-menu-close {
   background: #0233b7;
   background: var(--colour-404);
