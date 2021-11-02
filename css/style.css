@@ -2,7 +2,7 @@
   --colour-main: #fdcc48;
   --colour-404: #0233b7;
   --colour-research: #eb1400;
-  --colour-teaching: #c25700;
+  --colour-teaching: #bf5700;
   --colour-more: #af005e;
 }
 html {
@@ -1329,16 +1329,16 @@ button:-moz-focusring {
   background: var(--colour-research);
 }
 .page-teaching a {
-  color: #c25700;
+  color: #bf5700;
   color: var(--colour-teaching);
 }
 .page-teaching a.special-link {
   display: inline;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87);
-  -webkit-box-shadow: 0 -2px 0 0 #c25700 inset;
+  -webkit-box-shadow: 0 -2px 0 0 #bf5700 inset;
   -webkit-box-shadow: 0 -2px 0 0 var(--colour-teaching) inset;
-  box-shadow: 0 -2px 0 0 #c25700 inset;
+  box-shadow: 0 -2px 0 0 #bf5700 inset;
   box-shadow: 0 -2px 0 0 var(--colour-teaching) inset;
   -webkit-transition: -webkit-box-shadow 50ms ease-in-out;
   transition: -webkit-box-shadow 50ms ease-in-out;
@@ -1348,54 +1348,54 @@ button:-moz-focusring {
 }
 .page-teaching a.special-link:hover,
 .page-teaching a.special-link:focus-within {
-  -webkit-box-shadow: 0 -22px 0 0 #c25700 inset;
+  -webkit-box-shadow: 0 -22px 0 0 #bf5700 inset;
   -webkit-box-shadow: 0 -22px 0 0 var(--colour-teaching) inset;
-  box-shadow: 0 -22px 0 0 #c25700 inset;
+  box-shadow: 0 -22px 0 0 #bf5700 inset;
   box-shadow: 0 -22px 0 0 var(--colour-teaching) inset;
   color: rgba(255, 255, 255, 0.87);
 }
 .page-teaching .site-menu a.special-link {
-  -webkit-box-shadow: 0 -2px 0 0 #c25700 inset;
+  -webkit-box-shadow: 0 -2px 0 0 #bf5700 inset;
   -webkit-box-shadow: 0 -2px 0 0 var(--colour-teaching) inset;
-  box-shadow: 0 -2px 0 0 #c25700 inset;
+  box-shadow: 0 -2px 0 0 #bf5700 inset;
   box-shadow: 0 -2px 0 0 var(--colour-teaching) inset;
 }
 .page-teaching .site-menu a.special-link:hover,
 .page-teaching .site-menu a.special-link:focus-within {
-  -webkit-box-shadow: 0 -22px 0 0 #c25700 inset;
+  -webkit-box-shadow: 0 -22px 0 0 #bf5700 inset;
   -webkit-box-shadow: 0 -22px 0 0 var(--colour-teaching) inset;
-  box-shadow: 0 -22px 0 0 #c25700 inset;
+  box-shadow: 0 -22px 0 0 #bf5700 inset;
   box-shadow: 0 -22px 0 0 var(--colour-teaching) inset;
   color: rgba(255, 255, 255, 0.87);
 }
 .page-teaching .menu-desktop a {
   color: rgba(0, 0, 0, 0.54);
-  -webkit-box-shadow: 0 -2px 0 0 #c25700 inset;
+  -webkit-box-shadow: 0 -2px 0 0 #bf5700 inset;
   -webkit-box-shadow: 0 -2px 0 0 var(--colour-teaching) inset;
-  box-shadow: 0 -2px 0 0 #c25700 inset;
+  box-shadow: 0 -2px 0 0 #bf5700 inset;
   box-shadow: 0 -2px 0 0 var(--colour-teaching) inset;
 }
 .page-teaching .menu-desktop a:hover,
 .page-teaching .menu-desktop a:focus-within {
   color: rgba(0, 0, 0, 0.87);
-  -webkit-box-shadow: 0 -17px 0 0 #c25700 inset;
+  -webkit-box-shadow: 0 -17px 0 0 #bf5700 inset;
   -webkit-box-shadow: 0 -17px 0 0 var(--colour-teaching) inset;
-  box-shadow: 0 -17px 0 0 #c25700 inset;
+  box-shadow: 0 -17px 0 0 #bf5700 inset;
   box-shadow: 0 -17px 0 0 var(--colour-teaching) inset;
   color: rgba(255, 255, 255, 0.87);
 }
 .page-teaching .breadcrumb a {
   color: rgba(0, 0, 0, 0.54);
-  -webkit-box-shadow: 0 -2px 0 0 #c25700 inset;
+  -webkit-box-shadow: 0 -2px 0 0 #bf5700 inset;
   -webkit-box-shadow: 0 -2px 0 0 var(--colour-teaching) inset;
-  box-shadow: 0 -2px 0 0 #c25700 inset;
+  box-shadow: 0 -2px 0 0 #bf5700 inset;
   box-shadow: 0 -2px 0 0 var(--colour-teaching) inset;
 }
 .page-teaching .breadcrumb a:hover,
 .page-teaching .breadcrumb a:focus-within {
-  -webkit-box-shadow: 0 -9.5px 0 0 #c25700 inset;
+  -webkit-box-shadow: 0 -9.5px 0 0 #bf5700 inset;
   -webkit-box-shadow: 0 -9.5px 0 0 var(--colour-teaching) inset;
-  box-shadow: 0 -9.5px 0 0 #c25700 inset;
+  box-shadow: 0 -9.5px 0 0 #bf5700 inset;
   box-shadow: 0 -9.5px 0 0 var(--colour-teaching) inset;
   color: rgba(255, 255, 255, 0.87);
 }
@@ -1419,16 +1419,16 @@ button:-moz-focusring {
 }
 .page-teaching .section-text-color-shift:hover,
 .page-teaching .section-text-color-shift:focus-within {
-  color: #c25700;
+  color: #bf5700;
   color: var(--colour-teaching);
 }
 .page-teaching .social-icon:hover .social-icon-fill-2-menu-mobile,
 .page-teaching .social-icon:focus-within .social-icon-fill-2-menu-mobile {
-  fill: #c25700;
+  fill: #bf5700;
   fill: var(--colour-teaching);
 }
 .page-teaching .icon-menu-close {
-  background: #c25700;
+  background: #bf5700;
   background: var(--colour-teaching);
 }
 .page-more a {
