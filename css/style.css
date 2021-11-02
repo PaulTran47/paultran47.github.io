@@ -622,6 +622,7 @@ button:-moz-focusring {
   height: 24px;
   padding: 4px;
   background: #fdcc48;
+  background: var(--colour-main);
   position: fixed;
   top: 26px;
   left: 26px;
