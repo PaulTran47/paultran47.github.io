@@ -1240,7 +1240,7 @@ button:-moz-focusring {
   -webkit-box-shadow: 0 -22px 0 0 var(--colour-research) inset;
   box-shadow: 0 -22px 0 0 #eb1400 inset;
   box-shadow: 0 -22px 0 0 var(--colour-research) inset;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.87);
 }
 .page-research .site-menu a.special-link {
   -webkit-box-shadow: 0 -2px 0 0 #eb1400 inset;
@@ -1254,7 +1254,7 @@ button:-moz-focusring {
   -webkit-box-shadow: 0 -22px 0 0 var(--colour-research) inset;
   box-shadow: 0 -22px 0 0 #eb1400;
   box-shadow: 0 -22px 0 0 var(--colour-research) inset;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.87);
 }
 .page-research .menu-desktop a {
   color: rgba(0, 0, 0, 0.54);
@@ -1270,7 +1270,7 @@ button:-moz-focusring {
   -webkit-box-shadow: 0 -17px 0 0 var(--colour-research) inset;
   box-shadow: 0 -17px 0 0 #eb1400 inset;
   box-shadow: 0 -17px 0 0 var(--colour-research) inset;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.87);
 }
 .page-research .breadcrumb a {
   color: rgba(0, 0, 0, 0.54);
@@ -1285,7 +1285,7 @@ button:-moz-focusring {
   -webkit-box-shadow: 0 -9.5px 0 0 var(--colour-research) inset;
   box-shadow: 0 -9.5px 0 0 #eb1400 inset;
   box-shadow: 0 -9.5px 0 0 var(--colour-research) inset;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.87);
 }
 @media (min-width: 800px) {
   .page-research .container {
@@ -1352,7 +1352,7 @@ button:-moz-focusring {
   -webkit-box-shadow: 0 -22px 0 0 var(--colour-teaching) inset;
   box-shadow: 0 -22px 0 0 #c25700 inset;
   box-shadow: 0 -22px 0 0 var(--colour-teaching) inset;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.87);
 }
 .page-teaching .site-menu a.special-link {
   -webkit-box-shadow: 0 -2px 0 0 #c25700 inset;
@@ -1366,7 +1366,7 @@ button:-moz-focusring {
   -webkit-box-shadow: 0 -22px 0 0 var(--colour-teaching) inset;
   box-shadow: 0 -22px 0 0 #c25700 inset;
   box-shadow: 0 -22px 0 0 var(--colour-teaching) inset;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.87);
 }
 .page-teaching .menu-desktop a {
   color: rgba(0, 0, 0, 0.54);
@@ -1382,7 +1382,7 @@ button:-moz-focusring {
   -webkit-box-shadow: 0 -17px 0 0 var(--colour-teaching) inset;
   box-shadow: 0 -17px 0 0 #c25700 inset;
   box-shadow: 0 -17px 0 0 var(--colour-teaching) inset;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.87);
 }
 .page-teaching .breadcrumb a {
   color: rgba(0, 0, 0, 0.54);
@@ -1397,7 +1397,7 @@ button:-moz-focusring {
   -webkit-box-shadow: 0 -9.5px 0 0 var(--colour-teaching) inset;
   box-shadow: 0 -9.5px 0 0 #c25700 inset;
   box-shadow: 0 -9.5px 0 0 var(--colour-teaching) inset;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.87);
 }
 @media (min-width: 800px) {
   .page-teaching .container {
@@ -1455,7 +1455,7 @@ button:-moz-focusring {
   -webkit-box-shadow: 0 -22px 0 0 var(--colour-more) inset;
   box-shadow: 0 -22px 0 0 #af005e inset;
   box-shadow: 0 -22px 0 0 var(--colour-more) inset;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.87);
 }
 .page-more .site-menu a.special-link {
   -webkit-box-shadow: 0 -2px 0 0 #af005e inset;
@@ -1469,7 +1469,7 @@ button:-moz-focusring {
   -webkit-box-shadow: 0 -22px 0 0 var(--colour-more) inset;
   box-shadow: 0 -22px 0 0 #af005e inset;
   box-shadow: 0 -22px 0 0 var(--colour-more) inset;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.87);
 }
 .page-more .menu-desktop a {
   color: rgba(0, 0, 0, 0.54);
@@ -1480,7 +1480,7 @@ button:-moz-focusring {
 }
 .page-more .menu-desktop a:hover,
 .page-more .menu-desktop a:focus-within {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.87);
   -webkit-box-shadow: 0 -17px 0 0 #af005e inset;
   -webkit-box-shadow: 0 -17px 0 0 var(--colour-more) inset;
   box-shadow: 0 -17px 0 0 #af005e inset;
@@ -1499,7 +1499,7 @@ button:-moz-focusring {
   -webkit-box-shadow: 0 -9.5px 0 0 var(--colour-more) inset;
   box-shadow: 0 -9.5px 0 0 #af005e inset;
   box-shadow: 0 -9.5px 0 0 var(--colour-more) inset;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.87);
 }
 .page-more .social-icon:hover .social-icon-fill-2-menu-mobile,
 .page-more .social-icon:focus-within .social-icon-fill-2-menu-mobile {
@@ -1575,7 +1575,7 @@ figcaption {
   -webkit-box-shadow: 0 -22px 0 0 var(--colour-404) inset;
   box-shadow: 0 -22px 0 0 #0233b7 inset;
   box-shadow: 0 -22px 0 0 var(--colour-404) inset;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.87);
 }
 .page-404 .icon-menu-close {
   background: #0233b7;
