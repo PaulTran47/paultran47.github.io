@@ -64,6 +64,7 @@ Below are some features of my website that I feel are noteworthy:
     * An exception is the "line-sizing" CSS property in remedy.css. This is only a CSSWG draft, but is still included for futureproofing.
 
 * Every website page has a Google Lighthouse score of 100/100 on both mobile and desktop platforms.
+  * I am not including the Google Lighthouse scores of my project subsites (e.g., [econ-grad-app-deadlines](https://github.com/PaulTran47/econ-grad-app-deadlines)). This is because these subsites are generated using the default theme of [Cayman](https://github.com/pages-themes/cayman) from GitHub Pages. As a result, the scores wouldn't be reflecting my own design and code.
 
 * Favicon support for every platform (with different favicon embedded for night mode support).
 
