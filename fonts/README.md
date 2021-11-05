@@ -2,11 +2,9 @@
 
 [MIT licensed](https://github.com/PaulTran47/paultran47.github.io/blob/master/LICENCE.md).
 
-=========================================================================
+---
 
 ## Overview
-=========================================================================
-
 Fonts used are the Roboto Mono in 400, 700; normal.
 
 Fonts downloaded and self-hosted using the [google-webfonts-helper tool](https://github.com/majodev/google-webfonts-helper).
@@ -22,4 +20,4 @@ All of the files are to ensure most browsers render webfonts (with system font "
 * iOS;
 * Legacy iOS.
 
-=========================================================================
+---
