@@ -846,13 +846,13 @@ button:-moz-focusring {
   position: relative;
 }
 .box-decoration {
-  border: 4px dotted #f1f1f1;
+  outline: 4px dotted #f1f1f1;
   margin-bottom: -112px;
-  height: 445px;
+  height: 335px;
 }
 @media (min-width: 800px) {
   .box-decoration {
-    height: 230px;
+    height: 235px;
   }
 }
 .promo-box {
