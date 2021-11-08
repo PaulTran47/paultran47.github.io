@@ -52,10 +52,11 @@ Below are some features of my website that I feel are noteworthy:
 * Entire website uses [JetBrains Mono](https://www.jetbrains.com/lp/mono/) as its sole font. This is because the font is not only clean and legible (this is especially helped by the increased letter height), but has ligature support, italics support, wide language support, and is both free and open source.
   * The font is also my font-of-choice for all development interfaces, since it's a typeface designed for development.
 
-* Every website page is optimised for slow connections (e.g., 3G network connections). This is achieved by:
+* Every website page is fully interactive within 2 seconds, including on 3G mobile connections. This is achieved by:
   * Having all HTML5/CSS/JS files auto-minified upon user delivery;
   * Critical CSS for initial rendering of every page is inlined in the head tags.
     * All non-critical CSS preloaded and asynchronously loaded.
+  * Web fonts (i.e., JetBrains Mono) are loaded with `font-display: optional;`. The website's fallback font, Courier New, has been tuned and optimised to mimic JetBrains Mono. This makes the web font "nice to have" rather than a critical component to experiencing the website. Thus, the font property and attribute prevents FOIT, but allows for JetBrains Mono to appear on first page view **if** it loads within ~100ms.
   * All JS is asynchronously loaded.
   * All graphics are served in compressed .webp format (with compressed .jpg as a fallback)
     * All graphics are lazily loaded for minimal FOIT.
