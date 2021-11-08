@@ -49,6 +49,9 @@ Below are some features of my website that I feel are noteworthy:
   * Every page, menu, and link can be navigated using a mouse, keyboard, or touch.
   * Research page features live filtered search for publications with ARIA22 accessibility by explaining what occurs in the live search when keywords are typed and displaying number of results in real-time.
 
+* Entire website uses [JetBrains Mono](https://www.jetbrains.com/lp/mono/) as its sole font. This is because the font is not only clean and legible (this is especially helped by the increased letter height), but has ligature support, italics support, wide language support, and is both free and open source.
+  * The font is also my font-of-choice for all development interfaces, since it's a typeface designed for development.
+
 * Every website page is optimised for slow connections (e.g., 3G network connections). This is achieved by:
   * Having all HTML5/CSS/JS files auto-minified upon user delivery;
   * Critical CSS for initial rendering of every page is inlined in the head tags.
