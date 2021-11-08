@@ -104,6 +104,8 @@ Below are the awesome GitHub repos that made optimisation of my website possible
 
 * [Autoprefixer CSS](https://github.com/postcss/autoprefixer);
 * [google-webfonts-helper](https://github.com/majodev/google-webfonts-helper);
+* [font-style-matcher](https://github.com/notwaldorf/font-style-matcher);
+* [FontSquirrel](https://www.fontsquirrel.com/tools/webfont-generator);
 * [remedy.css](https://github.com/jensimmons/cssremedy);
 * [reset.css](https://elad2412.github.io/the-new-css-reset/);
 * [Minimal Google Analytics Snippet with localstorage support](https://gist.github.com/aym3nb/5e78a3c11e9974a9f17ab7d32154fd39) (1.05kb v. 73kb when compiled with Google Compiler Service!);
