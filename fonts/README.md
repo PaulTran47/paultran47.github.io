@@ -5,7 +5,7 @@
 ---
 
 ## Overview
-Fonts used are JetBrains Mono in 400, 700; normal.
+Fonts used are [JetBrains Mono](https://www.jetbrains.com/lp/mono/) in 400, 700; normal.
 
 Fonts downloaded and self-hosted using the [google-webfonts-helper tool](https://github.com/majodev/google-webfonts-helper).
 
