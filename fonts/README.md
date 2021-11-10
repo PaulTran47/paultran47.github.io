@@ -7,7 +7,7 @@
 ## Overview
 Fonts used are [JetBrains Mono](https://www.jetbrains.com/lp/mono/) in 400, 700; normal.
 
-Fonts downloaded and self-hosted using the [google-webfonts-helper tool](https://github.com/majodev/google-webfonts-helper).
+The .woff2 and .ttf web font files are downloaded from the [JetBrains Mono GitHub repo](https://github.com/JetBrains/JetBrainsMono). These are then converted to .woff, .svg, and .eot web font files using [FontSquirrel](https://www.fontsquirrel.com/tools/webfont-generator). 
 
 All of the files are to ensure most browsers render webfonts (with system font "Courier New" as a fallback). Supported browsers include:
 
