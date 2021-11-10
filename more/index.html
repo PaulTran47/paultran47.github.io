@@ -28,11 +28,14 @@
         ul:e.language?(n.language||"").toLowerCase():void 0,de:e.characterSet?h.characterSet:void 0,sr:e.screenSize?(b.screen||{}).width+"x"+(b.screen||{}).height:void 0,vp:e.screenSize&&b.visualViewport?(b.visualViewport||{}).width+"x"+(b.visualViewport||{}).height:void 0,ec:c||void 0,ea:f||void 0,el:d||void 0,ev:x||void 0,exd:y||void 0,exf:"undefined"!==typeof r&&!1===!!r?0:void 0};c=[];for(g in a)a.hasOwnProperty(g)&&void 0!==a[g]&&c.push(p(g)+"="+p(a[g]));var g=c.join("&");n.sendBeacon?n.sendBeacon("https://www.google-analytics.com/collect",
         g):(a=new XMLHttpRequest,a.open("POST","https://www.google-analytics.com/collect",!0),a.send(g))};k.pushState=function(a){if("function"==typeof k.onpushstate)k.onpushstate({state:a});setTimeout(l,e.delay||10);return v.apply(k,arguments)};l();b.ma={trackEvent:function(a,c,f,d){return l("event",a,c,f,d)},trackException:function(a,c){return l("exception",null,null,null,null,a,c)}}})(window,"UA-85626326-1",{anonymizeIp:!0,colorDepth:!0,characterSet:!0,screenSize:!0,language:!0});
     </script>
-    <!-- Preloading and async loading reset.css and remedy.css (also including fallback for no JS -->
+    <!-- Preloading remedy.css, reset.css, and .woff2 web fonts -->
     <link rel="preload" href="/css/remedy.css" as="style">
+    <link rel="preload" href="/css/reset.css" as="style">
+    <link rel="preload" href="/fonts/jetbrains-mono-v6-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/jetbrains-mono-v6-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <!-- Async loading remedy.css and reset.css (also including fallback for no JS -->
     <link rel="stylesheet" href="/css/remedy.css" media="print" onload="this.media='all'; this.onload=null;">
     <noscript><link rel="stylesheet" href="/css/remedy.css"></noscript>
-    <link rel="preload" href="/css/reset.css" as="style">
     <link rel="stylesheet" href="/css/reset.css" media="print" onload="this.media='all'; this.onload=null;">
     <noscript><link rel="stylesheet" href="/css/reset.css"></noscript>
     <!-- Async loading non-critical CSS -->
@@ -50,10 +53,10 @@
         font-display: optional;
         src: url('/fonts/jetbrains-mono-v6-latin-regular.eot'); /* IE9 Compat Modes */
         src: local(''),
-          url('/fonts/jetbrains-mono-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
           url('/fonts/jetbrains-mono-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
           url('/fonts/jetbrains-mono-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
           url('/fonts/jetbrains-mono-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('/fonts/jetbrains-mono-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
           url('/fonts/jetbrains-mono-v6-latin-regular.svg#JetBrainsMono') format('svg'); /* Legacy iOS */
         unicode-range: U+0020-007F;
       }
@@ -65,10 +68,10 @@
         font-display: optional;
         src: url('/fonts/jetbrains-mono-v6-latin-700.eot'); /* IE9 Compat Modes */
         src: local(''),
-          url('/fonts/jetbrains-mono-v6-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
           url('/fonts/jetbrains-mono-v6-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
           url('/fonts/jetbrains-mono-v6-latin-700.woff') format('woff'), /* Modern Browsers */
           url('/fonts/jetbrains-mono-v6-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+          url('/fonts/jetbrains-mono-v6-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
           url('/fonts/jetbrains-mono-v6-latin-700.svg#JetBrainsMono') format('svg'); /* Legacy iOS */
         unicode-range: U+0020-007F;
       }
@@ -186,7 +189,7 @@
         <div class="section-spacer"></div>
         <section role="search" aria-label="Section containing searchbox for filtering publications with ARIA22 accessibility" class="col-10 col-d-9 push-1">
           <label for="searchbox">Filtered live keyword search&#58;</label>
-          <input class="filtered-search" type="search" oninput="liveSearch()" id="searchbox" placeholder="Case-insensitive, space-sensitive">
+          <input class="filtered-search" type="search" oninput="liveSearch()" id="searchbox" placeholder="Case-insensitive, space-sensitive" enterkeyhints="search">
           <p role="status" id="resultsmsg">Result&#0040;s&#0041; with matched keywords will be displayed in real-time.</p>
         <div class="section-spacer"></div>
         </section>
