@@ -854,50 +854,6 @@ button:-moz-focusring {
     height: 235px;
   }
 }
-.promo-box {
-  padding: 0;
-  display: block;
-  text-decoration: none;
-  color: #000;
-}
-.promo-box:hover,
-.promo-box:focus-within {
-  -webkit-animation: ctabounce1 0.4s ease-in-out forwards;
-  animation: ctabounce1 0.4s ease-in-out forwards;
-}
-.promo-box:hover .read-prompt,
-.promo-box:focus-within .read-prompt {
-  -webkit-animation: ctabounce2 450ms ease-in-out forwards;
-  animation: ctabounce2 450ms ease-in-out forwards;
-}
-.read-prompt {
-  width: 50px;
-  height: 50px;
-  padding: 8px;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  right: -33px;
-  margin-top: -33px;
-  -webkit-box-shadow: 0 30px 20px -10px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 30px 20px -10px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1);
-}
-.read-prompt.reverse-side {
-  right: auto;
-  left: -33px;
-}
-.ig-promo .read-prompt {
-  background: -o-radial-gradient(30% 107%, circle, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-  background: radial-gradient(circle at 30% 107%, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
-}
-.github-promo .read-prompt {
-  background: -o-radial-gradient(30% 107%, circle, #6e5494 0, #6e5494 5%, #6e5494 45%, #6e5494 60%, #6e5494 90%);
-  background: radial-gradient(circle at 30% 107%, #6e5494 0, #6e5494 5%, #6e5494 45%, #6e5494 60%, #6e5494 90%);
-}
-.black-promo .read-prompt {
-  background: -o-radial-gradient(30% 107%, circle, #000 0, #000 5%, #000 45%, #000 60%, #000 90%);
-  background: radial-gradient(circle at 30% 107%, #000 0, #000 5%, #000 45%, #000 60%, #000 90%);
-}
 @-webkit-keyframes ctabounce1 {
   0% {
     -webkit-transform: translate(0, 0);
@@ -969,6 +925,50 @@ button:-moz-focusring {
     -webkit-transform: translate(0, 0);
     transform: translate(0, 0);
   }
+}
+.promo-box {
+  padding: 0;
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+.promo-box:hover,
+.promo-box:focus-within {
+  -webkit-animation: ctabounce1 0.4s ease-in-out forwards;
+  animation: ctabounce1 0.4s ease-in-out forwards;
+}
+.promo-box:hover .read-prompt,
+.promo-box:focus-within .read-prompt {
+  -webkit-animation: ctabounce2 450ms ease-in-out forwards;
+  animation: ctabounce2 450ms ease-in-out forwards;
+}
+.read-prompt {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: -33px;
+  margin-top: -33px;
+  -webkit-box-shadow: 0 30px 20px -10px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 30px 20px -10px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.read-prompt.reverse-side {
+  right: auto;
+  left: -33px;
+}
+.ig-promo .read-prompt {
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+.github-promo .read-prompt {
+  background: -o-radial-gradient(30% 107%, circle, #6e5494 0, #6e5494 5%, #6e5494 45%, #6e5494 60%, #6e5494 90%);
+  background: radial-gradient(circle at 30% 107%, #6e5494 0, #6e5494 5%, #6e5494 45%, #6e5494 60%, #6e5494 90%);
+}
+.black-promo .read-prompt {
+  background: -o-radial-gradient(30% 107%, circle, #000 0, #000 5%, #000 45%, #000 60%, #000 90%);
+  background: radial-gradient(circle at 30% 107%, #000 0, #000 5%, #000 45%, #000 60%, #000 90%);
 }
 .pagination .row a {
   text-decoration: none;
