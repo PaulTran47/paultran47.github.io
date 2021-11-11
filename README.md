@@ -101,7 +101,7 @@ To view the full reports, please visit [this subdirectory](https://github.com/Pa
 ---
 
 ### Acknowledgements
-Below are the awesome GitHub repos that made optimisation of my website possible:
+Below are the awesome resources used to make my website as optimised as possible:
 
 * [Autoprefixer CSS](https://github.com/postcss/autoprefixer);
 * [google-webfonts-helper](https://github.com/majodev/google-webfonts-helper);
@@ -111,7 +111,7 @@ Below are the awesome GitHub repos that made optimisation of my website possible
 * [reset.css](https://elad2412.github.io/the-new-css-reset/);
 * [Minimal Google Analytics Snippet with localstorage support](https://gist.github.com/aym3nb/5e78a3c11e9974a9f17ab7d32154fd39) (1.05kb v. 73kb when compiled with Google Compiler Service!);
 * [Real Favicon Generator](https://github.com/RealFaviconGenerator);
-* [jonasjacek's comprehensive robots.txt](https://github.com/jonasjacek/robots.txt).
+* [jonasjacek's comprehensive robots.txt](https://www.ditig.com/robots-txt-template).
 * [Hilman Ramadhan's live filtered search](https://css-tricks.com/in-page-filtered-search-with-vanilla-javascript/);
 * [Harry Roberts's ct.css for optimising head tag elements](https://csswizardry.com/ct/);
 * [Unminify](https://unminify.com/) and its wonderful CSS prettification for quick updates of critical inline CSS.
