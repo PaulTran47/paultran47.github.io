@@ -847,7 +847,7 @@ button:-moz-focusring {
 .box-decoration {
   outline: 4px dashed #f1f1f1;
   margin-bottom: -112px;
-  height: 405px;
+  height: 435px;
 }
 @media (min-width: 800px) {
   .box-decoration {
