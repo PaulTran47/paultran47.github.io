@@ -109,7 +109,7 @@ Below are the awesome resources used to make my website as optimised as possible
 * [FontSquirrel](https://www.fontsquirrel.com/tools/webfont-generator);
 * [remedy.css](https://github.com/jensimmons/cssremedy);
 * [reset.css](https://elad2412.github.io/the-new-css-reset/);
-* [Minimal Google Analytics Snippet with localstorage support](https://gist.github.com/aym3nb/5e78a3c11e9974a9f17ab7d32154fd39) (1.05kb v. 73kb when compiled with Google Compiler Service!);
+* [Minimal Google Analytics 4 Snippet with localstorage support](https://gist.github.com/aym3nb/5e78a3c11e9974a9f17ab7d32154fd39) (2kb v. 179kb+ when compiled with Google Compiler Service!);
 * [Real Favicon Generator](https://github.com/RealFaviconGenerator);
 * [jonasjacek's comprehensive robots.txt](https://www.ditig.com/robots-txt-template).
 * [Hilman Ramadhan's live filtered search](https://css-tricks.com/in-page-filtered-search-with-vanilla-javascript/);
