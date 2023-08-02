@@ -40,6 +40,7 @@ Below are some features of my website that I feel are noteworthy:
 * Entire website is written in semantic HTML.
   * Usage of div and span tags are strictly for styling purposes and kept at a minimum.
   * Semantic HTML tags also comply with ARIA accessibility requirements (e.g., sections and articles having headings).
+  * Every img tag has a relevant alt attribute for both screen reader compatibility and legal requirements.
 
 * Entire website is designed to be responsive for almost all common display resolutions, both desktop and mobile.
   * This includes displays as small as the iPhone4 to as large as widescreen desktop monitors.
