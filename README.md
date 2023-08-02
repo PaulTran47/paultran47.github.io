@@ -66,6 +66,7 @@ Below are some features of my website that I feel are noteworthy:
 
 * Every website page has a Google Lighthouse score of 100/100 on both mobile and desktop platforms.
   * I am not including the Google Lighthouse scores of my project subsites (e.g., [econ-grad-app-deadlines](https://github.com/PaulTran47/econ-grad-app-deadlines)). This is because these subsites are generated using the default GitHub Pages theme of [Cayman](https://github.com/pages-themes/cayman). As a result, the scores wouldn't be reflecting my own design and code.
+  * I only update the Google Lighthouse scores after a fundamental change in my website, such as major changes in the layout, content, or coding semantics.
 
 * Favicon support for every platform (with different favicon embedded for night mode support).
 
