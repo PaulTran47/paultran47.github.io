@@ -851,7 +851,7 @@ button:-moz-focusring {
 }
 @media (min-width: 800px) {
   .box-decoration {
-    height: 235px;
+    height: 230px;
   }
 }
 @-webkit-keyframes ctabounce1 {
@@ -1213,11 +1213,11 @@ button:-moz-focusring {
   color: rgba(0, 0, 0, 0.87);
 }
 .page-home .box-decoration {
-  height: 150px;
+  height: 245px;
 }
 @media (min-width: 800px) {
   .page-home .box-decoration {
-    height: 110px;
+    height: 160px;
   }
 }
 .page-research a {
@@ -1327,6 +1327,14 @@ button:-moz-focusring {
   background: #eb1400;
   background: var(--colour-research);
 }
+.page-research .box-decoration {
+  height: 365px;
+}
+@media (min-width: 800px) {
+  .page-research .box-decoration {
+    height: 235px;
+  }
+}
 .page-teaching a {
   color: #bf5700;
   color: var(--colour-teaching);
@@ -1429,6 +1437,14 @@ button:-moz-focusring {
 .page-teaching .icon-menu-close {
   background: #bf5700;
   background: var(--colour-teaching);
+}
+.page-teaching .box-decoration {
+  height: 150px;
+}
+@media (min-width: 800px) {
+  .page-teaching .box-decoration {
+    height: 100px;
+  }
 }
 .page-more a {
   color: #af005e;
