@@ -1213,11 +1213,11 @@ button:-moz-focusring {
   color: rgba(0, 0, 0, 0.87);
 }
 .page-home .box-decoration {
-  height: 340px;
+  height: 260px;
 }
 @media (min-width: 800px) {
   .page-home .box-decoration {
-    height: 230px;
+    height: 195px;
   }
 }
 .page-research a {
