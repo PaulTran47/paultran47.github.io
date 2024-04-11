@@ -1,8 +1,9 @@
-################################# ROBOTS.TXT ###################################
-# Updates can be retrieved from: https://www.ditig.com/robots-txt-template     #
-# This document is licensed with a CC BY-NC-SA 4.0 license.                    #
-# Last update: 2021-11-04                                                      #
-################################################################################
+############################# ROBOTS.TXT ###############################
+# Updates and informantion can be found at:                            #
+# https://www.ditig.com/publications/robots-txt-template               #
+# This document is licensed with a CC BY-NC-SA 4.0 license.            #
+# Last update: 2023-11-28                                              #
+########################################################################
 User-agent: 360Spider
 User-agent: 360Spider-Image
 User-agent: 360Spider-Video
@@ -11,7 +12,7 @@ User-agent: AdsBot-Google-Mobile
 User-agent: AdsBot-Google-Mobile-Apps
 User-agent: adidxbot
 User-agent: Applebot
-User-agent: AppleNewsBot
+user-agent: AppleNewsBot
 User-agent: Baiduspider
 User-agent: Baiduspider-image
 User-agent: Baiduspider-news
@@ -31,9 +32,12 @@ User-agent: DuckDuckBot
 User-agent: DuckDuckGo-Favicons-Bot
 User-agent: EuripBot
 User-agent: Exploratodo
+User-agent: facebookcatalog
+User-agent: facebookexternalhit
 User-agent: Facebot
 User-agent: Feedly
 User-agent: Findxbot
+User-agent: gooblog
 User-agent: Googlebot
 User-agent: Googlebot-Image
 User-agent: Googlebot-Mobile
@@ -46,6 +50,7 @@ User-agent: JikeSpider
 User-agent: Lycos
 User-agent: Mail.Ru
 User-agent: Mediapartners-Google
+User-agent: MicrosoftPreview
 User-agent: MojeekBot
 User-agent: msnbot
 User-agent: msnbot-media
@@ -66,11 +71,12 @@ User-agent: Sogou web spider
 User-agent: SputnikBot
 User-agent: Teoma
 User-agent: Twitterbot
+User-agent: WhatsApp
 User-agent: wotbox
 User-agent: yacybot
 User-agent: Yandex
 User-agent: YandexMobileBot
-User-agent: Yeti
+user-agent: Yeti
 User-agent: YioopBot
 User-agent: yoozBot
 User-agent: YoudaoBot
