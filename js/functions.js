@@ -70,7 +70,7 @@ function lazyLoad(img) {
 }
 /*
   Filtered live search function with ARIA22 accessibility.
-  Search is case-insensitive, whitespace-senstive.
+  Search is case-insensitive, whitespace-sensitive.
 */
 let cards = document.querySelectorAll('[aria-label="Callout box"]');
 function liveSearch() {
@@ -95,11 +95,11 @@ function liveSearch() {
       cards[i].classList.add('hide');
     }
     if (searchQuery != '' && searchQuery != null && searchQuery.trim().length != 0) {
-      document.getElementById('resultsmsg').innerHTML = counter + ' result(s) found.';
+      document.getElementById('resultsmsg').innerHTML = counter + ' research paper(s) found.';
     }
     /* Return default ARIA22 message. */
     else {
-      document.getElementById('resultsmsg').innerHTML = 'Result&#0040;s&#0041; with matched keywords will be displayed in real-time.';
+      document.getElementById('resultsmsg').innerHTML = 'Matched research paper&#0040;s&#0041; are displayed in real-time.';
     }
   }
 }
