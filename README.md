@@ -20,6 +20,7 @@
 ---
 
 ## Overview
+
 This repository hosts all assets and source code used to build the website showing the internet who I am.
 
 In the world of academia and economics, uniquely designed personal websites that are also optimised for performance and best practices aren't common. My website is an exception.
@@ -33,6 +34,7 @@ View it here: [Paul Le Tran dot com](https://paulletran.com/)
 ---
 
 ### Notable features
+
 Below are some features of my website that I feel are noteworthy:
 
 * The website source code is entirely vanilla HTML5, CSS, and JS. This was consciously done to make the source code (and all of its mistakes) completely understandable to all programmers.
@@ -76,7 +78,8 @@ Below are some features of my website that I feel are noteworthy:
 
 ---
 
-### Built with:
+### Built with
+
 * [Vanilla HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML);
 * [Vanilla CSS](https://developer.mozilla.org/en-US/docs/Web/CSS);
 * [Vanilla JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript);
@@ -92,6 +95,7 @@ Below are some features of my website that I feel are noteworthy:
 ---
 
 ### Google Lighthouse scores
+
 100/100 for every website page on both mobile and desktop platforms. You can't get anymore optimised than that.
 
 To view the full reports, please visit [this subdirectory](https://github.com/PaulTran47/paultran47.github.io/tree/master/lighthouse_reports) and paste the respective JSON file into the [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/).
@@ -103,6 +107,7 @@ To view the full reports, please visit [this subdirectory](https://github.com/Pa
 ---
 
 ### Acknowledgements
+
 Below are the awesome resources used to make my website as optimised as possible:
 
 * [Autoprefixer CSS](https://github.com/postcss/autoprefixer);
