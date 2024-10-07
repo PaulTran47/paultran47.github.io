@@ -50,13 +50,12 @@ Below are some features of my website that I feel are noteworthy:
 
 * Entire website is designed to be accessible for all input types.
   * Every page, menu, and link can be navigated using a mouse, keyboard, or touch.
-  * Research page features live filtered search for publications with ARIA22 accessibility by explaining what occurs in the live search when keywords are typed and displaying number of results in real-time.
+  * Research and More pages feature live filtered search for publications with ARIA22 accessibility by explaining what occurs in the live search when keywords are typed and displaying number of results in real-time.
 
 * Entire website uses [JetBrains Mono](https://www.jetbrains.com/lp/mono/) as its sole font. This is because the font is not only clean and legible (this is especially helped by the increased letter height), but has ligature support, italics support, wide language support, and is both free and open source.
   * The font is also my font-of-choice for all development interfaces, since it's a typeface designed for development.
 
 * Every website page is fully interactive within 2 seconds, including on 3G mobile connections. This is achieved by:
-  * Having all HTML5/CSS/JS files auto-minified upon user delivery;
   * Critical CSS for initial rendering of every page is inlined in the head tags.
     * All non-critical CSS preloaded and asynchronously loaded.
   * Web fonts (i.e., JetBrains Mono) are loaded with `font-display: optional;`. The website's fallback font, Courier New, has been tuned and optimised to mimic JetBrains Mono. This makes the web font "nice to have" rather than a critical component to experiencing the website. Thus, the font property and attribute prevents FOIT, but allows for JetBrains Mono to appear on first page view **if** it loads within ~100ms.
@@ -85,7 +84,7 @@ Below are some features of my website that I feel are noteworthy:
 * [Vanilla JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript);
 * [GitHub Pages](https://pages.github.com/) for hosting;
 * [Google Domains](https://domains.google/) for the awesome domain;
-* [CloudFlare](https://www.cloudflare.com/) for DNS management and security, full SSL/TLS encryption mode, HTTPS enforcement, Argo smart routing, auto-minification, Brotli compression, tiered cache, the fancy green lock :lock:, and a whole lot more;
+* [CloudFlare](https://www.cloudflare.com/) for DNS management and security, full SSL/TLS encryption mode, HTTPS enforcement, Argo smart routing, Brotli compression, tiered cache, the fancy green lock :lock:, and a whole lot more;
 * [git](https://git-scm.com/) for source control.
 
 <p align="right">
