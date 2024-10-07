@@ -5,19 +5,19 @@
 ---
 
 ## Overview
+
 Fonts used are [JetBrains Mono](https://www.jetbrains.com/lp/mono/) in 400, 700; normal.
 
-The .woff2 and .ttf web font files are downloaded from the [JetBrains Mono GitHub repo](https://github.com/JetBrains/JetBrainsMono). These are then converted to .woff, .svg, and .eot web font files using [FontSquirrel](https://www.fontsquirrel.com/tools/webfont-generator). 
+The .woff2, .woff, .ttf, and .eot web font files are downloaded from the [JetBrains Mono GitHub repo](https://github.com/JetBrains/JetBrainsMono). The .ttf web font files are then converted to .svg web font files using [FontSquirrel](https://www.fontsquirrel.com/tools/webfont-generator). 
 
 All of the files are to ensure most browsers render webfonts (with system font "Courier New" as a fallback). Supported browsers include:
 
-* Chrome 6+;
-* Firefox 3.6+;
+* Chrome 4+;
+* Firefox 3.5+;
 * Opera 23+;
-* IE6+;
-* Safari 5.1+;
-* Android;
-* iOS;
-* Legacy iOS.
+* IE5+;
+* Safari 3.1+;
+* Android Browser 2.2+;
+* iOS (Legacy+).
 
 ---
