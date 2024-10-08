@@ -63,7 +63,6 @@ Below are some features of my website that I feel are noteworthy:
   * All graphics are served in compressed .webp format (with compressed .jpg as a fallback)
     * All graphics are lazily loaded for minimal FOIT.
   * HTML5 and CSS code pass the W3C validator with no errors.
-    * An exception is the "line-sizing" CSS property in remedy.css. This is only a CSSWG draft, but is still included for futureproofing.
 
 * Every website page has a Google Lighthouse score of 100/100 on both mobile and desktop platforms.
   * I am not including the Google Lighthouse scores of my project subsites (e.g., [econ-grad-app-deadlines](https://github.com/PaulTran47/econ-grad-app-deadlines)). This is because these subsites are generated using the default GitHub Pages theme of [Cayman](https://github.com/pages-themes/cayman). As a result, the scores wouldn't be reflecting my own design and code.

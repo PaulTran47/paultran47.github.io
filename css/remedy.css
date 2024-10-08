@@ -14,15 +14,15 @@ category: global
 */
 *, ::before, ::after { box-sizing: border-box; }
 /* @docs
-label: Line Sizing
+label: Line Height
 note: |
   Consistent line-spacing,
   even when inline elements have different line-heights.
 links:
-  - https://drafts.csswg.org/css-inline-3/#line-sizing-property
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/line-height
 category: global
 */
-html { line-sizing: normal; }
+html { line-height: normal; }
 /* @docs
 label: Body Margins
 note: |
