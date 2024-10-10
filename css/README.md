@@ -1,3 +1,5 @@
+# CSS
+
 [GitHub repo](https://github.com/PaulTran47/paultran47.github.io).
 
 [MIT licensed](https://github.com/PaulTran47/paultran47.github.io/blob/master/LICENCE.md).
@@ -5,6 +7,7 @@
 ---
 
 ## Overview
+
 All CSS files are preloaded and asychronously loaded. Thanks to the file sizes, the following loading order is usually obeyed:
 
 1. [remedy.css](https://github.com/jensimmons/cssremedy): By Jen Simmons; similar to Nicolas Gallagher's [Normalize.css](https://necolas.github.io/normalize.css/) in the sense that remedy.css tries to "fix" differences in CSS implementation amongst different browsers. However, remedy.css sets CSS properties or values to what they would be if the CSSWG were creating the CSS today.
