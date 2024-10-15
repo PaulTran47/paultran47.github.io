@@ -12,6 +12,10 @@ html {
 }
 body {
   margin: 0;
+  font-family: 'JetBrains Mono', 'Courier New', 'Courier', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.87);
 }
 * {
   -webkit-font-smoothing: antialiased;
