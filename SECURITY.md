@@ -1,21 +1,7 @@
 # Security Policy
 
-## Supported Versions
-
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
-
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+Although I created my personal website entirely with vanilla HTML, CSS, and JS with the full intention of securing both my and visitors' personal data (i.e., through both the source code and usage of Cloudflare resources), there is always the possibility that I have made coding mistakes somewhere along the way that causes my website to disclose vulnerabilities.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+In the event that a vulnerability/error/mistake has been discovered about my website, please [submit an issue to the GitHub repo](https://github.com/PaulTran47/paultran47.github.io/issues). I will then address the problem as soon as possible.
