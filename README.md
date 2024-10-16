@@ -9,7 +9,7 @@
       <a href="#overview">Overview</a>
       <ul>
         <li><a href="#notable-features">Notable features</a></li>
-        <li><a href="#discovered-vulnerabilities">Reporting vulnerabilities</a></li>
+        <li><a href="#reporting-vulnerabilities">Reporting vulnerabilities</a></li>
       </ul>
     </li>
     <li><a href="#built-with">Built with:</a></li>
