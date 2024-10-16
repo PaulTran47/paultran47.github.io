@@ -44,8 +44,6 @@ If you discover a vulnerability/error/mistake in the production code of my websi
 
 ---
 
----
-
 ### Notable features
 
 Below are some features of my website that I feel are noteworthy:
