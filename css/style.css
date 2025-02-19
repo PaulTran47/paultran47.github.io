@@ -1045,13 +1045,14 @@ button:-moz-focusring {
   font-size: 16px;
   line-height: 38px;
   margin-top: -16px;
-  max-width: 234px;
+  max-width: 356px;
   margin-bottom: 10px;
 }
 @media (min-width: 800px) {
   .lead {
-    margin-top: -190px;
+    margin-top: -295px;
     margin-left: 15px;
+    max-width: 234px;
   }
 }
 .lead span {
