@@ -1164,8 +1164,8 @@ button:-moz-focusring {
 }
 @media (min-width: 800px) {
   .tagline-container {
-    top: 122px;
-    font-size: 13px;
+    top: 132px;
+    font-size: 13.15px;
   }
 }
 @media (min-width: 800px) and (max-height: 800px) {
