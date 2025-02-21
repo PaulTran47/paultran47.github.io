@@ -836,6 +836,13 @@ button:-moz-focusring {
   box-shadow: 0 70px 40px -50px rgba(0, 0, 0, 0.2), 0 3px 20px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
+.section-title {
+  color: #767676;
+  font-size: 50px;
+  line-height: 1;
+  position: relative;
+  top: -35px;
+}
 .number-breakout {
   color: #767676;
   font-size: 50px;
@@ -1044,14 +1051,14 @@ button:-moz-focusring {
 .lead {
   font-size: 16px;
   line-height: 38px;
-  margin-top: -16px;
+  margin-top: -7px;
   max-width: 356px;
   margin-bottom: 10px;
 }
 @media (min-width: 800px) {
   .lead {
     margin-top: -295px;
-    margin-left: 15px;
+    margin-left: -11px;
     max-width: 234px;
   }
 }
@@ -1301,12 +1308,6 @@ button:-moz-focusring {
     max-width: 1080px;
   }
 }
-@media (min-width: 800px) {
-  .page-research .column {
-    float: left;
-    width: 33.33%;
-  }
-}
 .page-research .filtered-search {
   border-color: #eb1400;
   border-color: var(--colour-research);
@@ -1333,11 +1334,11 @@ button:-moz-focusring {
   background: var(--colour-research);
 }
 .page-research .box-decoration {
-  height: 280px;
+  height: 610px;
 }
 @media (min-width: 800px) {
   .page-research .box-decoration {
-    height: 200px;
+    height: 245px;
   }
 }
 .page-teaching a {
@@ -1414,12 +1415,6 @@ button:-moz-focusring {
 @media (min-width: 800px) {
   .page-teaching .container {
     max-width: 1080px;
-  }
-}
-@media (min-width: 800px) {
-  .page-teaching .column {
-    float: left;
-    width: 100%;
   }
 }
 .page-teaching .section-text-color-shift {
@@ -1561,6 +1556,14 @@ figcaption {
 }
 .page-more .account-name svg {
   width: 24px;
+}
+.page-more .box-decoration {
+  height: 105px;
+}
+@media (min-width: 800px) {
+  .page-more .box-decoration {
+    height: 80px;
+  }
 }
 .content-404 h2 {
   font-size: 42px;

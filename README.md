@@ -60,6 +60,8 @@ understandable to all programmers.
 
 * Entire website is written in semantic HTML.
   * Usage of div and span tags are strictly for styling purposes and kept at a minimum.
+  * Usage of br tags are strictly to break lines for grammatical purposes and
+  kept at a minimum.
   * Semantic HTML tags also comply with ARIA accessibility requirements (e.g.,
   sections and articles having headings).
   * Every img tag has a relevant alt attribute for both screen reader
