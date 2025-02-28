@@ -1051,15 +1051,25 @@ button:-moz-focusring {
 .lead {
   font-size: 16px;
   line-height: 38px;
-  margin-top: -7px;
-  max-width: 356px;
+  margin-top: -30px;
+  max-width: 327px;
   margin-bottom: 10px;
+}
+@media (min-width: 300px) {
+  .lead {
+    max-width: 287px;
+  }
+}
+@media (min-width: 340px) {
+  .lead {
+    max-width: 300px;
+  }
 }
 @media (min-width: 800px) {
   .lead {
-    margin-top: -295px;
+    margin-top: -190px;
     margin-left: -11px;
-    max-width: 234px;
+    max-width: 356px;
   }
 }
 .lead span {
@@ -1110,27 +1120,32 @@ button:-moz-focusring {
 }
 @media (min-height: 400px) {
   .page-home .container {
-    margin-top: -160px;
+    margin-top: 65px;
   }
 }
 @media (min-height: 500px) {
   .page-home .container {
-    margin-top: -110px;
+    margin-top: 65px;
   }
 }
 @media (min-height: 600px) {
   .page-home .container {
-    margin-top: -90px;
+    margin-top: 65px;
   }
 }
 @media (min-height: 600px) and (width: 1024px) {
   .page-home .container {
-    margin-top: -10px;
+    margin-top: 0px;
   }
 }
 @media (min-height: 700px) {
   .page-home .container {
-    margin-top: -10px;
+    margin-top: 290px;
+  }
+}
+@media (min-height: 700px) and (min-width: 1024px) {
+  .page-home .container {
+    margin-top: 0px;
   }
 }
 .pt-title {
@@ -1149,7 +1164,6 @@ button:-moz-focusring {
   }
 }
 .title-container {
-  margin-bottom: -32px;
   z-index: 2;
 }
 @media (max-width: 300px) {
@@ -1168,7 +1182,14 @@ button:-moz-focusring {
   color: rgba(0, 0, 0, 0.54);
   height: 0;
   position: relative;
-  top: -20px;
+  top: 65px;
+  z-index: 3;
+}
+@media (min-height: 600px) {
+  .tagline-container {
+    top: 75px;
+    font-size: 8.5px;
+  }
 }
 @media (min-width: 800px) {
   .tagline-container {
@@ -1225,11 +1246,11 @@ button:-moz-focusring {
   color: rgba(0, 0, 0, 0.87);
 }
 .page-home .box-decoration {
-  height: 280px;
+  height: 115px;
 }
 @media (min-width: 800px) {
   .page-home .box-decoration {
-    height: 195px;
+    height: 95px;
   }
 }
 .page-research a {
