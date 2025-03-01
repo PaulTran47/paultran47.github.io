@@ -67,7 +67,7 @@ understandable to all programmers.
 
 * Entire website is designed to be responsive for almost all common display
 resolutions, both desktop and mobile.
-  * This includes displays as small as the iPhone4 to as large as widescreen
+  * This includes displays as small as the JioPhone2 to as large as widescreen
   desktop monitors.
   * Uncommon display resolutions such as the Galaxy Fold, Surface Duo, and Nest
   Hub are also supported.
