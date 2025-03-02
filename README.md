@@ -73,10 +73,15 @@ understandable to all programmers.
   do not view this as an actual CSS code error.
   * W3C "validation" icons are displayed in the footer of every website page
     * Icons allow for quick re-validation of every page
+    * I am not including the icons into my project sub-sites (e.g., [econ-grad-app-deadlines](https://github.com/PaulTran47/econ-grad-app-deadlines)).
+    The reason for this is because these sub-sites are generated using the
+    default GitHub Pages theme of [Cayman](https://github.com/pages-themes/cayman).
+    As a result, the W3C validation results wouldn't be reflecting my own design
+    and code.
 
 * Entire website is designed to be responsive for almost all common display
 resolutions, both desktop and mobile
-  * This includes displays as small as the JioPhone2 to as large as widescreen
+  * This design covers displays as small as the JioPhone2 to as large as widescreen
   desktop monitors
   * Uncommon display resolutions such as the Galaxy Fold, Surface Duo, and Nest
   Hub are also supported
@@ -88,13 +93,13 @@ resolutions, both desktop and mobile
   keywords are typed and displaying number of results in real-time
 
 * Entire website uses [JetBrains Mono](https://www.jetbrains.com/lp/mono/) as
-its sole font. This is because the font is not only clean and legible (this is
-especially helped by the increased letter height), but has ligature support,
-italics support, wide language support, and is both free and open source.
+its sole font. This choice is because the font is not only clean and legible (e.g.,
+increased letter height), but has ligature support, italics support, wide
+language support, and is both free and open source.
   * The font is also my font-of-choice for all development interfaces.
 
 * Every website page is fully interactive within 2 seconds, including on 3G
-mobile connections. This is achieved by:
+mobile connections. This speed is achieved by:
   * Critical CSS for initial rendering of every page is inlined in the head tags.
     * All non-critical CSS preloaded and asynchronously loaded.
   * Web fonts (i.e., JetBrains Mono) are loaded with `font-display: optional;`.
@@ -112,11 +117,11 @@ mobile connections. This is achieved by:
 desktop platforms.
   * I am not including the Google Lighthouse scores of my project sub-sites
   (e.g., [econ-grad-app-deadlines](https://github.com/PaulTran47/econ-grad-app-deadlines)).
-  This is because these subsites are generated using the default GitHub Pages
-  theme of [Cayman](https://github.com/pages-themes/cayman). As a result, the
+  This decision is because these sub-sites are generated using the default GitHub
+  Pages theme of [Cayman](https://github.com/pages-themes/cayman). As a result, the
   scores wouldn't be reflecting my own design and code.
   * I only update the Google Lighthouse scores after a fundamental change in my
-  website, such as major changes in the layout, content, or coding semantics.
+  website, such as major changes in the layout or coding semantics.
 
 * Favicon support for every platform (with different favicon embedded for night
 mode support).
