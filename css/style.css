@@ -131,6 +131,7 @@ button {
 button,
 html [type="button"] {
   -webkit-appearance: button;
+  appearance: button;
 }
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -151,6 +152,7 @@ button:-moz-focusring {
 }
 [type="search"] {
   -webkit-appearance: textfield;
+  appearance: textfield;
   outline-offset: -2px;
 }
 [type="search"]::-webkit-search-cancel-button,
@@ -1134,7 +1136,7 @@ button:-moz-focusring {
 }
 @media (min-height:800px) {
   .page-home .container {
-    margin-top: 136px;
+    margin-top: 133px;
   }
 }
 @media (min-width: 800px) {

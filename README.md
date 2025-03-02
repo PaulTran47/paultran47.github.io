@@ -58,32 +58,40 @@ Below are some features of my website that I feel are noteworthy:
 consciously done to make the source code (and all of its mistakes) completely
 understandable to all programmers.
 
-* Entire website is written in semantic HTML.
-  * Usage of div and span tags are strictly for styling purposes and kept at a minimum.
+* Entire website is written in semantic HTML
+  * Usage of div and span tags are strictly for styling purposes and kept at a minimum
   * Semantic HTML tags also comply with ARIA accessibility requirements (e.g.,
-  sections and articles having headings).
+  sections and articles having headings)
   * Every img tag has a relevant alt attribute for both screen reader
-  compatibility and legal requirements.
+  compatibility and legal requirements
+
+* HTML5 and CSS code of every website page pass the W3C validators with no errors
+  * HTML5 code is checked using the [Nu HTML checker](https://validator.w3.org/nu/)
+  * Usage of the modal pseudo-class in reset.css results in the [W3C CSS validator](https://jigsaw.w3.org/css-validator/)
+  to throw an error because the pseudo-class is currently in Selectors Level 4.
+  However, because the pseudo-class works as intended in all modern browsers, I
+  do not view this as an actual CSS code error.
+  * W3C "validation" icons are displayed in the footer of every website page
+    * Icons allow for quick re-validation of every page
 
 * Entire website is designed to be responsive for almost all common display
-resolutions, both desktop and mobile.
+resolutions, both desktop and mobile
   * This includes displays as small as the JioPhone2 to as large as widescreen
-  desktop monitors.
+  desktop monitors
   * Uncommon display resolutions such as the Galaxy Fold, Surface Duo, and Nest
-  Hub are also supported.
+  Hub are also supported
 
-* Entire website is designed to be accessible for all input types.
-  * Every page, menu, and link can be navigated using a mouse, keyboard, or touch.
+* Entire website is designed to be accessible for all input types
+  * Every page, menu, and link can be navigated using a mouse, keyboard, or touch
   * Research and More pages feature live filtered search for publications with
   ARIA22 accessibility by explaining what occurs in the live search when
-  keywords are typed and displaying number of results in real-time.
+  keywords are typed and displaying number of results in real-time
 
 * Entire website uses [JetBrains Mono](https://www.jetbrains.com/lp/mono/) as
 its sole font. This is because the font is not only clean and legible (this is
 especially helped by the increased letter height), but has ligature support,
 italics support, wide language support, and is both free and open source.
-  * The font is also my font-of-choice for all development interfaces, since
-  it's a typeface designed for development.
+  * The font is also my font-of-choice for all development interfaces.
 
 * Every website page is fully interactive within 2 seconds, including on 3G
 mobile connections. This is achieved by:
@@ -99,7 +107,6 @@ mobile connections. This is achieved by:
   * All graphics are served in compressed .webp format (with compressed .jpg as
   a fallback)
     * All graphics are lazily loaded for minimal FOIT.
-  * HTML5 and CSS code pass the W3C validator with no errors.
 
 * Every website page has a Google Lighthouse score of 100/100 on both mobile and
 desktop platforms.
@@ -171,6 +178,7 @@ Below are the awesome resources used to make my website as optimised as possible
 * [Unminify](https://unminify.com/) and its wonderful CSS prettification for
 quick updates of critical inline CSS
 * [Kevin Powell's tutorial on CSS variables](https://www.youtube.com/watch?v=PHO6TBq_auI&list=PL4-IK0AVhVjOT2KBB5TSbD77OmfHvtqUi)
+* [Bradley Taunt's creation of the HTML5 "validation: icon](https://github.com/bradleytaunt/html5-valid-badge)
 
 <p align="right">
   (<a href="#paul-le-tran-dot-com">back to top.</a>)
