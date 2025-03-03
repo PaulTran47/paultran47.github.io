@@ -79,19 +79,6 @@ understandable to all programmers.
     As a result, the W3C validation results wouldn't be reflecting my own design
     and code.
 
-* Entire website is designed to be responsive for almost all common display
-resolutions, both desktop and mobile
-  * This design covers displays as small as the JioPhone2 to as large as widescreen
-  desktop monitors
-  * Uncommon display resolutions such as the Galaxy Fold, Surface Duo, and Nest
-  Hub are also supported
-
-* Entire website is designed to be accessible for all input types
-  * Every page, menu, and link can be navigated using a mouse, keyboard, or touch
-  * Research and More pages feature live filtered search for publications with
-  ARIA22 accessibility by explaining what occurs in the live search when
-  keywords are typed and displaying number of results in real-time
-
 * Entire website uses [JetBrains Mono](https://www.jetbrains.com/lp/mono/) as
 its sole font. This choice is because the font is not only clean and legible (e.g.,
 increased letter height), but has ligature support, italics support, wide
@@ -113,6 +100,19 @@ mobile connections. This speed is achieved by:
   a fallback)
     * All graphics are lazily loaded for minimal FOIT.
 
+* Entire website is designed to be responsive for almost all common display
+resolutions, both desktop and mobile
+  * This design covers displays as small as the JioPhone2 to as large as widescreen
+  desktop monitors
+  * Uncommon display resolutions such as the Galaxy Fold, Surface Duo, and Nest
+  Hub are also supported
+
+* Entire website is designed to be accessible for all input types
+  * Every page, menu, and link can be navigated using a mouse, keyboard, or touch
+  * Research and More pages feature live filtered search for publications with
+  ARIA22 accessibility by explaining what occurs in the live search when
+  keywords are typed and displaying number of results in real-time
+
 * Every website page has a Google Lighthouse score of 100/100 on both mobile and
 desktop platforms.
   * I am not including the Google Lighthouse scores of my project sub-sites
@@ -122,6 +122,13 @@ desktop platforms.
   scores wouldn't be reflecting my own design and code.
   * I only update the Google Lighthouse scores after a fundamental change in my
   website, such as major changes in the layout or coding semantics.
+  * Google Lighthouse scores are saved without Cloudflare's [rocket-loader-min.js](https://developers.cloudflare.com/speed/optimization/content/rocket-loader/),
+  [email-decode-min.js](https://developers.cloudflare.com/waf/tools/scrape-shield/email-address-obfuscation/),
+  and [beacon.min.js}(https://developers.cloudflare.com/web-analytics/) enabled
+  because Lighthouse considers these resources as render-blocking. However,
+  real-world usage and PageSpeed Insights do not consider these resources as such.
+  Therefore, I disable these resources in order to make the Lighthouse Scores more
+  comparable.
 
 * Favicon support for every platform (with different favicon embedded for night
 mode support).
@@ -183,6 +190,7 @@ Below are the awesome resources used to make my website as optimised as possible
 * [Unminify](https://unminify.com/) and its wonderful CSS prettification for
 quick updates of critical inline CSS
 * [Kevin Powell's tutorial on CSS variables](https://www.youtube.com/watch?v=PHO6TBq_auI&list=PL4-IK0AVhVjOT2KBB5TSbD77OmfHvtqUi)
+* [Google Squoosh](https://github.com/GoogleChromeLabs/squoosh)
 
 <p align="right">
   (<a href="#paul-le-tran-dot-com">back to top.</a>)
