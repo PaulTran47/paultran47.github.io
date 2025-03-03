@@ -49,7 +49,7 @@ function openMenu() {
   menuList.classList.remove('hidden');
   menuOverlay.classList.remove('hidden');
 }
-/* InntersectionObserver API */
+/* IntersectionObserver API */
 const imgObserver = new IntersectionObserver((entries, self) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -95,11 +95,11 @@ function liveSearch() {
       cards[i].classList.add('hide');
     }
     if (searchQuery != '' && searchQuery != null && searchQuery.trim().length != 0) {
-      document.getElementById('resultsmsg').innerHTML = counter + ' research paper(s) found.';
+      document.getElementById('resultsmsg').innerHTML = counter + ' result(s) found.';
     }
     /* Return default ARIA22 message. */
     else {
-      document.getElementById('resultsmsg').innerHTML = 'Matched research paper&#0040;s&#0041; are displayed in real-time.';
+      document.getElementById('resultsmsg').innerHTML = 'Result&#0040;s&#0041; with matched keywords will be displayed in real-time.';
     }
   }
 }

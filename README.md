@@ -13,7 +13,7 @@
       </ul>
     </li>
     <li><a href="#built-with">Built with:</a></li>
-    <li><a href="#google-lighthouse-scores">Google Lighthouse scores</a></li>
+    <li><a href="#google-lighthouse-and-real-user-measurement-scores">Google Lighthouse scores</a></li>
     <li><a href="#acknowledgements">Acknowledgments</a></li>
   </ul>
 </details>
@@ -113,8 +113,11 @@ resolutions, both desktop and mobile
   ARIA22 accessibility by explaining what occurs in the live search when
   keywords are typed and displaying number of results in real-time
 
-* Every website page has a Google Lighthouse score of 100/100 on both mobile and
-desktop platforms.
+* Every website page has a Google Lighthouse and real user measurement scores of
+99-100/100 on both mobile and desktop platforms.
+  * Google Lighthouse via Chrome DevTools and [Cloudflare Observatory](https://developers.cloudflare.com/speed/speed-test/)
+  are included as synthetic performance metrics. Real user measurement is also provided
+  by Cloudflare Observatory.
   * I am not including the Google Lighthouse scores of my project sub-sites
   (e.g., [econ-grad-app-deadlines](https://github.com/PaulTran47/econ-grad-app-deadlines)).
   This decision is because these sub-sites are generated using the default GitHub
@@ -122,7 +125,7 @@ desktop platforms.
   scores wouldn't be reflecting my own design and code.
   * I only update the Google Lighthouse scores after a fundamental change in my
   website, such as major changes in the layout or coding semantics.
-  * Google Lighthouse scores are saved without Cloudflare's [rocket-loader-min.js](https://developers.cloudflare.com/speed/optimization/content/rocket-loader/),
+  * Chrome DevTools Google Lighthouse scores are saved without Cloudflare's [rocket-loader-min.js](https://developers.cloudflare.com/speed/optimization/content/rocket-loader/),
   [email-decode-min.js](https://developers.cloudflare.com/waf/tools/scrape-shield/email-address-obfuscation/),
   and [beacon.min.js}(https://developers.cloudflare.com/web-analytics/) enabled
   because Lighthouse considers these resources as render-blocking. However,
@@ -157,12 +160,13 @@ compression, tiered cache, the fancy green lock :lock:, and a whole lot more
 
 ---
 
-### Google Lighthouse scores
+### Google Lighthouse and Real User Measurement scores
 
-100/100 for every website page on both mobile and desktop platforms. You can't
-get anymore optimised than that.
+99-100/100 for every website page on both mobile and desktop platforms for
+synthetic and real-world usage. You can't get anymore optimised than that
+(technically you can, but marginal utility is negative at that point lol).
 
-To view the full reports, please visit [this subdirectory](https://github.com/PaulTran47/paultran47.github.io/tree/master/lighthouse_reports)
+To view the full reports, please visit [this subdirectory](https://github.com/PaulTran47/paultran47.github.io/tree/master/performance/lighthouse_reports)
 and paste the respective JSON file into the [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/).
 
 <p align="right">
@@ -190,7 +194,8 @@ Below are the awesome resources used to make my website as optimised as possible
 * [Unminify](https://unminify.com/) and its wonderful CSS prettification for
 quick updates of critical inline CSS
 * [Kevin Powell's tutorial on CSS variables](https://www.youtube.com/watch?v=PHO6TBq_auI&list=PL4-IK0AVhVjOT2KBB5TSbD77OmfHvtqUi)
-* [Google Squoosh](https://github.com/GoogleChromeLabs/squoosh)
+* [Google Squoosh](https://github.com/GoogleChromeLabs/squoosh) for image
+compression and conversion using the best-in-class codecs
 
 <p align="right">
   (<a href="#paul-le-tran-dot-com">back to top.</a>)
