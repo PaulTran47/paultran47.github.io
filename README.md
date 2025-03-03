@@ -71,8 +71,8 @@ understandable to all programmers.
   to throw an error because the pseudo-class is currently in Selectors Level 4.
   However, because the pseudo-class works as intended in all modern browsers, I
   do not view this as an actual CSS code error.
-  * W3C "validation" icons are displayed in the footer of every website page
-    * Icons allow for quick re-validation of every page
+  * W3C "validation" links are displayed in the footer of every website page
+    * Links allow for quick re-validation of every page
     * I am not including the icons into my project sub-sites (e.g., [econ-grad-app-deadlines](https://github.com/PaulTran47/econ-grad-app-deadlines)).
     The reason for this is because these sub-sites are generated using the
     default GitHub Pages theme of [Cayman](https://github.com/pages-themes/cayman).
@@ -183,7 +183,6 @@ Below are the awesome resources used to make my website as optimised as possible
 * [Unminify](https://unminify.com/) and its wonderful CSS prettification for
 quick updates of critical inline CSS
 * [Kevin Powell's tutorial on CSS variables](https://www.youtube.com/watch?v=PHO6TBq_auI&list=PL4-IK0AVhVjOT2KBB5TSbD77OmfHvtqUi)
-* [Bradley Taunt's creation of the HTML5 "validation: icon](https://github.com/bradleytaunt/html5-valid-badge)
 
 <p align="right">
   (<a href="#paul-le-tran-dot-com">back to top.</a>)
