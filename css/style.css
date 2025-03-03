@@ -1585,19 +1585,6 @@ figcaption {
 .page-more .account-name svg {
   width: 24px;
 }
-.page-more .box-decoration {
-  height: 105px;
-}
-@media (max-width:300px) {
-  .page-more .box-decoration {
-    height:155px
-  }
-}
-@media (min-width: 800px) {
-  .page-more .box-decoration {
-    height: 80px;
-  }
-}
 .content-404 h2 {
   font-size: 42px;
   line-height: 1.2;
