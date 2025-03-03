@@ -1069,8 +1069,8 @@ button:-moz-focusring {
 }
 @media (min-width: 800px) {
   .lead {
-    margin-top: -183px;
-    max-width: 356px;
+    margin-top: -113px;
+    max-width: 300px;
   }
 }
 .lead span {
