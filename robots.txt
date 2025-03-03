@@ -2,7 +2,7 @@
 # Updates and informantion can be found at:                            #
 # https://www.ditig.com/publications/robots-txt-template               #
 # This document is licensed with a CC BY-NC-SA 4.0 license.            #
-# Last update: 2023-11-28                                              #
+# Last update: 2024-12-09                                              #
 ########################################################################
 User-agent: 360Spider
 User-agent: 360Spider-Image
@@ -59,6 +59,7 @@ User-agent: Pinterest
 User-agent: Plukkie
 User-agent: Qwantify
 User-agent: Rambler
+User-agent: SemanticScholarBot
 User-agent: SeznamBot
 User-agent: Sosospider
 User-agent: Slurp
@@ -68,14 +69,12 @@ User-agent: Sogou News Spider
 User-agent: Sogou Orion spider
 User-agent: Sogou spider2
 User-agent: Sogou web spider
-User-agent: SputnikBot
-User-agent: Teoma
 User-agent: Twitterbot
 User-agent: WhatsApp
-User-agent: wotbox
 User-agent: yacybot
 User-agent: Yandex
 User-agent: YandexMobileBot
+User-agent: YepBot
 user-agent: Yeti
 User-agent: YioopBot
 User-agent: yoozBot
