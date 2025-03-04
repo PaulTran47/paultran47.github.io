@@ -72,7 +72,7 @@ understandable to all programmers.
   do not view this as an actual CSS code error.
   * W3C "validation" links are displayed in the footer of every website page
     * Links allow for quick re-validation of every page
-    * I am not including the icons into my project sub-sites (e.g., [econ-grad-app-deadlines](https://github.com/PaulTran47/econ-grad-app-deadlines)).
+    * I am not including the links into my project sub-sites (e.g., [econ-grad-app-deadlines](https://github.com/PaulTran47/econ-grad-app-deadlines)).
     The reason for this is because these sub-sites are generated using the
     default GitHub Pages theme of [Cayman](https://github.com/pages-themes/cayman).
     As a result, the W3C validation results wouldn't be reflecting my own design
@@ -178,18 +178,18 @@ and paste the respective JSON file into the [Lighthouse Report Viewer](https://g
 
 Below are the awesome resources used to make my website as optimised as possible:
 
-* [Autoprefixer CSS](https://github.com/postcss/autoprefixer)
-* [google-webfonts-helper](https://github.com/majodev/google-webfonts-helper)
-* [font-style-matcher](https://github.com/notwaldorf/font-style-matcher)
+* [ymatuhin's online interactive demo of Autoprefixer CSS](https://github.com/autoprefixer/autoprefixer.github.io)
+* [Mario Ranftl's google-webfonts-helper](https://github.com/majodev/google-webfonts-helper)
+* [Monica Dinculescu's font-style-matcher](https://github.com/notwaldorf/font-style-matcher)
 * [FontSquirrel](https://www.fontsquirrel.com/tools/webfont-generator)
-* [remedy.css](https://github.com/jensimmons/cssremedy)
-* [reset.css](https://elad2412.github.io/the-new-css-reset/)
-* [Minimal Google Analytics 4 Snippet with localstorage support](https://github.com/jahilldev/minimal-analytics)
+* [Jen Simmons' remedy.css](https://github.com/jensimmons/cssremedy)
+* [Elad Shechter's reset.css](https://elad2412.github.io/the-new-css-reset/)
+* [James Hill's Minimal Google Analytics 4 Snippet with localstorage support](https://github.com/jahilldev/minimal-analytics)
 (2kb v. 179kb+ when compiled with Google Compiler Service!)
 * [Real Favicon Generator](https://github.com/RealFaviconGenerator)
 * [jonasjacek's comprehensive robots.txt](https://www.ditig.com/robots-txt-template)
 * [Hilman Ramadhan's live filtered search](https://css-tricks.com/in-page-filtered-search-with-vanilla-javascript/)
-* [Harry Roberts's ct.css for optimising head tag elements](https://csswizardry.com/ct/)
+* [Harry Roberts's ct.css](https://csswizardry.com/ct/) for optimising head tag elements
 * [Jonas Ohlsson Aden's critical path CSS generator](https://github.com/pocketjoso/penthouse)
 * [Unminify](https://unminify.com/) and its wonderful CSS prettification for
 quick updates of critical inline CSS
