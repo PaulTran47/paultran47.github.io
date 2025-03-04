@@ -25,9 +25,8 @@
 This repository hosts all assets and source code used to build the website
 showing the internet who I am.
 
-In the world of academia and economics, uniquely designed personal websites that
-are also optimised for performance and best practices aren't common. My website
-is an exception.
+In economics and academia, uniquely designed websites that are also optimised
+for performance and best practices are uncommon. My website is an exception.
 
 View it here: [Paul Le Tran dot com](https://paulletran.com/)
 
