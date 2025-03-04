@@ -166,7 +166,7 @@ compression, tiered cache, the fancy green lock :lock:, and a whole lot more
 synthetic and real-world usage. You can't get anymore optimised than that
 (technically you can, but marginal utility is negative at that point lol).
 
-To view the full reports, please visit [this subdirectory](https://github.com/PaulTran47/paultran47.github.io/tree/master/performance/lighthouse_reports)
+To view the full reports, please visit [this subdirectory](https://github.com/PaulTran47/paultran47.github.io/tree/master/performance/lighthouse)
 and paste the respective JSON file into the [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/).
 
 <p align="right">
@@ -191,6 +191,7 @@ Below are the awesome resources used to make my website as optimised as possible
 * [jonasjacek's comprehensive robots.txt](https://www.ditig.com/robots-txt-template)
 * [Hilman Ramadhan's live filtered search](https://css-tricks.com/in-page-filtered-search-with-vanilla-javascript/)
 * [Harry Roberts's ct.css for optimising head tag elements](https://csswizardry.com/ct/)
+* [Jonas Ohlsson Aden's critical path CSS generator](https://github.com/pocketjoso/penthouse)
 * [Unminify](https://unminify.com/) and its wonderful CSS prettification for
 quick updates of critical inline CSS
 * [Kevin Powell's tutorial on CSS variables](https://www.youtube.com/watch?v=PHO6TBq_auI&list=PL4-IK0AVhVjOT2KBB5TSbD77OmfHvtqUi)

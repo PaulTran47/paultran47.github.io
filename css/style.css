@@ -1206,10 +1206,6 @@ button:-moz-focusring {
   color: rgba(0, 0, 0, 0.87);
   width: 100%;
 }
-.pub-links {
-  margin-bottom: unset;
-  line-height: 30px;
-}
 .page-home a.special-link,
 .site-menu a.special-link {
   display: inline;
