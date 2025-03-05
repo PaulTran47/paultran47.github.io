@@ -106,9 +106,10 @@ language support, and is both free and open source.
 
 * Every website page is fully interactive within 2 seconds, including on 3G
 mobile connections. This speed is achieved by:
-  * remedy.css and reset.css are both preloaded and asynchronously loaded.
+  * remedy.css and reset.css are both inlined in the head tags.
     * Critical CSS for initial rendering of every page are inlined in the head tags.
-      * All non-critical CSS are preloaded and asynchronously loaded.
+      * All non-critical CSS are lazy-loaded without inline scripts, meaning no
+      strict content security policies are violated!
   * Web fonts (i.e., JetBrains Mono) are (pre)loaded with `font-display: swap;`
   and use locally hosted fonts before pulling from origin or cache.
   The website's fallback font, Courier New (Courier for MacOS), has been tuned
@@ -209,6 +210,7 @@ Below are the awesome resources used to make my website as optimised as possible
 * [FontSquirrel](https://www.fontsquirrel.com/tools/webfont-generator)
 * [Jen Simmons' remedy.css](https://github.com/jensimmons/cssremedy)
 * [Elad Shechter's reset.css](https://elad2412.github.io/the-new-css-reset/)
+* [James Ross' method to preload and lazy-load CSS without any inline scripts](https://jross.me/asynchronous-and-progressive-css-loading/)
 * [James Hill's Minimal Google Analytics 4 Snippet with localstorage support](https://github.com/jahilldev/minimal-analytics)
 (2kb v. 179kb+ when compiled with Google Compiler Service!)
 * [Real Favicon Generator](https://github.com/RealFaviconGenerator)

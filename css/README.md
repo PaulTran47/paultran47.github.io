@@ -8,8 +8,7 @@
 
 ## Overview
 
-All CSS files are preloaded and asynchronously loaded. Thanks to the file sizes,
-the following loading order is usually obeyed:
+The following CSS files are used:
 
 1. [remedy.css](https://github.com/jensimmons/cssremedy): By Jen Simmons;
 similar to Nicolas Gallagher's [Normalize.css](https://necolas.github.io/normalize.css/)
@@ -25,5 +24,8 @@ It's much more lightweight, and is using modern CSS syntax.
 website. All critical CSS from this sheet is inlined in the heads of each
 individual page. Non-critical CSS can be found exclusively here (critical CSS is
 also in this sheet for redundancy's sake).
+
+remedy.css and reset.css are inlined in the head tags to ensure they are loaded
+in the correct order. style.css is lazy-loaded without using inline scripts.
 
 ---
