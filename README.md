@@ -107,7 +107,7 @@ language support, and is both free and open source.
 * Every website page is fully interactive within 2 seconds, including on 3G
 mobile connections. This speed is achieved by:
   * Critical CSS for initial rendering of every page is inlined in the head tags.
-    * All non-critical CSS preloaded.
+    * All non-critical CSS are preloaded.
   * Web fonts (i.e., JetBrains Mono) are (pre)loaded with `font-display: swap;`
   and use locally hosted fonts before pulling from origin or cache.
   The website's fallback font, Courier New (Courier for MacOS), has been tuned
@@ -118,7 +118,7 @@ mobile connections. This speed is achieved by:
     * As of 05 March, 2025, I will retune my fallback fonts using the new
     `@font-face` attributes (e.g., `ascent-override`) when they have broad
     browser support.
-  * All JS is asynchronously loaded.
+  * All JS are asynchronously loaded.
   * All graphics are served in compressed .webp format (with compressed .jpg as
   a fallback)
     * All below-the-fold graphics are lazily loaded for minimal FOIT.
