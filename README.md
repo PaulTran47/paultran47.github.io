@@ -1,20 +1,40 @@
 # Paul Le Tran dot com
 
-[MIT licensed](https://github.com/PaulTran47/paultran47.github.io/blob/master/LICENCE.md).
+[MIT licensed](https://github.com/paultran47/paultran47.github.io/blob/master/LICENCE.md).
 
 <details>
   <summary>Table of contents</summary>
   <ul>
     <li>
-      <a href="#overview">Overview</a>
+      <a href="#overview">
+        Overview
+      </a>
       <ul>
-        <li><a href="#notable-features">Notable features</a></li>
-        <li><a href="#reporting-vulnerabilities">Reporting vulnerabilities</a></li>
+        <li>
+          <a href="#notable-features">
+            Notable features
+          </a>
+        </li>
+        <li>
+          <a href="#reporting-vulnerabilities">
+            Reporting vulnerabilities
+          </a>
+        </li>
       </ul>
     </li>
-    <li><a href="#built-with">Built with:</a></li>
-    <li><a href="#google-lighthouse-and-real-user-measurement-scores">Google Lighthouse scores</a></li>
-    <li><a href="#acknowledgements">Acknowledgments</a></li>
+    <li>
+      <a href="#built-with">Built with:</a>
+    </li>
+    <li>
+      <a href="#google-lighthouse-and-real-user-measurement-scores">
+        Google Lighthouse scores
+      </a>
+    </li>
+    <li>
+      <a href="#acknowledgements">
+        Acknowledgments
+      </a>
+    </li>
   </ul>
 </details>
 
@@ -39,7 +59,7 @@ View it here: [Paul Le Tran dot com](https://paulletran.com/)
 ### Reporting vulnerabilities
 
 If you discover a vulnerability/error/mistake in the production code of my
-website, please [refer to the instructions found in SECURITY.md](https://github.com/PaulTran47/paultran47.github.io/blob/master/SECURITY.md)
+website, please [refer to the instructions found in SECURITY.md](https://github.com/paultran47/paultran47.github.io/blob/master/SECURITY.md)
 for instructions on reporting these issues. I will then address the problem as
 soon as possible.
 
@@ -72,7 +92,7 @@ understandable to all programmers.
   do not view this as an actual CSS code error.
   * W3C "validation" links are displayed in the footer of every website page
     * Links allow for quick re-validation of every page
-    * I am not including the links into my project sub-sites (e.g., [econ-grad-app-deadlines](https://github.com/PaulTran47/econ-grad-app-deadlines)).
+    * I am not including the links into my project sub-sites (e.g., [econ-grad-app-deadlines](https://github.com/paultran47/econ-grad-app-deadlines)).
     The reason for this is because these sub-sites are generated using the
     default GitHub Pages theme of [Cayman](https://github.com/pages-themes/cayman).
     As a result, the W3C validation results wouldn't be reflecting my own design
@@ -118,7 +138,7 @@ resolutions, both desktop and mobile
   are included as synthetic performance metrics. Real user measurement is also provided
   by Cloudflare Observatory.
   * I am not including the Google Lighthouse scores of my project sub-sites
-  (e.g., [econ-grad-app-deadlines](https://github.com/PaulTran47/econ-grad-app-deadlines)).
+  (e.g., [econ-grad-app-deadlines](https://github.com/paultran47/econ-grad-app-deadlines)).
   This decision is because these sub-sites are generated using the default GitHub
   Pages theme of [Cayman](https://github.com/pages-themes/cayman). As a result, the
   scores wouldn't be reflecting my own design and code.
@@ -165,7 +185,7 @@ compression, tiered cache, the fancy green lock :lock:, and a whole lot more
 synthetic and real-world usage. You can't get anymore optimised than that
 (technically you can, but marginal utility is negative at that point lol).
 
-To view the full reports, please visit [this subdirectory](https://github.com/PaulTran47/paultran47.github.io/tree/master/performance/lighthouse)
+To view the full reports, please visit [this subdirectory](https://github.com/paultran47/paultran47.github.io/tree/master/performance/lighthouse)
 and paste the respective JSON file into the [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/).
 
 <p align="right">

@@ -2035,7 +2035,7 @@
                 "width": 50,
                 "height": 18
               },
-              "snippet": "<a href=\"https://github.com/PaulTran47/beamertemplate/blob/main/tran_paul_le_beamer…\" class=\"special-link\">",
+              "snippet": "<a href=\"https://github.com/paultran47/beamertemplate/blob/main/tran_paul_le_beamer…\" class=\"special-link\">",
               "nodeLabel": "[.pdf]",
               "explanation": "Fix all of the following:\n  Check that links have the same purpose, or are intentionally ambiguous."
             },
@@ -2056,7 +2056,7 @@
                       "width": 50,
                       "height": 18
                     },
-                    "snippet": "<a href=\"https://raw.githubusercontent.com/PaulTran47/paultran47.github.io/master/s…\" class=\"special-link\">",
+                    "snippet": "<a href=\"https://raw.githubusercontent.com/paultran47/paultran47.github.io/master/s…\" class=\"special-link\">",
                     "nodeLabel": "[.pdf]"
                   }
                 },
@@ -2074,7 +2074,7 @@
                       "width": 50,
                       "height": 18
                     },
-                    "snippet": "<a href=\"https://raw.githubusercontent.com/PaulTran47/paultran47.github.io/master/s…\" class=\"special-link\">",
+                    "snippet": "<a href=\"https://raw.githubusercontent.com/paultran47/paultran47.github.io/master/s…\" class=\"special-link\">",
                     "nodeLabel": "[.pdf]"
                   }
                 }
@@ -2937,7 +2937,7 @@
                 "width": 50,
                 "height": 18
               },
-              "snippet": "<a href=\"https://github.com/PaulTran47/beamertemplate/blob/main/tran_paul_le_beamer…\" class=\"special-link\">",
+              "snippet": "<a href=\"https://github.com/paultran47/beamertemplate/blob/main/tran_paul_le_beamer…\" class=\"special-link\">",
               "nodeLabel": "[.pdf]"
             },
             "statistic": "Maximum DOM Depth",
@@ -3359,7 +3359,7 @@
                 "width": 50,
                 "height": 18
               },
-              "snippet": "<a href=\"https://github.com/PaulTran47/beamertemplate/blob/main/tran_paul_le_beamer…\" class=\"special-link\">",
+              "snippet": "<a href=\"https://github.com/paultran47/beamertemplate/blob/main/tran_paul_le_beamer…\" class=\"special-link\">",
               "nodeLabel": "[.pdf]"
             },
             "value": {

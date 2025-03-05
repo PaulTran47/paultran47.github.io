@@ -1,14 +1,14 @@
 # JS
 
-[GitHub repo](https://github.com/PaulTran47/paultran47.github.io).
+[GitHub repo](https://github.com/paultran47/paultran47.github.io).
 
-[MIT licensed](https://github.com/PaulTran47/paultran47.github.io/blob/master/LICENCE.md).
+[MIT licensed](https://github.com/paultran47/paultran47.github.io/blob/master/LICENCE.md).
 
 ---
 
 ## Overview
 
-The single functions.js file is asychronously loaded. The following functions can
+The single functions.js file is asynchronously loaded. The following functions can
 be found:
 
 1. Functionality of the mobile hamburger menu
