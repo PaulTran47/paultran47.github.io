@@ -106,8 +106,9 @@ language support, and is both free and open source.
 
 * Every website page is fully interactive within 2 seconds, including on 3G
 mobile connections. This speed is achieved by:
-  * Critical CSS for initial rendering of every page is inlined in the head tags.
-    * All non-critical CSS are preloaded.
+  * remedy.css and reset.css are both preloaded and asynchronously loaded.
+    * Critical CSS for initial rendering of every page are inlined in the head tags.
+      * All non-critical CSS are preloaded and asynchronously loaded.
   * Web fonts (i.e., JetBrains Mono) are (pre)loaded with `font-display: swap;`
   and use locally hosted fonts before pulling from origin or cache.
   The website's fallback font, Courier New (Courier for MacOS), has been tuned
