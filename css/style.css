@@ -40,7 +40,8 @@ p {
 }
 a {
   background-color: transparent;
-  -webkit-text-decoration-skip: objects;
+  -webkit-text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
 a:active,
 a:hover {
@@ -744,7 +745,7 @@ button:-moz-focusring {
 }
 .menu-desktop {
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(0, 0, 0, 0.87);
   position: relative;
   margin: 30px;
   line-height: 1;
@@ -771,7 +772,7 @@ button:-moz-focusring {
   font-size: 13px;
   letter-spacing: 3px;
   padding: 0 4px;
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(0, 0, 0, 0.87);
   text-decoration: none;
   -webkit-box-shadow: 0 -2px 0 0 #fdcc48 inset;
   -webkit-box-shadow: 0 -2px 0 0 var(--colour-main) inset;
@@ -1287,7 +1288,7 @@ button:-moz-focusring {
   color: rgba(255, 255, 255, 0.87);
 }
 .page-research .menu-desktop a {
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(0, 0, 0, 0.87);
   -webkit-box-shadow: 0 -2px 0 0 #eb1400 inset;
   -webkit-box-shadow: 0 -2px 0 0 var(--colour-research) inset;
   box-shadow: 0 -2px 0 0 #eb1400 inset;
@@ -1401,7 +1402,7 @@ button:-moz-focusring {
   color: rgba(255, 255, 255, 0.87);
 }
 .page-teaching .menu-desktop a {
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(0, 0, 0, 0.87);
   -webkit-box-shadow: 0 -2px 0 0 #bf5700 inset;
   -webkit-box-shadow: 0 -2px 0 0 var(--colour-teaching) inset;
   box-shadow: 0 -2px 0 0 #bf5700 inset;
@@ -1511,7 +1512,7 @@ button:-moz-focusring {
   color: rgba(255, 255, 255, 0.87);
 }
 .page-more .menu-desktop a {
-  color: rgba(0, 0, 0, 0.54);
+  color: rgba(0, 0, 0, 0.87);
   -webkit-box-shadow: 0 -2px 0 0 #af005e inset;
   -webkit-box-shadow: 0 -2px 0 0 var(--colour-more) inset;
   box-shadow: 0 -2px 0 0 #af005e inset;
