@@ -107,17 +107,21 @@ language support, and is both free and open source.
 * Every website page is fully interactive within 2 seconds, including on 3G
 mobile connections. This speed is achieved by:
   * Critical CSS for initial rendering of every page is inlined in the head tags.
-    * All non-critical CSS preloaded and asynchronously loaded.
-  * Web fonts (i.e., JetBrains Mono) are loaded with `font-display: optional;`.
-  The website's fallback font, Courier New, has been tuned and optimised to
-  mimic JetBrains Mono. This makes the web font "nice to have" rather than a
-  critical component to experiencing the website. Thus, the font property and
-  attribute prevents FOIT, but allows for JetBrains Mono to appear on first page
-  view **if** it loads within ~100ms.
+    * All non-critical CSS preloaded.
+  * Web fonts (i.e., JetBrains Mono) are (pre)loaded with `font-display: swap;`
+  and use locally hosted fonts before pulling from origin or cache.
+  The website's fallback font, Courier New (Courier for MacOS), has been tuned
+  and optimised to mimic JetBrains Mono. This makes the web font "nice to have"
+  rather than a critical component to experiencing the website. Thus, the font
+  property and attribute prevents FOIT allows for JetBrains Mono to appear on
+  first page view without being a render-blocking resource.
+    * As of 05 March, 2025, I will retune my fallback fonts using the new
+    `@font-face` attributes (e.g., `ascent-override`) when they have broad
+    browser support.
   * All JS is asynchronously loaded.
   * All graphics are served in compressed .webp format (with compressed .jpg as
   a fallback)
-    * All graphics are lazily loaded for minimal FOIT.
+    * All below-the-fold graphics are lazily loaded for minimal FOIT.
 
 * Entire website is designed to be responsive for almost all common display
 resolutions, both desktop and mobile
