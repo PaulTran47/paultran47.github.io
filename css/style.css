@@ -968,7 +968,7 @@ button:-moz-focusring {
   -webkit-box-shadow: 0 30px 20px -10px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1);
   box-shadow: 0 30px 20px -10px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.1);
 }
-.read-prompt.reverse-side {
+.reverse-side {
   right: auto;
   left: -33px;
 }
