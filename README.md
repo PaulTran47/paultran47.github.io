@@ -105,25 +105,26 @@ language support, and is both free and open source.
   * The font is also my font-of-choice for all development interfaces.
 
 * Every website page is fully interactive within 2 seconds, including on 3G
-mobile connections. This speed is achieved by:
-  * remedy.css and reset.css are both inlined in the head tags.
-    * Critical CSS for initial rendering of every page are inlined in the head tags.
-      * All non-critical CSS are lazy-loaded without inline scripts, meaning no
-      strict content security policies are violated!
-  * Web fonts (i.e., JetBrains Mono) are (pre)loaded with `font-display: swap;`
+mobile connections. This speed is achieved by :
+  1. remedy.css and reset.css are both inlined in the head tags.
+      2. Critical CSS for initial rendering of every page are inlined in the head
+      tags.
+          3. All non-critical CSS are lazy-loaded without inline scripts, meaning
+          no strict content security policies are violated!
+  2 Web fonts (i.e., JetBrains Mono) are (pre)loaded with `font-display: swap;`
   and use locally hosted fonts before pulling from origin or cache.
   The website's fallback font, Courier New (Courier for MacOS), has been tuned
   and optimised to mimic JetBrains Mono. This makes the web font "nice to have"
   rather than a critical component to experiencing the website. Thus, the font
   property and attribute prevents FOIT allows for JetBrains Mono to appear on
   first page view without being a render-blocking resource.
-    * As of 05 March, 2025, I will retune my fallback fonts using the new
-    `@font-face` attributes (e.g., `ascent-override`) when they have broad
-    browser support.
-  * All JS are asynchronously loaded.
-  * All graphics are served in compressed .webp format (with compressed .jpg as
+      * As of 05 March, 2025, I will retune my fallback fonts using the new
+      `@font-face` attributes (e.g., `ascent-override`) when they have broad
+      browser support.
+  3 All JS are asynchronously loaded.
+  4 All graphics are served in compressed .webp format (with compressed .jpg as
   a fallback)
-    * All below-the-fold graphics are lazily loaded for minimal FOIT.
+      * All below-the-fold graphics are lazily loaded for minimal FOIT.
 
 * Entire website is designed to be responsive for almost all common display
 resolutions, both desktop and mobile
