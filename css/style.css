@@ -1287,13 +1287,6 @@ button:-moz-focusring {
   box-shadow: 0 -22px 0 0 var(--colour-research) inset;
   color: rgba(255, 255, 255, 0.87);
 }
-.page-research .menu-desktop a {
-  color: rgba(0, 0, 0, 0.87);
-  -webkit-box-shadow: 0 -2px 0 0 #eb1400 inset;
-  -webkit-box-shadow: 0 -2px 0 0 var(--colour-research) inset;
-  box-shadow: 0 -2px 0 0 #eb1400 inset;
-  box-shadow: 0 -2px 0 0 var(--colour-research) inset;
-}
 .page-research .menu-desktop a:hover,
 .page-research .menu-desktop a:focus-within {
   color: rgba(0, 0, 0, 0.87);
