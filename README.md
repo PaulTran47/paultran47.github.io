@@ -105,13 +105,13 @@ language support, and is both free and open source.
   * The font is also my font-of-choice for all development interfaces.
 
 * Every website page is fully interactive within 2 seconds, including on 3G
-mobile connections. This speed is achieved by :
+mobile connections. This speed is achieved by:
   1. remedy.css and reset.css are both inlined in the head tags.
-      2. Critical CSS for initial rendering of every page are inlined in the head
-      tags.
-          3. All non-critical CSS are lazy-loaded without inline scripts, meaning
-          no strict content security policies are violated!
-  2 Web fonts (i.e., JetBrains Mono) are (pre)loaded with `font-display: swap;`
+  2. Critical CSS for initial rendering of every page are inlined in the head
+  tags.
+  3. All non-critical CSS are lazy-loaded without inline scripts, meaning
+  no strict content security policies are violated!
+  4. Web fonts (i.e., JetBrains Mono) are (pre)loaded with `font-display: swap;`
   and use locally hosted fonts before pulling from origin or cache.
   The website's fallback font, Courier New (Courier for MacOS), has been tuned
   and optimised to mimic JetBrains Mono. This makes the web font "nice to have"
@@ -121,8 +121,8 @@ mobile connections. This speed is achieved by :
       * As of 05 March, 2025, I will retune my fallback fonts using the new
       `@font-face` attributes (e.g., `ascent-override`) when they have broad
       browser support.
-  3 All JS are asynchronously loaded.
-  4 All graphics are served in compressed .webp format (with compressed .jpg as
+  5. All JS are asynchronously loaded.
+  6. All graphics are served in compressed .webp format (with compressed .jpg as
   a fallback)
       * All below-the-fold graphics are lazily loaded for minimal FOIT.
 
