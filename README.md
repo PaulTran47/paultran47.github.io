@@ -109,8 +109,8 @@ mobile connections. This speed is achieved by:
   1. remedy.css and reset.css are both inlined in the head tags.
   2. Critical CSS for initial rendering of every page are inlined in the head
   tags.
-  3. All non-critical CSS are lazy-loaded without inline scripts, meaning
-  no strict content security policies are violated!
+  3. All non-critical CSS are lazy-loaded in such a way that works with any kind
+  of strict Content Security Policy that disallows `unsafe-inline`!
   4. Web fonts (i.e., JetBrains Mono) are (pre)loaded with `font-display: swap;`
   and use locally hosted fonts before pulling from origin or cache.
   The website's fallback font, Courier New (Courier for MacOS), has been tuned
