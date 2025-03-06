@@ -1247,10 +1247,6 @@ button:-moz-focusring {
     height: 95px;
   }
 }
-.page-research a {
-  color: #eb1400;
-  color: var(--colour-research);
-}
 .page-research a.special-link {
   display: inline;
   text-decoration: none;
@@ -1354,10 +1350,6 @@ button:-moz-focusring {
     height: 245px;
   }
 }
-.page-teaching a {
-  color: #bf5700;
-  color: var(--colour-teaching);
-}
 .page-teaching a.special-link {
   display: inline;
   text-decoration: none;
@@ -1393,13 +1385,6 @@ button:-moz-focusring {
   box-shadow: 0 -22px 0 0 #bf5700 inset;
   box-shadow: 0 -22px 0 0 var(--colour-teaching) inset;
   color: rgba(255, 255, 255, 0.87);
-}
-.page-teaching .menu-desktop a {
-  color: rgba(0, 0, 0, 0.87);
-  -webkit-box-shadow: 0 -2px 0 0 #bf5700 inset;
-  -webkit-box-shadow: 0 -2px 0 0 var(--colour-teaching) inset;
-  box-shadow: 0 -2px 0 0 #bf5700 inset;
-  box-shadow: 0 -2px 0 0 var(--colour-teaching) inset;
 }
 .page-teaching .menu-desktop a:hover,
 .page-teaching .menu-desktop a:focus-within {
@@ -1504,13 +1489,6 @@ button:-moz-focusring {
   box-shadow: 0 -22px 0 0 var(--colour-more) inset;
   color: rgba(255, 255, 255, 0.87);
 }
-.page-more .menu-desktop a {
-  color: rgba(0, 0, 0, 0.87);
-  -webkit-box-shadow: 0 -2px 0 0 #af005e inset;
-  -webkit-box-shadow: 0 -2px 0 0 var(--colour-more) inset;
-  box-shadow: 0 -2px 0 0 #af005e inset;
-  box-shadow: 0 -2px 0 0 var(--colour-more) inset;
-}
 .page-more .menu-desktop a:hover,
 .page-more .menu-desktop a:focus-within {
   color: rgba(255, 255, 255, 0.87);
@@ -1582,13 +1560,6 @@ figcaption {
 .content-404 h2 span {
   color: #0233b7;
   color: var(--colour-404);
-}
-.page-404 .menu-desktop a {
-  color:rgba(0,0,0,.54);
-  -webkit-box-shadow:0 -2px 0 0 #0233b7 inset;
-  -webkit-box-shadow:0 -2px 0 0 var(--colour-404) inset;
-  box-shadow:0 -2px 0 0 #0233b7 inset;
-  box-shadow:0 -2px 0 0 var(--colour-404) inset;
 }
 .page-404 a.special-link {
   display: inline;
