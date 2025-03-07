@@ -140,25 +140,12 @@ resolutions, both desktop and mobile
   ARIA22 accessibility by explaining what occurs in the live search when
   keywords are typed and displaying number of results in real-time
 
-* Every website page has a Google Lighthouse and real user measurement scores of
-99-100/100 on both mobile and desktop platforms.
-  * Google Lighthouse via Chrome DevTools and [Cloudflare Observatory](https://developers.cloudflare.com/speed/speed-test/)
-  are included as synthetic performance metrics. Real user measurement is also provided
-  by Cloudflare Observatory.
+* Every website page has a Google Lighthouse of 100/100 (99/100) on desktop (mobile).
   * I am not including the Google Lighthouse scores of my project sub-sites
   (e.g., [econ-grad-app-deadlines](https://github.com/paultran47/econ-grad-app-deadlines)).
   This decision is because these sub-sites are generated using the default GitHub
   Pages theme of [Cayman](https://github.com/pages-themes/cayman). As a result, the
   scores wouldn't be reflecting my own design and code.
-  * I only update the Google Lighthouse scores after a fundamental change in my
-  website, such as major changes in the layout or coding semantics.
-  * Chrome DevTools Google Lighthouse scores are saved without Cloudflare's [rocket-loader-min.js](https://developers.cloudflare.com/speed/optimization/content/rocket-loader/),
-  [email-decode-min.js](https://developers.cloudflare.com/waf/tools/scrape-shield/email-address-obfuscation/),
-  and [beacon.min.js}(https://developers.cloudflare.com/web-analytics/) enabled
-  because Lighthouse considers these resources as render-blocking. However,
-  real-world usage and PageSpeed Insights do not consider these resources as such.
-  Therefore, I disable these resources in order to make the Lighthouse Scores more
-  comparable.
 
 * Favicon support for every platform (with different favicon embedded for night
 mode support).
@@ -189,11 +176,11 @@ compression, tiered cache, the fancy green lock :lock:, and a whole lot more
 
 ### Google Lighthouse and Real User Measurement scores
 
-99-100/100 for every website page on both mobile and desktop platforms for
-synthetic and real-world usage. You can't get anymore optimised than that
-(technically you can, but marginal utility is negative at that point lol).
+100/100 (99/100) for every website page on desktop (mobile) for You can't get
+anymore optimised than that (technically you can, but marginal utility is
+negative at that point lol).
 
-To view the full reports, please visit [this subdirectory](https://github.com/paultran47/paultran47.github.io/tree/master/performance/lighthouse)
+To view the full reports, please visit [this subdirectory](https://github.com/paultran47/paultran47.github.io/tree/master/lighthouse)
 and paste the respective JSON file into the [Lighthouse Report Viewer](https://googlechrome.github.io/lighthouse/viewer/).
 
 <p align="right">
