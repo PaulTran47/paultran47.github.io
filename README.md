@@ -109,6 +109,8 @@ mobile connections. This speed is achieved by:
   1. All CSS and JS are minified at the source code
   2. All HTML, CSS, and JS are [Brotli compressed via Cloudflare](https://developers.cloudflare.com/speed/optimization/content/compression/)
   to browsers, with Gzip compression as a fallback
+      * I will enable Zstandard compression (with Brotli, then Gzip compression
+      as a fallback order) when the feature is fully rolled out to users
   3. remedy.css and reset.css are both inlined in the head tags
   4. Critical CSS for initial rendering of every page are inlined in the head
   tags
