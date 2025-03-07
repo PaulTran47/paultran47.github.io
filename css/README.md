@@ -26,6 +26,7 @@ individual page. Non-critical CSS can be found exclusively here (critical CSS is
 also in this sheet for redundancy's sake).
 
 remedy.css and reset.css are inlined in the head tags to ensure they are loaded
-in the correct order. style.css is lazy-loaded without using inline scripts.
+in the correct order. style.css is minified and lazy-loaded without using inline
+scripts.
 
 ---

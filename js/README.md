@@ -8,8 +8,8 @@
 
 ## Overview
 
-The following JS files are asynchronously loaded but wait until the HTML is full
-parsed before executing via `defer`:
+The following JS files are minified and asynchronously loaded, but wait until
+the HTML is fully parsed before executing via `defer`:
 
 1. lazyload-css.js: Functionality to lazy-load non-critical inline CSS and works
 with any strict Content Security Policy that disallows `unsafe-inline`.
@@ -24,5 +24,9 @@ with any strict Content Security Policy that disallows `unsafe-inline`.
 
 4. filteredsearch-aria22.js: Functionality for filtered live search with ARIA22 accessibility.
     1. Search is case-sensitive and whitespace-sensitive.
+
+5. minimal-analytics.js:
+[James Hill's Minimal Google Analytics 4 Snippet withlocalstorage support](https://github.com/jahilldev/minimal-analytics)
+(2kb v. 179kb+ when compiled with Google Compiler Service!)
 
 ---

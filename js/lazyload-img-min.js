@@ -1,0 +1,1 @@
+'use strict';const imgObserver=new IntersectionObserver((a,b)=>{a.forEach(c=>{c.isIntersecting&&(lazyLoad(c.target),b.unobserve(c.target))})});document.querySelectorAll(".lazy-img").forEach(a=>{imgObserver.observe(a)});function lazyLoad(a){const b=a.parentElement.querySelector(".lazy-source");b.srcset=b.getAttribute("data-srcset");a.src=a.getAttribute("data-src")};
