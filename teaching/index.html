@@ -19,8 +19,12 @@
     <link rel="alternate icon" href="/favicon.ico">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="canonical" href="https://paulletran.com/teaching/">
-    <!-- Defer loading functions.js -->
-    <script defer src="/js/functions.js"></script>
+    <!-- Preloading lazyload-css.js and mobile-menu.js with high priority -->
+    <link rel="preload" href="/js/lazyload-css.js" as="script" fetchpriority="high">
+    <link rel="preload" href="/js/mobile-menu.js" as="script" fetchpriority="high">
+    <!-- Defer loading lazyload-css.js and mobile-menu.js -->
+    <script defer src="/js/lazyload-css.js"></script>
+    <script defer src="/js/mobile-menu.js"></script>
     <!-- Minimal GA4 JS snippet with localstorage support (2kb GZipped): https://github.com/jahilldev/minimal-analytics -->
     <script>
       window.minimalAnalytics = {
