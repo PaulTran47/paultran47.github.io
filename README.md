@@ -106,25 +106,26 @@ language support, and is both free and open source.
 
 * Every website page is fully interactive within 2 seconds, including on 3G
 mobile connections. This speed is achieved by:
-  1. remedy.css and reset.css are both inlined in the head tags.
-  2. Critical CSS for initial rendering of every page are inlined in the head
-  tags.
-  3. All non-critical CSS are preloaded with low priority then lazy-loaded in
+  1. All CSS and JS are minified
+  2. remedy.css and reset.css are both inlined in the head tags
+  3. Critical CSS for initial rendering of every page are inlined in the head
+  tags
+  4. All non-critical CSS are preloaded with low priority then lazy-loaded in
   such a way that works with any kind of strict Content Security Policy that
   disallows `unsafe-inline`!
-  4. Web fonts (i.e., JetBrains Mono) are preloaded with high priority, loaded
+  5. Web fonts (i.e., JetBrains Mono) are preloaded with high priority, loaded
   with `font-display: swap;` and use locally hosted fonts before pulling from
   origin or cache. The website's fallback font, Courier New (Courier for MacOS),
   has been tuned and optimised to mimic JetBrains Mono. This makes the web font
   "nice to have" rather than a critical component to experiencing the website.
   Thus, the font property and attribute prevents FOIT allows for JetBrains Mono
-  to appear on first page view without being a render-blocking resource.
+  to appear on first page view without being a render-blocking resource
       * I will retune my fallback fonts using the new `@font-face` attributes
-      (e.g., `ascent-override`) when they have broad browser support.
-  5. All JS are preloaded with high priority then defer loaded
-  6. All graphics are served in compressed .webp format (with compressed .jpg as
+      (e.g., `ascent-override`) when they have broad browser support
+  6. All JS are preloaded with high priority then defer loaded
+  7. All graphics are served in compressed .webp format (with compressed .jpg as
   a fallback)
-      * All below-the-fold graphics are lazily loaded for minimal FOIT.
+      * All below-the-fold graphics are lazily loaded for minimal FOIT
 
 * Entire website is designed to be responsive for almost all common display
 resolutions, both desktop and mobile
