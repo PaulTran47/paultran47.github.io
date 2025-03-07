@@ -1,8 +1,15 @@
 /* Functionality that lazy-loads non-critical CSS */
 const decodeHTML = function(html){
   const textarea = document.createElement('textarea');
-  textarea.appendChild(document.createTextNode(html));
-  return textarea.textContent;
+  textarea.textContent = html;
+  const target_str = '<link href="/css/style-min.css" rel="stylesheet" fetchpriority="low">';
+  const escapedHTML = textarea.value.trim();
+  if (escapedHTML === target_str) {
+    return escapedHTML;
+  }
+  else {
+    return false;
+  }
 };
 const getItemsFromContainerText = function(container, selector){
   const parser = new DOMParser();
