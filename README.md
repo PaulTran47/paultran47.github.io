@@ -202,6 +202,8 @@ Below are the awesome resources used to make my website as optimised as possible
 * [James Ross' method to preload and lazy-load CSS without any inline scripts](https://jross.me/asynchronous-and-progressive-css-loading/)
 * [Google Closure Compiler](https://github.com/google/closure-compiler) for
 minification of JS in strict mode
+  * Extra credit to [Dimitrii Tikhomirov's web-based UI and REST API](https://github.com/treblereel/jscompressor)
+  for Closure Compiler!
 * [James Hill's Minimal Google Analytics 4 Snippet with localstorage support](https://github.com/jahilldev/minimal-analytics)
 (2kb v. 179kb+ when compiled with Google Closure Compiler!)
 * [Real Favicon Generator](https://github.com/RealFaviconGenerator)
