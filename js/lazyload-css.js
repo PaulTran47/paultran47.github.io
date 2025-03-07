@@ -1,7 +1,7 @@
 /* Functionality that lazy-loads non-critical CSS */
 const decodeHTML = function(html){
   const textarea = document.createElement('textarea');
-  textarea.innerHTML = html;
+  textarea.textContent = html;
   return textarea.value;
 };
 const getItemsFromContainerText = function(container, selector){
