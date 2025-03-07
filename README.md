@@ -106,14 +106,16 @@ language support, and is both free and open source.
 
 * Every website page is fully interactive within 2 seconds, including on 3G
 mobile connections. This speed is achieved by:
-  1. All CSS and JS are minified
-  2. remedy.css and reset.css are both inlined in the head tags
-  3. Critical CSS for initial rendering of every page are inlined in the head
+  1. All CSS and JS are minified at the source code
+  2. All HTML, CSS, and JS are [Brotli compressed via Cloudflare](https://developers.cloudflare.com/speed/optimization/content/compression/)
+  to browsers, with Gzip compression as a fallback
+  3. remedy.css and reset.css are both inlined in the head tags
+  4. Critical CSS for initial rendering of every page are inlined in the head
   tags
-  4. All non-critical CSS are preloaded with low priority then lazy-loaded in
+  5. All non-critical CSS are preloaded with low priority then lazy-loaded in
   such a way that works with any kind of strict Content Security Policy that
   disallows `unsafe-inline`!
-  5. Web fonts (i.e., JetBrains Mono) are preloaded with high priority, loaded
+  6. Web fonts (i.e., JetBrains Mono) are preloaded with high priority, loaded
   with `font-display: swap;` and use locally hosted fonts before pulling from
   origin or cache. The website's fallback font, Courier New (Courier for MacOS),
   has been tuned and optimised to mimic JetBrains Mono. This makes the web font
@@ -122,8 +124,8 @@ mobile connections. This speed is achieved by:
   to appear on first page view without being a render-blocking resource
       * I will retune my fallback fonts using the new `@font-face` attributes
       (e.g., `ascent-override`) when they have broad browser support
-  6. All JS are preloaded with high priority then defer loaded
-  7. All graphics are served in compressed .webp format (with compressed .jpg as
+  7. All JS are preloaded with high priority then defer loaded
+  8. All graphics are served in compressed .webp format (with compressed .jpg as
   a fallback)
       * All below-the-fold graphics are lazily loaded for minimal FOIT
 
