@@ -1,8 +1,8 @@
 /* Functionality that lazy-loads non-critical CSS */
 const decodeHTML = function(html){
   const textarea = document.createElement('textarea');
-  textarea.textContent = html;
-  return textarea.value;
+  textarea.appendChild(document.createTextNode(html));
+  return textarea.textContent;
 };
 const getItemsFromContainerText = function(container, selector){
   const parser = new DOMParser();
